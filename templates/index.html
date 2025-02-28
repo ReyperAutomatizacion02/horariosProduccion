@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuste de Fechas Notion</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="preload" href="{{ url_for('static', filename='css/styles.css') }}" as="style">
+</head>
+<body>
+    <img class="logo" src="{{ url_for('static', filename='img/LOGO REYPER.png' ) }}">
+    <h1 class="titulo">Ajuste de Fechas en Notion</h1>
+
+    <form id="adjustForm">
+        <div class="bloqueHoras">
+            <label for="hours">Horas a ajustar:</label>
+            <input type="number" id="hours" name="hours" required>
+        </div>
+        <div class="bloqueFecha">
+            <label for="start_date">Fecha de inicio (YYYY-MM-DD):</label>
+            <input type="date" id="start_date" name="start_date" required>
+        </div>
+
+        <h2 class="filtros">Filtros (Opcional)</h2>
+
+        <div class="bloqueFiltro1">
+            <h3 class="subFiltro">Filtro 1</h3>
+            <div>
+                <label for="property_name_1">Propiedad:</label>
+                <select id="property_name_1" name="property_name_1">
+                    <option value="">Selecciona una propiedad</option>
+                    <option value="Cliente">Cliente</option>
+                    <option value="Usuario">Usuario</option>
+                    <option value="ID del proyecto">ID del proyecto</option>
+                </select>
+            </div>
+            <div>
+                <label for="property_value_1">Valor:</label>
+                <input type="text" id="property_value_1" name="property_value_1" placeholder="Valor del filtro">
+            </div>
+        </div>
+
+        <div class="bloqueFiltro2"">
+            <h3 class="subFiltro">Filtro 2</h3>
+            <div>
+                <label for="property_name_2">Propiedad:</label>
+                <select id="property_name_2" name="property_name_2">
+                    <option value="">Selecciona una propiedad</option>
+                    <option value="Cliente">Cliente</option>
+                    <option value="Usuario">Usuario</option>
+                    <option value="ID del proyecto">ID del proyecto</option>
+                    </select>
+            </div>
+            <div>
+                <label for="property_value_2">Valor:</label>
+                <input type="text" id="property_value_2" name="property_value_2" placeholder="Valor del filtro">
+            </div>
+        </div>
+
+        <div class="boton">
+            <button type="submit">Ejecutar Ajuste</button>
+        </div>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('adjustForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+
+            fetch('/run_script', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultDiv = document.getElementById('result');
+                if (data.message) {
+                    resultDiv.innerHTML = '<p>Mensaje: ' + data.message + '</p>';
+                } else if (data.error) {
+                    resultDiv.innerHTML = '<p style="color: red;">Error: ' + data.error + '</p>';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

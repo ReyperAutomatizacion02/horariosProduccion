@@ -1,0 +1,444 @@
+2025-02-27 16:29:40,869 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-02-27 16:29:40,870 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 16:29:40,872 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 16:29:41,848 - werkzeug - WARNING -  * Debugger is active!
+2025-02-27 16:29:41,854 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-27 16:31:09,954 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:31:09] "GET / HTTP/1.1" 200 -
+2025-02-27 16:31:10,226 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:31:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-27 16:32:04,961 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-27 16:32:05,366 - notion_integration - INFO - Obtenidas 8 páginas. Total acumulado: 8
+2025-02-27 16:32:05,367 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-03-01T00:00:00
+2025-02-27 16:32:05,368 - notion_integration - INFO - Total de páginas a procesar: 8
+2025-02-27 16:32:06,508 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-02-27 16:32:07,052 - notion_integration - INFO - Página 1a123882-4ec5-801e-98ad-f83e9385ffa6 actualizada correctamente
+2025-02-27 16:32:10,374 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 actualizada correctamente
+2025-02-27 16:32:10,375 - notion_integration - INFO - Página 1a123882-4ec5-8028-a9c6-dc6ef4a99457 con fecha anterior a 2025-03-01T00:00:00, omitiendo
+2025-02-27 16:32:10,378 - notion_integration - INFO - Página 1a123882-4ec5-80af-94bd-c6453c81c0e9 con fecha anterior a 2025-03-01T00:00:00, omitiendo
+2025-02-27 16:32:10,379 - notion_integration - INFO - Página 1a123882-4ec5-809c-992c-db2589aaa2f7 con fecha anterior a 2025-03-01T00:00:00, omitiendo
+2025-02-27 16:32:10,380 - notion_integration - INFO - Página 1a123882-4ec5-80fc-b895-fcd3f429048c con fecha anterior a 2025-03-01T00:00:00, omitiendo
+2025-02-27 16:32:10,382 - notion_integration - INFO - Página 1a123882-4ec5-8098-b508-eccd0d9370d6 con fecha anterior a 2025-03-01T00:00:00, omitiendo
+2025-02-27 16:32:10,383 - notion_integration - INFO - Proceso completado: 3 páginas actualizadas, 0 fallidas, 5 omitidas
+2025-02-27 16:32:10,385 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:32:10] "POST /run_script HTTP/1.1" 200 -
+2025-02-27 16:37:41,542 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\Mover horarios\\mH.py', reloading
+2025-02-27 16:37:41,623 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 16:37:42,934 - werkzeug - WARNING -  * Debugger is active!
+2025-02-27 16:37:42,940 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-27 16:37:53,015 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\Mover horarios\\mH.py', reloading
+2025-02-27 16:37:53,076 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 16:37:54,375 - werkzeug - WARNING -  * Debugger is active!
+2025-02-27 16:37:54,379 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-27 16:38:02,197 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:38:02] "GET / HTTP/1.1" 200 -
+2025-02-27 16:38:21,596 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-27 16:38:22,007 - notion_integration - INFO - Obtenidas 8 páginas. Total acumulado: 8
+2025-02-27 16:38:22,008 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-03-01T00:00:00
+2025-02-27 16:38:22,009 - notion_integration - INFO - Total de páginas a procesar: 8
+2025-02-27 16:38:26,047 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-02-27 16:38:26,660 - notion_integration - INFO - Página 1a123882-4ec5-801e-98ad-f83e9385ffa6 actualizada correctamente
+2025-02-27 16:38:27,342 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 actualizada correctamente
+2025-02-27 16:38:27,344 - notion_integration - INFO - Página 1a123882-4ec5-8028-a9c6-dc6ef4a99457 con fecha anterior a 2025-03-01T00:00:00, omitiendo
+2025-02-27 16:38:27,347 - notion_integration - INFO - Página 1a123882-4ec5-80af-94bd-c6453c81c0e9 con fecha anterior a 2025-03-01T00:00:00, omitiendo
+2025-02-27 16:38:27,349 - notion_integration - INFO - Página 1a123882-4ec5-809c-992c-db2589aaa2f7 con fecha anterior a 2025-03-01T00:00:00, omitiendo
+2025-02-27 16:38:27,350 - notion_integration - INFO - Página 1a123882-4ec5-80fc-b895-fcd3f429048c con fecha anterior a 2025-03-01T00:00:00, omitiendo
+2025-02-27 16:38:27,352 - notion_integration - INFO - Página 1a123882-4ec5-8098-b508-eccd0d9370d6 con fecha anterior a 2025-03-01T00:00:00, omitiendo
+2025-02-27 16:38:27,353 - notion_integration - INFO - Proceso completado: 3 páginas actualizadas, 0 fallidas, 5 omitidas
+2025-02-27 16:38:27,356 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:38:27] "POST /run_script HTTP/1.1" 200 -
+2025-02-27 16:51:52,540 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\Mover horarios\\mH.py', reloading
+2025-02-27 16:51:52,609 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 16:51:53,842 - werkzeug - WARNING -  * Debugger is active!
+2025-02-27 16:51:53,847 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-27 16:51:59,546 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:51:59] "GET / HTTP/1.1" 200 -
+2025-02-27 16:52:02,264 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:52:02] "GET / HTTP/1.1" 200 -
+2025-02-27 16:52:04,196 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:52:04] "GET / HTTP/1.1" 200 -
+2025-02-27 16:52:19,397 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:52:19] "GET / HTTP/1.1" 200 -
+2025-02-27 16:52:26,495 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:52:26] "GET / HTTP/1.1" 200 -
+2025-02-27 16:52:43,023 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:52:43] "GET / HTTP/1.1" 200 -
+2025-02-27 16:52:45,044 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:52:45] "GET / HTTP/1.1" 200 -
+2025-02-27 16:52:45,846 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:52:45] "GET / HTTP/1.1" 200 -
+2025-02-27 16:52:46,450 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:52:46] "GET / HTTP/1.1" 200 -
+2025-02-27 16:52:47,037 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 16:52:47] "GET / HTTP/1.1" 200 -
+2025-02-27 17:02:32,881 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:02:32] "[35m[1mPOST /run_script HTTP/1.1[0m" 500 -
+2025-02-27 17:09:18,437 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\Mover horarios\\app.py', reloading
+2025-02-27 17:09:18,511 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 17:09:19,526 - werkzeug - WARNING -  * Debugger is active!
+2025-02-27 17:09:19,530 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-27 17:09:24,582 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\Mover horarios\\app.py', reloading
+2025-02-27 17:09:24,672 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 17:09:25,676 - werkzeug - WARNING -  * Debugger is active!
+2025-02-27 17:09:25,681 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-27 17:09:57,905 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\Mover horarios\\app.py', reloading
+2025-02-27 17:09:57,971 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 17:09:59,007 - werkzeug - WARNING -  * Debugger is active!
+2025-02-27 17:09:59,011 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-27 17:10:16,117 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\Mover horarios\\app.py', reloading
+2025-02-27 17:10:16,191 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 17:10:17,400 - werkzeug - WARNING -  * Debugger is active!
+2025-02-27 17:10:17,405 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-27 17:10:26,700 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:10:26] "GET / HTTP/1.1" 200 -
+2025-02-27 17:10:38,449 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:10:38] "[35m[1mPOST /run_script HTTP/1.1[0m" 500 -
+2025-02-27 17:11:40,844 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\Mover horarios\\app.py', reloading
+2025-02-27 17:11:40,921 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 17:21:31,122 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-02-27 17:21:31,123 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 17:21:31,126 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 17:21:32,082 - werkzeug - WARNING -  * Debugger is active!
+2025-02-27 17:21:32,087 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-27 17:21:35,618 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:21:35] "GET / HTTP/1.1" 200 -
+2025-02-27 17:21:42,371 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:21:42] "[31m[1mPOST /run_script HTTP/1.1[0m" 400 -
+2025-02-27 17:21:50,475 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-27 17:21:50,904 - notion_integration - INFO - Obtenidas 8 páginas con filtros. Total acumulado: 8
+2025-02-27 17:21:50,905 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-03-02T00:00:00
+2025-02-27 17:21:50,907 - notion_integration - INFO - Filtros aplicados: ninguno
+2025-02-27 17:21:50,907 - notion_integration - INFO - Total de páginas a procesar: 8
+2025-02-27 17:21:51,770 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-02-27 17:21:52,343 - notion_integration - INFO - Página 1a123882-4ec5-801e-98ad-f83e9385ffa6 actualizada correctamente
+2025-02-27 17:21:52,344 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 con fecha anterior a 2025-03-02T00:00:00, omitiendo
+2025-02-27 17:21:52,347 - notion_integration - INFO - Página 1a123882-4ec5-8028-a9c6-dc6ef4a99457 con fecha anterior a 2025-03-02T00:00:00, omitiendo
+2025-02-27 17:21:52,348 - notion_integration - INFO - Página 1a123882-4ec5-80af-94bd-c6453c81c0e9 con fecha anterior a 2025-03-02T00:00:00, omitiendo
+2025-02-27 17:21:52,349 - notion_integration - INFO - Página 1a123882-4ec5-809c-992c-db2589aaa2f7 con fecha anterior a 2025-03-02T00:00:00, omitiendo
+2025-02-27 17:21:52,351 - notion_integration - INFO - Página 1a123882-4ec5-80fc-b895-fcd3f429048c con fecha anterior a 2025-03-02T00:00:00, omitiendo
+2025-02-27 17:21:52,352 - notion_integration - INFO - Página 1a123882-4ec5-8098-b508-eccd0d9370d6 con fecha anterior a 2025-03-02T00:00:00, omitiendo
+2025-02-27 17:21:52,353 - notion_integration - INFO - Proceso completado: 2 páginas actualizadas, 0 fallidas, 6 omitidas
+2025-02-27 17:21:52,355 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:21:52] "POST /run_script HTTP/1.1" 200 -
+2025-02-27 17:22:36,523 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-27 17:22:37,319 - notion_integration - INFO - Obtenidas 8 páginas con filtros. Total acumulado: 8
+2025-02-27 17:22:37,320 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-03-02T00:00:00
+2025-02-27 17:22:37,321 - notion_integration - INFO - Filtros aplicados: ninguno
+2025-02-27 17:22:37,322 - notion_integration - INFO - Total de páginas a procesar: 8
+2025-02-27 17:22:37,841 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-02-27 17:22:38,987 - notion_integration - INFO - Página 1a123882-4ec5-801e-98ad-f83e9385ffa6 actualizada correctamente
+2025-02-27 17:22:38,989 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 con fecha anterior a 2025-03-02T00:00:00, omitiendo
+2025-02-27 17:22:38,992 - notion_integration - INFO - Página 1a123882-4ec5-8028-a9c6-dc6ef4a99457 con fecha anterior a 2025-03-02T00:00:00, omitiendo
+2025-02-27 17:22:38,994 - notion_integration - INFO - Página 1a123882-4ec5-80af-94bd-c6453c81c0e9 con fecha anterior a 2025-03-02T00:00:00, omitiendo
+2025-02-27 17:22:38,996 - notion_integration - INFO - Página 1a123882-4ec5-809c-992c-db2589aaa2f7 con fecha anterior a 2025-03-02T00:00:00, omitiendo
+2025-02-27 17:22:38,997 - notion_integration - INFO - Página 1a123882-4ec5-80fc-b895-fcd3f429048c con fecha anterior a 2025-03-02T00:00:00, omitiendo
+2025-02-27 17:22:38,999 - notion_integration - INFO - Página 1a123882-4ec5-8098-b508-eccd0d9370d6 con fecha anterior a 2025-03-02T00:00:00, omitiendo
+2025-02-27 17:22:39,001 - notion_integration - INFO - Proceso completado: 2 páginas actualizadas, 0 fallidas, 6 omitidas
+2025-02-27 17:22:39,003 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:22:39] "POST /run_script HTTP/1.1" 200 -
+2025-02-27 17:26:34,880 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\Mover horarios\\app.py', reloading
+2025-02-27 17:26:34,956 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 17:26:35,979 - werkzeug - WARNING -  * Debugger is active!
+2025-02-27 17:26:35,985 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-27 17:26:37,006 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\Mover horarios\\app.py', reloading
+2025-02-27 17:26:37,071 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 17:26:38,159 - werkzeug - WARNING -  * Debugger is active!
+2025-02-27 17:26:38,164 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-27 17:27:09,654 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:27:09] "GET / HTTP/1.1" 200 -
+2025-02-27 17:27:52,772 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Name
+2025-02-27 17:27:53,551 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-27 17:27:53,979 - notion_integration - INFO - Obtenidas 1 páginas con filtros. Total acumulado: 1
+2025-02-27 17:27:53,980 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-02-24T00:00:00
+2025-02-27 17:27:53,981 - notion_integration - INFO - Filtros aplicados: Cliente
+2025-02-27 17:27:53,981 - notion_integration - INFO - Total de páginas a procesar: 1
+2025-02-27 17:27:54,638 - notion_integration - INFO - Página 1a123882-4ec5-80fc-b895-fcd3f429048c actualizada correctamente
+2025-02-27 17:27:54,640 - notion_integration - INFO - Proceso completado: 1 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-02-27 17:27:54,643 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:27:54] "POST /run_script HTTP/1.1" 200 -
+2025-02-27 17:28:43,439 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Name
+2025-02-27 17:28:43,792 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-27 17:28:44,157 - notion_integration - INFO - Obtenidas 3 páginas con filtros. Total acumulado: 3
+2025-02-27 17:28:44,159 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-02-24T00:00:00
+2025-02-27 17:28:44,162 - notion_integration - INFO - Filtros aplicados: Cliente
+2025-02-27 17:28:44,163 - notion_integration - INFO - Total de páginas a procesar: 3
+2025-02-27 17:28:45,730 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-02-27 17:28:46,383 - notion_integration - INFO - Página 1a123882-4ec5-801e-98ad-f83e9385ffa6 actualizada correctamente
+2025-02-27 17:28:47,046 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 actualizada correctamente
+2025-02-27 17:28:47,047 - notion_integration - INFO - Proceso completado: 3 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-02-27 17:28:47,050 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:28:47] "POST /run_script HTTP/1.1" 200 -
+2025-02-27 17:42:10,686 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:42:10] "GET / HTTP/1.1" 200 -
+2025-02-27 17:43:00,302 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Usuario, Name
+2025-02-27 17:43:01,361 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-27 17:43:02,176 - notion_integration - INFO - Obtenidas 1 páginas con filtros. Total acumulado: 1
+2025-02-27 17:43:02,177 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-03-02T00:00:00
+2025-02-27 17:43:02,180 - notion_integration - INFO - Filtros aplicados: Cliente, Usuario
+2025-02-27 17:43:02,183 - notion_integration - INFO - Total de páginas a procesar: 1
+2025-02-27 17:43:03,620 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-02-27 17:43:03,621 - notion_integration - INFO - Proceso completado: 1 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-02-27 17:43:03,622 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:43:03] "POST /run_script HTTP/1.1" 200 -
+2025-02-27 17:43:42,303 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Usuario, Name
+2025-02-27 17:43:42,667 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-27 17:43:43,609 - notion_integration - INFO - Obtenidas 1 páginas con filtros. Total acumulado: 1
+2025-02-27 17:43:43,610 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-02-22T00:00:00
+2025-02-27 17:43:43,613 - notion_integration - INFO - Filtros aplicados: Cliente, Usuario
+2025-02-27 17:43:43,614 - notion_integration - INFO - Total de páginas a procesar: 1
+2025-02-27 17:43:44,881 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-02-27 17:43:44,883 - notion_integration - INFO - Proceso completado: 1 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-02-27 17:43:44,886 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:43:44] "POST /run_script HTTP/1.1" 200 -
+2025-02-27 17:44:37,441 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Usuario, Name
+2025-02-27 17:44:38,368 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-27 17:44:38,778 - notion_integration - INFO - Obtenidas 2 páginas con filtros. Total acumulado: 2
+2025-02-27 17:44:38,779 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-02-22T00:00:00
+2025-02-27 17:44:38,782 - notion_integration - INFO - Filtros aplicados: Cliente, Usuario
+2025-02-27 17:44:38,783 - notion_integration - INFO - Total de páginas a procesar: 2
+2025-02-27 17:44:39,541 - notion_integration - INFO - Página 1a123882-4ec5-801e-98ad-f83e9385ffa6 actualizada correctamente
+2025-02-27 17:44:40,137 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 actualizada correctamente
+2025-02-27 17:44:40,138 - notion_integration - INFO - Proceso completado: 2 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-02-27 17:44:40,142 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:44:40] "POST /run_script HTTP/1.1" 200 -
+2025-02-27 17:49:05,230 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:05] "GET / HTTP/1.1" 200 -
+2025-02-27 17:49:05,440 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:05] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2025-02-27 17:49:08,225 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:08] "GET / HTTP/1.1" 200 -
+2025-02-27 17:49:08,427 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:08] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2025-02-27 17:49:25,331 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:25] "GET / HTTP/1.1" 200 -
+2025-02-27 17:49:25,657 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:25] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2025-02-27 17:49:27,340 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:27] "GET / HTTP/1.1" 200 -
+2025-02-27 17:49:27,541 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:27] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2025-02-27 17:49:36,419 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:36] "GET / HTTP/1.1" 200 -
+2025-02-27 17:49:36,621 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:36] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2025-02-27 17:49:37,558 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:37] "GET / HTTP/1.1" 200 -
+2025-02-27 17:49:37,764 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:37] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2025-02-27 17:49:38,082 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:38] "GET / HTTP/1.1" 200 -
+2025-02-27 17:49:38,286 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:49:38] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2025-02-27 17:50:00,629 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:50:00] "GET / HTTP/1.1" 200 -
+2025-02-27 17:50:00,831 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:50:00] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2025-02-27 17:50:42,322 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-02-27 17:50:42,322 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 17:50:42,324 - werkzeug - INFO -  * Restarting with stat
+2025-02-27 17:50:43,288 - werkzeug - WARNING -  * Debugger is active!
+2025-02-27 17:50:43,293 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-27 17:51:11,814 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:51:11] "GET / HTTP/1.1" 200 -
+2025-02-27 17:51:12,020 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:51:12] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2025-02-27 17:51:12,240 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:51:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-27 17:52:07,447 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:07] "GET / HTTP/1.1" 200 -
+2025-02-27 17:52:07,659 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:07] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-02-27 17:52:08,692 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:08] "GET / HTTP/1.1" 200 -
+2025-02-27 17:52:08,924 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:08] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-02-27 17:52:21,859 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:21] "GET / HTTP/1.1" 200 -
+2025-02-27 17:52:22,089 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:22] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-02-27 17:52:22,688 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:22] "GET / HTTP/1.1" 200 -
+2025-02-27 17:52:22,901 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:22] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-02-27 17:52:23,242 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:23] "GET / HTTP/1.1" 200 -
+2025-02-27 17:52:23,449 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:23] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-02-27 17:52:38,421 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:38] "GET / HTTP/1.1" 200 -
+2025-02-27 17:52:38,452 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:38] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-02-27 17:52:38,672 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:52:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-27 17:56:40,257 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:56:40] "GET / HTTP/1.1" 200 -
+2025-02-27 17:56:40,542 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:56:40] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-27 17:56:43,444 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:56:43] "GET / HTTP/1.1" 200 -
+2025-02-27 17:56:43,671 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:56:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-27 17:58:10,263 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:58:10] "GET / HTTP/1.1" 200 -
+2025-02-27 17:58:10,467 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:58:10] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-27 17:58:19,424 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:58:19] "GET / HTTP/1.1" 200 -
+2025-02-27 17:58:19,628 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 17:58:19] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-27 18:02:01,269 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:02:01] "GET / HTTP/1.1" 200 -
+2025-02-27 18:02:01,483 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:02:01] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-27 18:02:01,539 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:02:01] "[33mGET /img/LOGO%20REYPER.png HTTP/1.1[0m" 404 -
+2025-02-27 18:02:52,945 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:02:52] "GET / HTTP/1.1" 200 -
+2025-02-27 18:02:53,160 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:02:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-27 18:02:53,189 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:02:53] "[33mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 404 -
+2025-02-27 18:02:57,871 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:02:57] "GET / HTTP/1.1" 200 -
+2025-02-27 18:02:58,088 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:02:58] "[33mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 404 -
+2025-02-27 18:02:58,173 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:02:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-27 18:03:54,941 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:03:54] "GET / HTTP/1.1" 200 -
+2025-02-27 18:03:55,152 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:03:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-27 18:03:55,157 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:03:55] "GET /static/img/LOGO%20REYPER.png HTTP/1.1" 200 -
+2025-02-27 18:04:19,938 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:04:19] "GET / HTTP/1.1" 200 -
+2025-02-27 18:04:20,146 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:04:20] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-27 18:04:20,151 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:04:20] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-27 18:04:36,127 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:04:36] "GET / HTTP/1.1" 200 -
+2025-02-27 18:04:36,333 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:04:36] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-27 18:04:36,339 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:04:36] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-27 18:04:37,914 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:04:37] "GET / HTTP/1.1" 200 -
+2025-02-27 18:04:38,121 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:04:38] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-27 18:04:38,122 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:04:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-27 18:04:45,831 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:04:45] "GET / HTTP/1.1" 200 -
+2025-02-27 18:04:46,043 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:04:46] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-27 18:04:46,134 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:04:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-27 18:05:22,988 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:05:22] "GET / HTTP/1.1" 200 -
+2025-02-27 18:05:23,213 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:05:23] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-27 18:05:23,223 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:05:23] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-27 18:05:35,135 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:05:35] "GET / HTTP/1.1" 200 -
+2025-02-27 18:05:35,342 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:05:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-27 18:05:35,342 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:05:35] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-27 18:06:26,024 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:06:26] "GET / HTTP/1.1" 200 -
+2025-02-27 18:06:26,238 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:06:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-27 18:06:26,243 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:06:26] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-27 18:07:52,787 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:07:52] "GET / HTTP/1.1" 200 -
+2025-02-27 18:07:52,993 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:07:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-27 18:07:53,083 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 18:07:53] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:05:07,851 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-02-28 08:05:07,854 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 08:05:07,859 - werkzeug - INFO -  * Restarting with stat
+2025-02-28 08:05:09,823 - werkzeug - WARNING -  * Debugger is active!
+2025-02-28 08:05:09,832 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-02-28 08:06:22,223 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:06:22] "GET / HTTP/1.1" 200 -
+2025-02-28 08:06:22,499 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:06:22] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:06:22,499 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:06:22] "GET /static/img/LOGO%20REYPER.png HTTP/1.1" 200 -
+2025-02-28 08:06:22,930 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:06:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-28 08:07:50,882 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:07:50] "GET / HTTP/1.1" 200 -
+2025-02-28 08:07:51,277 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:07:51] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:07:51,277 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:07:51] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:07:52,726 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:07:52] "GET / HTTP/1.1" 200 -
+2025-02-28 08:07:52,908 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:07:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:07:52,974 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:07:52] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:13:55,259 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:13:55] "GET / HTTP/1.1" 200 -
+2025-02-28 08:13:55,434 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:13:55] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:13:55,442 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:13:55] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:15:13,523 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:15:13] "GET / HTTP/1.1" 200 -
+2025-02-28 08:15:13,697 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:15:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:15:13,698 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:15:13] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:18:27,426 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:18:27] "GET / HTTP/1.1" 200 -
+2025-02-28 08:18:27,622 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:18:27] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:18:27,626 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:18:27] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:18:29,812 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:18:29] "GET / HTTP/1.1" 200 -
+2025-02-28 08:18:29,988 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:18:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:18:29,995 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:18:29] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:19:21,499 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:19:21] "GET / HTTP/1.1" 200 -
+2025-02-28 08:19:21,691 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:19:21] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:19:21,696 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:19:21] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:19:22,285 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:19:22] "GET / HTTP/1.1" 200 -
+2025-02-28 08:19:22,487 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:19:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:19:22,492 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:19:22] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:19:22,510 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:19:22] "GET / HTTP/1.1" 200 -
+2025-02-28 08:19:22,696 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:19:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:19:22,697 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:19:22] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:20:34,631 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:20:34] "GET / HTTP/1.1" 200 -
+2025-02-28 08:20:34,803 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:20:34] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:20:34,809 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:20:34] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:20:37,319 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:20:37] "GET / HTTP/1.1" 200 -
+2025-02-28 08:20:37,508 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:20:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:20:37,509 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:20:37] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:21:03,332 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:21:03] "GET / HTTP/1.1" 200 -
+2025-02-28 08:21:03,511 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:21:03] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:21:03,516 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:21:03] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:21:38,580 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:21:38] "GET / HTTP/1.1" 200 -
+2025-02-28 08:21:38,752 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:21:38] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:21:38,817 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:21:38] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:21:40,918 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:21:40] "GET / HTTP/1.1" 200 -
+2025-02-28 08:21:41,097 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:21:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:21:41,098 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:21:41] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:22:08,388 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:22:08] "GET / HTTP/1.1" 200 -
+2025-02-28 08:22:08,559 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:22:08] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:22:08,559 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:22:08] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:23:30,095 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:23:30] "GET / HTTP/1.1" 200 -
+2025-02-28 08:23:30,271 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:23:30] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:23:30,336 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:23:30] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:23:49,863 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:23:49] "GET / HTTP/1.1" 200 -
+2025-02-28 08:23:50,039 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:23:50] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:23:50,048 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:23:50] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:24:20,300 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:24:20] "GET / HTTP/1.1" 200 -
+2025-02-28 08:24:20,480 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:24:20] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:24:20,481 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:24:20] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:24:35,639 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:24:35] "GET / HTTP/1.1" 200 -
+2025-02-28 08:24:35,828 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:24:35] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:24:35,829 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:24:35] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:25:05,917 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:25:05] "GET / HTTP/1.1" 200 -
+2025-02-28 08:25:06,083 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:25:06] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:25:06,088 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:25:06] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:25:39,935 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:25:39] "GET / HTTP/1.1" 200 -
+2025-02-28 08:25:40,118 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:25:40] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:25:40,121 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:25:40] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:26:40,147 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:26:40] "GET / HTTP/1.1" 200 -
+2025-02-28 08:26:40,324 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:26:40] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:26:40,329 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:26:40] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:26:42,120 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:26:42] "GET / HTTP/1.1" 200 -
+2025-02-28 08:26:42,321 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:26:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:26:42,321 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:26:42] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:26:48,445 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:26:48] "GET / HTTP/1.1" 200 -
+2025-02-28 08:26:48,652 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:26:48] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:26:48,716 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:26:48] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:28:52,944 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:28:52] "GET / HTTP/1.1" 200 -
+2025-02-28 08:28:53,120 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:28:53] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:28:53,126 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:28:53] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:29:21,383 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:29:21] "GET / HTTP/1.1" 200 -
+2025-02-28 08:29:21,561 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:29:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:29:21,562 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:29:21] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:29:44,514 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:29:44] "GET / HTTP/1.1" 200 -
+2025-02-28 08:29:44,681 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:29:44] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:29:44,686 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:29:44] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:30:02,663 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:30:02] "GET / HTTP/1.1" 200 -
+2025-02-28 08:30:02,831 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:30:02] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:30:02,832 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:30:02] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:30:42,416 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:30:42] "GET / HTTP/1.1" 200 -
+2025-02-28 08:30:42,583 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:30:42] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:30:42,647 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:30:42] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:31:49,383 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:31:49] "GET / HTTP/1.1" 200 -
+2025-02-28 08:31:49,557 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:31:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:31:49,562 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:31:49] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:32:00,308 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:32:00] "GET / HTTP/1.1" 200 -
+2025-02-28 08:32:00,486 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:32:00] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:32:00,507 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:32:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:33:54,295 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:33:54] "GET / HTTP/1.1" 200 -
+2025-02-28 08:33:54,460 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:33:54] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:33:54,475 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:33:54] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:34:15,477 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:34:15] "GET / HTTP/1.1" 200 -
+2025-02-28 08:34:15,637 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:34:15] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:34:15,637 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:34:15] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:34:18,220 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:34:18] "GET / HTTP/1.1" 200 -
+2025-02-28 08:34:18,387 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:34:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:34:18,393 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:34:18] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:35:32,230 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:35:32] "GET / HTTP/1.1" 200 -
+2025-02-28 08:35:32,402 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:35:32] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:35:32,408 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:35:32] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:35:46,114 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:35:46] "GET / HTTP/1.1" 200 -
+2025-02-28 08:35:46,273 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:35:46] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:35:46,343 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:35:46] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:37:34,493 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:37:34] "GET / HTTP/1.1" 200 -
+2025-02-28 08:37:34,656 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:37:34] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:37:34,660 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:37:34] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:37:37,076 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:37:37] "GET / HTTP/1.1" 200 -
+2025-02-28 08:37:37,232 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:37:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:37:37,295 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:37:37] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:37:38,104 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:37:38] "GET / HTTP/1.1" 200 -
+2025-02-28 08:37:38,270 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:37:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:37:38,272 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:37:38] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:37:50,177 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:37:50] "GET / HTTP/1.1" 200 -
+2025-02-28 08:37:50,362 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:37:50] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:37:50,364 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:37:50] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:51:41,974 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:51:41] "GET / HTTP/1.1" 200 -
+2025-02-28 08:51:42,156 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:51:42] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-28 08:51:42,157 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:51:42] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:52:37,044 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:52:37] "GET / HTTP/1.1" 200 -
+2025-02-28 08:52:37,214 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:52:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:52:37,217 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:52:37] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:52:51,430 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:52:51] "GET / HTTP/1.1" 200 -
+2025-02-28 08:52:51,585 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:52:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:52:51,602 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:52:51] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:53:40,309 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:53:40] "GET / HTTP/1.1" 200 -
+2025-02-28 08:53:40,467 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:53:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:53:40,476 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:53:40] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-02-28 08:56:49,125 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Usuario, ID del proyecto
+2025-02-28 08:56:49,626 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-28 08:56:50,166 - notion_integration - INFO - Obtenidas 1 páginas con filtros. Total acumulado: 1
+2025-02-28 08:56:50,167 - notion_integration - INFO - Iniciando ajuste de fechas: 2 horas a partir de 2025-03-01T00:00:00
+2025-02-28 08:56:50,169 - notion_integration - INFO - Filtros aplicados: ID del proyecto
+2025-02-28 08:56:50,170 - notion_integration - INFO - Total de páginas a procesar: 1
+2025-02-28 08:56:51,337 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 actualizada correctamente
+2025-02-28 08:56:51,338 - notion_integration - INFO - Proceso completado: 1 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-02-28 08:56:51,340 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:56:51] "POST /run_script HTTP/1.1" 200 -
+2025-02-28 08:57:25,835 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:57:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-28 08:58:56,166 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Usuario, ID del proyecto
+2025-02-28 08:58:56,618 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-28 08:58:57,023 - notion_integration - INFO - Obtenidas 0 páginas con filtros. Total acumulado: 0
+2025-02-28 08:58:57,024 - notion_integration - INFO - Iniciando ajuste de fechas: 2 horas a partir de 2025-03-01T00:00:00
+2025-02-28 08:58:57,027 - notion_integration - INFO - Filtros aplicados: Cliente, Usuario
+2025-02-28 08:58:57,028 - notion_integration - INFO - Total de páginas a procesar: 0
+2025-02-28 08:58:57,029 - notion_integration - INFO - Proceso completado: 0 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-02-28 08:58:57,031 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:58:57] "POST /run_script HTTP/1.1" 200 -
+2025-02-28 09:16:09,332 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Usuario, ID del proyecto
+2025-02-28 09:16:09,773 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-28 09:16:10,151 - notion_integration - INFO - Obtenidas 0 páginas con filtros. Total acumulado: 0
+2025-02-28 09:16:10,152 - notion_integration - INFO - Iniciando ajuste de fechas: 2 horas a partir de 2025-03-01T00:00:00
+2025-02-28 09:16:10,157 - notion_integration - INFO - Filtros aplicados: Cliente, Usuario
+2025-02-28 09:16:10,158 - notion_integration - INFO - Total de páginas a procesar: 0
+2025-02-28 09:16:10,162 - notion_integration - INFO - Proceso completado: 0 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-02-28 09:16:10,166 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 09:16:10] "POST /run_script HTTP/1.1" 200 -
+2025-02-28 09:17:37,106 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Usuario, ID del proyecto
+2025-02-28 09:17:37,564 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-02-28 09:17:38,357 - notion_integration - INFO - Obtenidas 2 páginas con filtros. Total acumulado: 2
+2025-02-28 09:17:38,359 - notion_integration - INFO - Iniciando ajuste de fechas: 2 horas a partir de 2025-02-25T00:00:00
+2025-02-28 09:17:38,361 - notion_integration - INFO - Filtros aplicados: Cliente, Usuario
+2025-02-28 09:17:38,362 - notion_integration - INFO - Total de páginas a procesar: 2
+2025-02-28 09:17:38,949 - notion_integration - INFO - Página 1a123882-4ec5-801e-98ad-f83e9385ffa6 actualizada correctamente
+2025-02-28 09:17:40,232 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 actualizada correctamente
+2025-02-28 09:17:40,234 - notion_integration - INFO - Proceso completado: 2 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-02-28 09:17:40,236 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 09:17:40] "POST /run_script HTTP/1.1" 200 -

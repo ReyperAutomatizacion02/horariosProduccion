@@ -1,0 +1,55 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+}
+
+.titulo {
+    text-align: center;
+    color: #F01E21;
+    font-size: 4rem;
+}
+
+.logo {
+    height: 12rem;
+    width: 20rem;
+}
+
+.bloqueHoras{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.bloqueFecha {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.filtros {
+    text-align: center;
+    color: #F01E21;
+    font-size: 4rem;
+}
+
+.bloqueFiltro1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.subFiltro {
+    text-align: center;
+    color: #F01E21;
+    font-size: 2rem;
+}
+
+.bloqueFiltro2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.boton {
+    text-align: center;
+    font-size: 2rem;
+}
