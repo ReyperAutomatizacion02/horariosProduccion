@@ -25,7 +25,14 @@ def index():
 @app.route('/run_script', methods=['POST'])
 def run_script():
     try:
-        hours = int(request.form.get("hours"))
+        hours_to_adjust = int(request.form.get("hours"))  # Nombre más descriptivo para la variable
+
+        # Verificar si el checkbox 'move_backward' está marcado
+        move_backward = request.form.get("move_backward") == 'on' # Devuelve True si está marcado, False si no
+
+        # Ajustar las horas para restar si el checkbox está marcado
+        hours = hours_to_adjust if not move_backward else -hours_to_adjust
+ 
         start_date_str = request.form.get("start_date")
         if not start_date_str:
             return jsonify({"error": "Debes seleccionar una fecha"}), 400
