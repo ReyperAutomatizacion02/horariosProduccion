@@ -987,3 +987,89 @@
 2025-03-01 12:38:02,546 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:38:02] "GET / HTTP/1.1" 200 -
 2025-03-01 12:38:02,659 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:38:02] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
 2025-03-01 12:38:02,665 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:38:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 12:41:50,353 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 12:41:50,355 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-01 12:41:52,446 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:41:52] "GET / HTTP/1.1" 200 -
+2025-03-01 12:41:52,582 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:41:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 12:41:52,606 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:41:52] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 12:50:49,831 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:50:49] "GET / HTTP/1.1" 200 -
+2025-03-01 12:50:49,862 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:50:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 12:50:49,869 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:50:49] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 12:50:50,394 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:50:50] "GET / HTTP/1.1" 200 -
+2025-03-01 12:50:50,416 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:50:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 12:50:50,417 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:50:50] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 12:50:50,497 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:50:50] "GET / HTTP/1.1" 200 -
+2025-03-01 12:50:50,518 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:50:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 12:50:50,521 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:50:50] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 12:50:50,644 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:50:50] "GET / HTTP/1.1" 200 -
+2025-03-01 12:50:50,675 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:50:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 12:50:50,682 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:50:50] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 12:58:23,388 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Usuario, Formula, For - Código de departamento, ID del proyecto
+2025-03-01 12:58:25,903 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-03-01 12:58:26,354 - notion_integration - INFO - Obtenidas 4 páginas con filtros. Total acumulado: 4
+2025-03-01 12:58:26,355 - notion_integration - INFO - Iniciando ajuste de fechas: -2 horas a partir de 2025-02-24T00:00:00
+2025-03-01 12:58:26,356 - notion_integration - INFO - Filtros aplicados: Cliente
+2025-03-01 12:58:26,358 - notion_integration - INFO - Total de páginas a procesar: 4
+2025-03-01 12:58:27,144 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-03-01 12:58:27,763 - notion_integration - INFO - Página 1a123882-4ec5-801e-98ad-f83e9385ffa6 actualizada correctamente
+2025-03-01 12:58:28,511 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 actualizada correctamente
+2025-03-01 12:58:29,053 - notion_integration - INFO - Página 1a123882-4ec5-809c-992c-db2589aaa2f7 actualizada correctamente
+2025-03-01 12:58:29,055 - notion_integration - INFO - Proceso completado: 4 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-03-01 12:58:29,058 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:58:29] "POST /run_script HTTP/1.1" 200 -
+2025-03-01 12:59:09,514 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Usuario, Formula, For - Código de departamento, ID del proyecto
+2025-03-01 12:59:09,848 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-03-01 12:59:10,269 - notion_integration - INFO - Obtenidas 1 páginas con filtros. Total acumulado: 1
+2025-03-01 12:59:10,270 - notion_integration - INFO - Iniciando ajuste de fechas: -2 horas a partir de 2025-02-24T00:00:00
+2025-03-01 12:59:10,271 - notion_integration - INFO - Filtros aplicados: Cliente, Usuario
+2025-03-01 12:59:10,273 - notion_integration - INFO - Total de páginas a procesar: 1
+2025-03-01 12:59:10,854 - notion_integration - INFO - Página 1a123882-4ec5-809c-992c-db2589aaa2f7 actualizada correctamente
+2025-03-01 12:59:10,855 - notion_integration - INFO - Proceso completado: 1 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-03-01 12:59:10,857 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 12:59:10] "POST /run_script HTTP/1.1" 200 -
+2025-03-01 13:29:46,566 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 13:29:46,566 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-01 13:29:51,015 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 13:29:51] "GET / HTTP/1.1" 200 -
+2025-03-01 13:29:51,169 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 13:29:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 13:29:51,175 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 13:29:51] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 13:30:19,753 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 13:30:19] "GET / HTTP/1.1" 200 -
+2025-03-01 13:30:19,776 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 13:30:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 13:30:19,782 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 13:30:19] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 13:30:27,333 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 13:30:27,334 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-01 13:30:31,821 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 13:30:31] "GET / HTTP/1.1" 200 -
+2025-03-01 13:30:31,931 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 13:30:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 13:30:31,933 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 13:30:31] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 13:30:55,392 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Usuario, Formula, For - Código de departamento, ID del proyecto
+2025-03-01 13:30:55,984 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-03-01 13:30:56,390 - notion_integration - INFO - Obtenidas 5 páginas con filtros. Total acumulado: 5
+2025-03-01 13:30:56,392 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-02-24T00:00:00
+2025-03-01 13:30:56,395 - notion_integration - INFO - Filtros aplicados: For - Código de departamento
+2025-03-01 13:30:56,396 - notion_integration - INFO - Total de páginas a procesar: 5
+2025-03-01 13:30:56,975 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-03-01 13:30:57,929 - notion_integration - INFO - Página 1a123882-4ec5-801e-98ad-f83e9385ffa6 actualizada correctamente
+2025-03-01 13:30:58,913 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 actualizada correctamente
+2025-03-01 13:31:00,292 - notion_integration - INFO - Página 1a123882-4ec5-809c-992c-db2589aaa2f7 actualizada correctamente
+2025-03-01 13:31:04,436 - notion_integration - INFO - Página 1a123882-4ec5-80fc-b895-fcd3f429048c actualizada correctamente
+2025-03-01 13:31:04,436 - notion_integration - INFO - Proceso completado: 5 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-03-01 13:31:04,438 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 13:31:04] "POST /run_script HTTP/1.1" 200 -
+2025-03-01 13:31:21,648 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Usuario, Formula, For - Código de departamento, ID del proyecto
+2025-03-01 13:31:22,210 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-03-01 13:31:22,680 - notion_integration - INFO - Obtenidas 2 páginas con filtros. Total acumulado: 2
+2025-03-01 13:31:22,682 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-02-24T00:00:00
+2025-03-01 13:31:22,685 - notion_integration - INFO - Filtros aplicados: For - Código de departamento
+2025-03-01 13:31:22,686 - notion_integration - INFO - Total de páginas a procesar: 2
+2025-03-01 13:31:23,734 - notion_integration - INFO - Página 1a123882-4ec5-8028-a9c6-dc6ef4a99457 actualizada correctamente
+2025-03-01 13:31:24,308 - notion_integration - INFO - Página 1a123882-4ec5-8098-b508-eccd0d9370d6 actualizada correctamente
+2025-03-01 13:31:24,309 - notion_integration - INFO - Proceso completado: 2 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-03-01 13:31:24,310 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 13:31:24] "POST /run_script HTTP/1.1" 200 -
+2025-03-01 13:32:01,985 - notion_integration - INFO - Propiedades obtenidas de la base de datos: Cliente, Date, Usuario, Formula, For - Código de departamento, ID del proyecto
+2025-03-01 13:32:02,591 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-03-01 13:32:04,082 - notion_integration - INFO - Obtenidas 1 páginas con filtros. Total acumulado: 1
+2025-03-01 13:32:04,083 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-02-24T00:00:00
+2025-03-01 13:32:04,085 - notion_integration - INFO - Filtros aplicados: For - Código de departamento
+2025-03-01 13:32:04,087 - notion_integration - INFO - Total de páginas a procesar: 1
+2025-03-01 13:32:04,820 - notion_integration - INFO - Página 1a123882-4ec5-80af-94bd-c6453c81c0e9 actualizada correctamente
+2025-03-01 13:32:04,822 - notion_integration - INFO - Proceso completado: 1 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-03-01 13:32:04,826 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 13:32:04] "POST /run_script HTTP/1.1" 200 -

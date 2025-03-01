@@ -40,12 +40,6 @@ HEADERS = {
 }
 
 def validate_api_connection() -> bool:
-    """
-    Valida la conexión a la API de Notion y la validez del token.
-    
-    Returns:
-        bool: True si la conexión es exitosa, False en caso contrario
-    """
     try:
         url = f"{API_BASE_URL}/databases/{DATABASE_ID}"
         response = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
@@ -57,12 +51,6 @@ def validate_api_connection() -> bool:
         return False
 
 def get_database_properties() -> Dict[str, Dict]:
-    """
-    Obtiene todas las propiedades disponibles en la base de datos.
-    
-    Returns:
-        Dict[str, Dict]: Diccionario con las propiedades de la base de datos
-    """
     try:
         url = f"{API_BASE_URL}/databases/{DATABASE_ID}"
         response = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
@@ -78,17 +66,6 @@ def get_database_properties() -> Dict[str, Dict]:
         return {}
 
 def create_filter_condition(property_name: str, property_type: str, value: Any) -> Dict:
-    """
-    Crea una condición de filtro para la API de Notion basada en el tipo de propiedad.
-    
-    Args:
-        property_name (str): Nombre de la propiedad para filtrar
-        property_type (str): Tipo de la propiedad (select, multi_select, rich_text, etc.)
-        value (Any): Valor para filtrar
-        
-    Returns:
-        Dict: Condición de filtro para la API de Notion
-    """
     if property_type == "select":
         return {
             "property": property_name,
@@ -131,21 +108,18 @@ def create_filter_condition(property_name: str, property_type: str, value: Any) 
                 "contains": value
             }
         }
+    elif property_type == "formula":
+        return {
+            "property": property_name,
+            "rich_text": {
+                "contains": value
+            }
+        }
     else:
         logger.warning(f"Tipo de propiedad no soportado para filtrado: {property_type}")
         return {}
 
 def get_pages_with_filter(filters: List[Dict] = None, page_size: int = 100) -> List[Dict]:
-    """
-    Obtiene las páginas de la base de datos aplicando filtros opcionales.
-    
-    Args:
-        filters (List[Dict], optional): Lista de condiciones de filtro
-        page_size (int): Número de resultados por página
-    
-    Returns:
-        List[Dict]: Lista de páginas/registros que cumplen con los filtros
-    """
     all_pages = []
     has_more = True
     start_cursor = None
@@ -190,17 +164,6 @@ def get_pages_with_filter(filters: List[Dict] = None, page_size: int = 100) -> L
     return all_pages
 
 def update_page(page_id: str, new_start: datetime, new_end: Optional[datetime]) -> Tuple[int, Dict]:
-    """
-    Actualiza las fechas de una página en Notion.
-    
-    Args:
-        page_id (str): ID de la página a actualizar
-        new_start (datetime): Nueva fecha de inicio
-        new_end (Optional[datetime]): Nueva fecha de fin (puede ser None)
-    
-    Returns:
-        Tuple[int, Dict]: Código de estado HTTP y respuesta JSON
-    """
     url = f"{API_BASE_URL}/pages/{page_id}"
     
     # Preparar payload con fecha de inicio y posiblemente fecha de fin
@@ -236,17 +199,6 @@ def adjust_dates_with_filters(
     start_date: datetime, 
     filters: List[Dict[str, Any]] = None
 ) -> str:
-    """
-    Ajusta las fechas de las páginas en la base de datos de Notion aplicando filtros opcionales.
-    
-    Args:
-        hours (int): Número de horas a añadir (o restar si es negativo)
-        start_date (datetime): Fecha a partir de la cual se ajustarán los registros
-        filters (List[Dict[str, Any]], optional): Lista de filtros a aplicar
-    
-    Returns:
-        str: Mensaje con el resultado de la operación
-    """
     if not validate_api_connection():
         return "Error: No se pudo conectar a la API de Notion. Verifica tu conexión y credenciales."
     
@@ -327,16 +279,6 @@ def adjust_dates_with_filters(
     return resumen
 
 def build_filter_from_properties(property_filters: Dict[str, Any]) -> List[Dict]:
-    """
-    Construye condiciones de filtro a partir de un diccionario de propiedades y valores.
-    
-    Args:
-        property_filters (Dict[str, Any]): Diccionario con propiedades y valores para filtrar
-            Ejemplo: {"Cliente": "Empresa XYZ", "Usuario": "Juan Pérez"}
-    
-    Returns:
-        List[Dict]: Lista de condiciones de filtro para la API de Notion
-    """
     if not property_filters:
         return []
         
@@ -366,18 +308,6 @@ def adjust_dates_api(
     start_date_str: str, 
     property_filters: Dict[str, Any] = None
 ) -> Dict[str, Any]:
-    """
-    Versión de la función adjust_dates para uso en APIs con soporte para filtros.
-    
-    Args:
-        hours (int): Número de horas a añadir
-        start_date_str (str): Fecha de inicio en formato ISO (YYYY-MM-DD)
-        property_filters (Dict[str, Any], optional): Diccionario de propiedades y valores para filtrar
-            Ejemplo: {"Cliente": "Empresa XYZ", "Usuario": "Juan Pérez"}
-    
-    Returns:
-        Dict[str, Any]: Respuesta en formato JSON para APIs
-    """
     try:
         # Convertir string a datetime
         start_date = datetime.fromisoformat(start_date_str.replace('Z', '+00:00'))
@@ -410,12 +340,6 @@ def adjust_dates_api(
         }
 
 def list_available_properties() -> List[Dict[str, str]]:
-    """
-    Lista todas las propiedades disponibles en la base de datos con sus tipos.
-    
-    Returns:
-        List[Dict[str, str]]: Lista de propiedades con sus nombres y tipos
-    """
     properties = get_database_properties()
     property_list = []
     

@@ -23,6 +23,7 @@ def index():
 # Definición de la ruta /run_script (para ejecutar el script de Notion):
 # ======================================================================
 @app.route('/run_script', methods=['POST'])
+
 def run_script():
     try:
         hours_to_adjust = int(request.form.get("hours"))  # Nombre más descriptivo para la variable
