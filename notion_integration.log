@@ -442,3 +442,38 @@
 2025-02-28 09:17:40,232 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 actualizada correctamente
 2025-02-28 09:17:40,234 - notion_integration - INFO - Proceso completado: 2 páginas actualizadas, 0 fallidas, 0 omitidas
 2025-02-28 09:17:40,236 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 09:17:40] "POST /run_script HTTP/1.1" 200 -
+2025-03-01 09:37:00,368 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 09:37:00,369 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-01 09:37:58,435 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:37:58] "GET / HTTP/1.1" 200 -
+2025-03-01 09:37:58,567 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:37:58] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-01 09:37:58,576 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:37:58] "GET /static/img/LOGO%20REYPER.png HTTP/1.1" 200 -
+2025-03-01 09:37:58,629 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:37:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 09:39:51,442 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:39:51] "GET / HTTP/1.1" 200 -
+2025-03-01 09:39:51,495 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:39:51] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-01 09:39:51,503 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:39:51] "GET /static/img/LOGO%20REYPER.png HTTP/1.1" 200 -
+2025-03-01 09:39:51,641 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:39:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 09:48:03,670 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:48:03] "GET / HTTP/1.1" 200 -
+2025-03-01 09:48:03,694 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:48:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 09:48:03,701 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:48:03] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 09:50:27,345 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:50:27] "GET / HTTP/1.1" 200 -
+2025-03-01 09:50:27,372 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:50:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 09:50:27,372 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:50:27] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 09:53:05,365 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:53:05] "GET / HTTP/1.1" 200 -
+2025-03-01 09:53:05,397 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:53:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 09:53:05,405 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:53:05] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 09:53:13,840 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 09:53:13,841 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-01 09:53:16,720 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:53:16] "GET / HTTP/1.1" 200 -
+2025-03-01 09:53:16,829 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:53:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 09:53:16,835 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:53:16] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 09:54:22,454 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:54:22] "GET / HTTP/1.1" 200 -
+2025-03-01 09:54:22,479 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:54:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 09:54:22,487 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:54:22] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-01 09:54:54,995 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 09:54:54,996 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-01 09:54:58,521 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:54:58] "GET / HTTP/1.1" 200 -
+2025-03-01 09:54:58,644 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:54:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 09:54:58,651 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2025 09:54:58] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
