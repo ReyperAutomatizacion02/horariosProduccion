@@ -31,7 +31,7 @@ def run_script():
         move_backward = request.form.get("move_backward") == 'on' # Devuelve True si está marcado, False si no
 
         # Ajustar las horas para restar si el checkbox está marcado
-        hours = hours_to_adjust if not move_backward else -hours_to_adjust
+        hours = hours_to_adjust if not move_backward else - hours_to_adjust
  
         start_date_str = request.form.get("start_date")
         if not start_date_str:
