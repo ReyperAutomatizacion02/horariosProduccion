@@ -19,37 +19,40 @@ body {
 
 .bloqueHoras{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .bloqueFecha {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .filtros {
     text-align: center;
     color: #F01E21;
-    font-size: 4rem;
 }
 
 .bloqueFiltro1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .subFiltro {
     text-align: center;
     color: #F01E21;
-    font-size: 2rem;
 }
 
 .bloqueFiltro2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .boton {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
+}
+
+
+.bloqueMovimiento {
+    text-align: center;
 }
