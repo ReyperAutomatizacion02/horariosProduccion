@@ -1145,3 +1145,7 @@
 2025-03-05 17:26:56,107 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:26:56] "GET / HTTP/1.1" 200 -
 2025-03-05 17:26:56,134 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:26:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
 2025-03-05 17:26:56,142 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:26:56] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:35:57,700 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:35:57] "GET / HTTP/1.1" 200 -
+2025-03-05 17:35:57,727 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:35:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:35:57,728 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:35:57] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:35:57,915 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:35:57] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
