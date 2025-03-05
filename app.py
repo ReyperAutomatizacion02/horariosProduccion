@@ -1,8 +1,9 @@
 # =============
 # Importaciones
 # =============
+from flask_sqlalchemy import SQLAlchemy
 from flask import Flask, render_template, request, jsonify, redirect, url_for, flash
-import mH as moverHorarios02  # Importa el script que define la función para mover horarios.
+import mH2 as moverHorarios02  # Importa el script que define la función para mover horarios.
 from datetime import datetime  # Importado para manejar fechas.
 import os  # Importado para acceder a variables de entorno.
 from flask_login import LoginManager, UserMixin, login_required, login_user, logout_user, current_user
@@ -13,28 +14,32 @@ from flask_login import LoginManager, UserMixin, login_required, login_user, log
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY') # Reemplaza 'una_clave...' por una clave real y segura.
 
+# Configuración de la base de datos (SQLite en este caso)
+basedir = os.path.abspath(os.path.dirname(__file__)) # Obtiene el directorio base de la app
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'app.db') # Define la URI de la base de datos SQLite
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False # Desactiva el tracking de modificaciones de SQLAlchemy (opcional, pero recomendado para evitar warnings)
+
+db = SQLAlchemy(app) # Inicializa Flask-SQLAlchemy
+
 # Configuración de Flask-Login
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login' # Define la función (ruta) a la que redirigir si se requiere login
 
-# Clase de Usuario (Ejemplo MUY BÁSICO - DEBERÍAS IMPLEMENTAR UNA BASE DE DATOS REAL PARA ALMACENAR USUARIOS Y CONTRASEÑAS DE FORMA SEGURA)
-class User(UserMixin):
-    def __init__(self, id, username, password): # En un sistema real, la contraseña NO se guardaría así, se usaría HASHING
-        self.id = str(id) # Flask-Login requiere que id sea string
-        self.username = username
-        self.password = password # ¡PELIGRO: Esto es solo para ejemplo, NO GUARDES CONTRASEÑAS ASÍ EN PRODUCCIÓN!
+# Clase de Usuario (Modelo de Base de Datos)
+class User(UserMixin, db.Model):
+    id = db.Column(db.Integer, primary_key=True) # Clave primaria, autoincremental
+    username = db.Column(db.String(100), unique=True, nullable=False) # Nombre de usuario, único, no puede ser nulo
+    password = db.Column(db.String(200), nullable=False) # Contraseña (¡Recuerda que luego usaremos HASHING, esto es solo un ejemplo inicial!)
 
-# Usuarios en memoria (¡SOLO PARA EJEMPLO, NO USAR EN PRODUCCIÓN!): DEBERÍAS USAR UNA BASE DE DATOS REAL
-users = {
-    '1': User('1', 'admin', 'password123'), # Usuario de ejemplo: admin/password123
-    '2': User('2', 'usuario', 'password456'), # Usuario de ejemplo: usuario/password456
-}
+    def __init__(self, username, password): # Constructor para crear objetos User
+        self.username = username
+        self.password = password
 
 # Función para cargar usuario (requerida por Flask-Login)
 @login_manager.user_loader
 def load_user(user_id):
-    return users.get(user_id)
+    return User.query.get(int(user_id)) # Busca usuario por ID en la base de datos
 
 # ===========================================
 # Definición de la ruta / (página principal):
@@ -50,7 +55,8 @@ def login():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-        user = next((u for u in users.values() if u.username == username), None) # Busca usuario por username
+        
+        user = User.query.filter_by(username=username).first() # Busca usuario por username en la base de datos
 
         if user and password == user.password: # ¡PELIGRO: Comparación de contraseñas en texto plano, solo para ejemplo!
             login_user(user) # Iniciar sesión del usuario
@@ -116,5 +122,24 @@ def run_script():
 # ================================
 # Ejecución de la aplicación Flask
 # ================================
-if __name__ == '__main__':                            
-    app.run()    
+if __name__ == '__main__':
+    with app.app_context():
+        db.create_all() # Crea la base de datos y tablas (si no existen)
+        print("Base de datos y tablas creadas (si no existían).")
+
+        # *** CREACIÓN DE USUARIOS DE EJEMPLO EN LA BASE DE DATOS (SOLO LA PRIMERA VEZ) ***
+        # Comprobar si ya existen usuarios en la base de datos
+        if User.query.count() == 0: # Si no hay usuarios en la base de datos...
+            print("No se encontraron usuarios en la base de datos. Creando usuarios de ejemplo...")
+            # Crear usuarios de ejemplo y añadirlos a la base de datos
+            user_admin = User(username='admin', password='password123') # ¡RECUERDA: Contraseña en texto plano solo para ejemplo inicial!
+            user_usuario = User(username='usuario', password='password456') # ¡RECUERDA: Contraseña en texto plano solo para ejemplo inicial!
+            db.session.add(user_admin) # Añade el objeto usuario a la sesión de base de datos
+            db.session.add(user_usuario) # Añade el objeto usuario a la sesión de base de datos
+            db.session.commit() # ¡Guarda los cambios en la base de datos!
+            print("Usuarios de ejemplo 'admin' y 'usuario' creados en la base de datos.")
+        else:
+            print("Ya existen usuarios en la base de datos. Omitiendo creación de usuarios de ejemplo.")
+        # *** FIN DE CREACIÓN DE USUARIOS DE EJEMPLO ***
+
+    app.run(debug=True)
