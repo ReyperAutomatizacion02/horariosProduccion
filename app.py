@@ -68,6 +68,36 @@ def login():
 
     return render_template('login.html') # Renderizar formulario de login (login.html)
 
+# Ruta para la página de registro
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        confirm_password = request.form['confirm_password']
+
+        if not username or not password or not confirm_password:
+            flash('Todos los campos son obligatorios.', 'danger')
+            return render_template('register.html')
+
+        if password != confirm_password:
+            flash('Las contraseñas no coinciden.', 'danger')
+            return render_template('register.html')
+
+        existing_user = User.query.filter_by(username=username).first()
+        if existing_user:
+            flash('El nombre de usuario ya está registrado. Por favor, elige otro.', 'danger')
+            return render_template('register.html')
+
+        new_user = User(username=username, password=password) # ¡RECUERDA: Contraseña en texto plano solo para ejemplo inicial!
+        db.session.add(new_user)
+        db.session.commit()
+
+        flash('Registro exitoso. Por favor, inicia sesión.', 'success')
+        return redirect(url_for('login')) # Redirigir a la página de login después del registro
+
+    return render_template('register.html') # Renderizar formulario de registro (register.html)
+
 # Ruta para el logout
 @app.route('/logout')
 @login_required # Requiere que el usuario esté logueado para acceder
