@@ -241,5 +241,6 @@ if __name__ == '__main__':
         else:
             print("Ya existen usuarios en la base de datos. Omitiendo creación de usuarios de ejemplo.")
         # *** FIN DE CREACIÓN DE USUARIOS DE EJEMPLO ***
-
-    app.run(debug=True)
+        
+    port = int(os.environ.get('PORT', 5000)) # Lee la variable PORT de entorno, si no existe usa 5000 por defecto (local)
+    app.run(host='0.0.0.0', port=port, debug=True)
