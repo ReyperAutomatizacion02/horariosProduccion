@@ -52,7 +52,11 @@ class AuditLog(db.Model):
     user = db.relationship('User', backref=db.backref('audit_logs', lazy=True)) # Relación con el modelo User para acceder al usuario que realizó la acción
 
     def __repr__(self):
-        return f'<AuditLog {self.id} - User: {self.user.username} - Action: {self.action} - Timestamp: {self.timestamp}>'
+        username = "Usuario Desconocido" # Default username if user is None
+        if self.user: # Check if self.user is not None
+            username = self.user.username # Use actual username if user exists
+
+        return f'<AuditLog {self.id} - User: {username} - Action: {self.action} - Timestamp: {self.timestamp}>'
 
 # ===========================================
 # Definición de la ruta / (página principal):
@@ -155,6 +159,10 @@ def run_script():
         # Llamar a la función adjust_dates_api con los filtros
         result_dict = moverHorarios02.adjust_dates_api(hours, start_date_str, property_filters=property_filters)
 
+        # *** LOGGING current_user ***
+        print(f"*** run_script: current_user = {current_user}, current_user.id = {current_user.id if current_user else None}") # Log current_user and current_user.id
+        # *** FIN LOGGING current_user ***
+
         # *** REGISTRO DE AUDITORÍA ***
         audit_log = AuditLog(
             user_id=current_user.id, # ID del usuario actual (quien hizo la acción)
@@ -162,7 +170,9 @@ def run_script():
             details=f'Horas ajustadas: {hours}, Fecha de inicio: {start_date_str}, Filtros: {property_filters}, Resultado API: {result_dict}' # Detalles de la acción (puedes personalizar esto)
         )
         db.session.add(audit_log) # Añade el registro de auditoría a la sesión
+        print(f"*** INTENTANDO HACER COMMIT DEL REGISTRO DE AUDITORÍA: {audit_log}") # LOGGING ANTES DEL COMMIT
         db.session.commit() # Guarda el registro de auditoría en la base de datos
+        print("*** COMMIT DEL REGISTRO DE AUDITORÍA EXITOSO") # LOGGING DESPUÉS DEL COMMIT
         # *** FIN REGISTRO DE AUDITORÍA ***
 
         if result_dict.get("success"):
@@ -171,7 +181,10 @@ def run_script():
             return jsonify({"error": result_dict.get("error")}), 500
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500    
+        print(f"*** ERROR en run_script: {e}") # Imprime el mensaje de error básico
+        import traceback # Importa la librería traceback
+        traceback.print_exc() # Imprime el traceback completo del error
+        return jsonify({"error": str(e)}), 500  
 
 # ================================
 # Ejecución de la aplicación Flask
