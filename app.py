@@ -8,6 +8,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 import os  # Importado para acceder a variables de entorno.
 from datetime import datetime  # Importado para manejar fechas.
 import mH2 as moverHorarios02  # Importa el script que define la función para mover horarios.
+from flask_migrate import Migrate  # Import Flask-Migrate
 
 # =====================
 # Creación de app Flask
@@ -21,6 +22,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL') # Usar la
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False # Desactiva el tracking de modificaciones de SQLAlchemy (opcional, pero recomendado para evitar warnings)
 
 db = SQLAlchemy(app) # Inicializa Flask-SQLAlchemy
+migrate = Migrate(app, db) # Initialize Flask-Migrate with your app and db instance
 
 # Configuración de Flask-Login
 login_manager = LoginManager()
