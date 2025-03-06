@@ -27,6 +27,11 @@ login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login' # Define la función (ruta) a la que redirigir si se requiere login
 
+# Función para cargar usuario (requerida por Flask-Login)
+@login_manager.user_loader # 4. Decorar load_user *después* de inicializar login_manager
+def load_user(user_id):
+    return User.query.get(int(user_id)) # Busca usuario por ID en la base de datos
+
 # Clase de Usuario (Modelo de Base de Datos)
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True) # Clave primaria, autoincremental
@@ -48,11 +53,6 @@ class AuditLog(db.Model):
 
     def __repr__(self):
         return f'<AuditLog {self.id} - User: {self.user.username} - Action: {self.action} - Timestamp: {self.timestamp}>'
-
-# Función para cargar usuario (requerida por Flask-Login)
-@login_manager.user_loader
-def load_user(user_id):
-    return User.query.get(int(user_id)) # Busca usuario por ID en la base de datos
 
 # ===========================================
 # Definición de la ruta / (página principal):
