@@ -37,6 +37,18 @@ class User(UserMixin, db.Model):
         self.username = username
         self.password = password
 
+class AuditLog(db.Model):
+    id = db.Column(db.Integer, primary_key=True) # ID único del registro de auditoría
+    timestamp = db.Column(db.DateTime, default=datetime.utcnow) # Fecha y hora de la acción
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False) # ID del usuario que realizó la acción (clave foránea a la tabla 'user')
+    action = db.Column(db.String(200), nullable=False) # Descripción de la acción realizada
+    details = db.Column(db.Text) # Detalles adicionales sobre la acción (puedes ser JSON, texto, etc.)
+
+    user = db.relationship('User', backref=db.backref('audit_logs', lazy=True)) # Relación con el modelo User para acceder al usuario que realizó la acción
+
+    def __repr__(self):
+        return f'<AuditLog {self.id} - User: {self.user.username} - Action: {self.action} - Timestamp: {self.timestamp}>'
+
 # Función para cargar usuario (requerida por Flask-Login)
 @login_manager.user_loader
 def load_user(user_id):
@@ -142,6 +154,16 @@ def run_script():
 
         # Llamar a la función adjust_dates_api con los filtros
         result_dict = moverHorarios02.adjust_dates_api(hours, start_date_str, property_filters=property_filters)
+
+        # *** REGISTRO DE AUDITORÍA ***
+        audit_log = AuditLog(
+            user_id=current_user.id, # ID del usuario actual (quien hizo la acción)
+            action='Ajuste de Horarios', # Descripción de la acción
+            details=f'Horas ajustadas: {hours}, Fecha de inicio: {start_date_str}, Filtros: {property_filters}, Resultado API: {result_dict}' # Detalles de la acción (puedes personalizar esto)
+        )
+        db.session.add(audit_log) # Añade el registro de auditoría a la sesión
+        db.session.commit() # Guarda el registro de auditoría en la base de datos
+        # *** FIN REGISTRO DE AUDITORÍA ***
 
         if result_dict.get("success"):
             return jsonify({"message": result_dict.get("message")})
