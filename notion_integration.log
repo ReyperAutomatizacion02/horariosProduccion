@@ -235,3 +235,7 @@
 2025-03-06 10:45:01,703 - notion_integration - INFO - Página 1a123882-4ec5-8098-b508-eccd0d9370d6 con fecha anterior a 2025-03-11T00:00:00, omitiendo
 2025-03-06 10:45:01,704 - notion_integration - INFO - Proceso completado: 1 páginas actualizadas, 0 fallidas, 7 omitidas
 2025-03-06 10:45:01,714 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 10:45:01] "POST /run_script HTTP/1.1" 200 -
+2025-03-06 11:06:24,274 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-06 11:06:24,405 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 11:06:26,090 - werkzeug - WARNING -  * Debugger is active!
+2025-03-06 11:06:26,096 - werkzeug - INFO -  * Debugger PIN: 810-284-793

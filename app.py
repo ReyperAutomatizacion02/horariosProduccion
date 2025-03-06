@@ -129,7 +129,9 @@ def logout():
 @login_required
 
 def run_script():
+    print("DEBUG: Inicio de la función run_script()")
     try:
+        print("DEBUG: Dentro del bloque try")
         hours_to_adjust = int(request.form.get("hours"))  # Nombre más descriptivo para la variable
 
         # Verificar si el checkbox 'move_backward' está marcado
@@ -163,17 +165,44 @@ def run_script():
         print(f"*** run_script: current_user = {current_user}, current_user.id = {current_user.id if current_user else None}") # Log current_user and current_user.id
         # *** FIN LOGGING current_user ***
 
-        # *** REGISTRO DE AUDITORÍA ***
-        audit_log = AuditLog(
-            user_id=current_user.id, # ID del usuario actual (quien hizo la acción)
-            action='Ajuste de Horarios', # Descripción de la acción
-            details=f'Horas ajustadas: {hours}, Fecha de inicio: {start_date_str}, Filtros: {property_filters}, Resultado API: {result_dict}' # Detalles de la acción (puedes personalizar esto)
+        # *** PRUEBA DE PERSISTENCIA - ESCRITURA ***
+        print("DEBUG: Intentando escribir registro de prueba de persistencia...") # NUEVO LOGGING - PRUEBA PERSISTENCIA ESCRITURA
+        prueba_persist_log = AuditLog(
+            user_id=current_user.id,
+            action='PRUEBA DE PERSISTENCIA - ESCRITURA', # Acción especial para prueba
+            details='Este es un registro de prueba para verificar persistencia en Render'
         )
-        db.session.add(audit_log) # Añade el registro de auditoría a la sesión
-        print(f"*** INTENTANDO HACER COMMIT DEL REGISTRO DE AUDITORÍA: {audit_log}") # LOGGING ANTES DEL COMMIT
-        db.session.commit() # Guarda el registro de auditoría en la base de datos
-        print("*** COMMIT DEL REGISTRO DE AUDITORÍA EXITOSO") # LOGGING DESPUÉS DEL COMMIT
-        # *** FIN REGISTRO DE AUDITORÍA ***
+        db.session.add(prueba_persist_log)
+        # *** FIN PRUEBA DE PERSISTENCIA - ESCRITURA ***
+
+        # *** LOGGING current_user ***
+        print(f"*** run_script: current_user = {current_user}, current_user.id = {current_user.id if current_user else None}") # Log current_user and current_user.id
+        # *** FIN LOGGING current_user ***
+
+        # *** REGISTRO DE AUDITORÍA CON LOGGING DETALLADO ***
+        print("DEBUG: Antes de crear objeto AuditLog") # NUEVO LOGGING - ANTES DE CREAR AuditLog
+        audit_log = AuditLog(
+            user_id=current_user.id,
+            action='Ajuste de Horarios',
+            details=f'Horas ajustadas: {hours}, Fecha de inicio: {start_date_str}, Filtros: {property_filters}, Resultado API: {result_dict}'
+        )
+        print("DEBUG: Después de crear objeto AuditLog") # NUEVO LOGGING - DESPUÉS DE CREAR AuditLog
+        db.session.add(audit_log)
+        print("DEBUG: Después de db.session.add(audit_log), ANTES de commit") # NUEVO LOGGING - DESPUÉS DE ADD, ANTES DE COMMIT
+        print(f"*** INTENTANDO HACER COMMIT DEL REGISTRO DE AUDITORÍA: {audit_log}") # LOGGING ANTES DEL COMMIT (YA EXISTENTE)
+        db.session.commit()
+        print("*** COMMIT DEL REGISTRO DE AUDITORÍA EXITOSO") # LOGGING DESPUÉS DEL COMMIT (YA EXISTENTE)
+        print("DEBUG: Después de db.session.commit()") # NUEVO LOGGING - DESPUÉS DE COMMIT
+        # *** FIN REGISTRO DE AUDITORÍA CON LOGGING DETALLADO ***
+
+        # *** PRUEBA DE PERSISTENCIA - LECTURA ***
+        print("DEBUG: Intentando leer registro de prueba de persistencia...") # NUEVO LOGGING - PRUEBA PERSISTENCIA LECTURA
+        prueba_persist_leido = AuditLog.query.filter_by(action='PRUEBA DE PERSISTENCIA - ESCRITURA').first() # Busca registro de prueba
+        if prueba_persist_leido:
+            print("DEBUG: Registro de prueba de persistencia LEÍDO exitosamente de la base de datos en Render!") # LOGGING - PRUEBA PERSISTENCIA LECTURA ÉXITO
+        else:
+            print("DEBUG: NO SE ENCONTRÓ registro de prueba de persistencia en la base de datos en Render!") # LOGGING - PRUEBA PERSISTENCIA LECTURA FALLO
+        # *** FIN PRUEBA DE PERSISTENCIA - LECTURA ***
 
         if result_dict.get("success"):
             return jsonify({"message": result_dict.get("message")})
