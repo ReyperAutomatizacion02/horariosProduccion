@@ -1149,3 +1149,100 @@
 2025-03-05 17:35:57,727 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:35:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
 2025-03-05 17:35:57,728 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:35:57] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
 2025-03-05 17:35:57,915 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:35:57] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-05 17:46:37,343 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-05 17:46:37,486 - werkzeug - INFO -  * Restarting with stat
+2025-03-05 17:46:39,000 - werkzeug - WARNING -  * Debugger is active!
+2025-03-05 17:46:39,005 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-05 17:46:58,195 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-05 17:46:58,307 - werkzeug - INFO -  * Restarting with stat
+2025-03-05 17:46:59,720 - werkzeug - WARNING -  * Debugger is active!
+2025-03-05 17:46:59,725 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-05 17:48:08,445 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-05 17:48:08,559 - werkzeug - INFO -  * Restarting with stat
+2025-03-05 17:48:10,114 - werkzeug - WARNING -  * Debugger is active!
+2025-03-05 17:48:10,119 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-05 17:48:59,660 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-05 17:48:59,785 - werkzeug - INFO -  * Restarting with stat
+2025-03-05 17:51:40,371 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-05 17:51:40,371 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-05 17:51:40,373 - werkzeug - INFO -  * Restarting with stat
+2025-03-05 17:51:41,804 - werkzeug - WARNING -  * Debugger is active!
+2025-03-05 17:51:41,810 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-05 17:53:00,101 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:53:00] "GET / HTTP/1.1" 200 -
+2025-03-05 17:53:00,229 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:53:00] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-05 17:53:00,239 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:53:00] "GET /static/img/LOGO%20REYPER.png HTTP/1.1" 200 -
+2025-03-05 17:53:00,586 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:53:00] "GET /static/favicon.ico HTTP/1.1" 200 -
+2025-03-05 17:53:44,559 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:53:44] "GET /login HTTP/1.1" 200 -
+2025-03-05 17:53:44,580 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:53:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:53:44,590 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:53:44] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:53:55,168 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:53:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-05 17:53:55,176 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:53:55] "GET / HTTP/1.1" 200 -
+2025-03-05 17:53:55,202 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:53:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:53:55,212 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:53:55] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:54:02,688 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:02] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-05 17:54:02,694 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:02] "GET / HTTP/1.1" 200 -
+2025-03-05 17:54:02,714 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:54:02,721 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:02] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:54:07,963 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:07] "GET /register HTTP/1.1" 200 -
+2025-03-05 17:54:30,710 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:30] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-03-05 17:54:30,715 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:30] "GET /login HTTP/1.1" 200 -
+2025-03-05 17:54:30,739 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:54:30,749 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:30] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:54:44,376 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:44] "POST /login HTTP/1.1" 200 -
+2025-03-05 17:54:44,404 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:54:44,413 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:44] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:54:54,168 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:54] "POST /login HTTP/1.1" 200 -
+2025-03-05 17:54:54,194 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:54:54,195 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:54:54] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:55:30,181 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:55:30] "POST /login HTTP/1.1" 200 -
+2025-03-05 17:55:30,212 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:55:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:55:30,214 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:55:30] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:56:08,800 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:56:08] "POST /login HTTP/1.1" 200 -
+2025-03-05 17:56:08,822 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:56:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:56:08,825 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:56:08] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:56:10,472 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:56:10] "GET / HTTP/1.1" 200 -
+2025-03-05 17:56:10,494 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:56:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:56:10,496 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:56:10] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:56:12,092 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:56:12] "GET /login HTTP/1.1" 200 -
+2025-03-05 17:56:12,117 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:56:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:56:12,127 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:56:12] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:56:17,360 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:56:17] "POST /login HTTP/1.1" 200 -
+2025-03-05 17:56:17,379 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:56:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:56:17,386 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:56:17] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:57:00,532 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-05 17:57:00,532 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-05 17:57:00,535 - werkzeug - INFO -  * Restarting with stat
+2025-03-05 17:57:01,892 - werkzeug - WARNING -  * Debugger is active!
+2025-03-05 17:57:01,897 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-05 17:57:24,697 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:57:24] "POST /login HTTP/1.1" 200 -
+2025-03-05 17:57:24,823 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:57:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:57:24,827 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:57:24] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:57:24,909 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:57:24] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-05 17:57:31,198 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:57:31] "GET /register HTTP/1.1" 200 -
+2025-03-05 17:57:39,906 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:57:39] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-03-05 17:57:39,911 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:57:39] "GET /login HTTP/1.1" 200 -
+2025-03-05 17:57:39,936 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:57:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:57:39,945 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:57:39] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 17:57:46,568 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:57:46] "POST /login HTTP/1.1" 200 -
+2025-03-05 17:57:46,592 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:57:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 17:57:46,593 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 17:57:46] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 18:02:24,171 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-05 18:02:24,302 - werkzeug - INFO -  * Restarting with stat
+2025-03-05 18:02:26,061 - werkzeug - WARNING -  * Debugger is active!
+2025-03-05 18:02:26,066 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-05 18:02:52,846 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-05 18:02:52,846 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-05 18:02:52,849 - werkzeug - INFO -  * Restarting with stat
+2025-03-05 18:02:54,297 - werkzeug - WARNING -  * Debugger is active!
+2025-03-05 18:02:54,302 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-05 18:03:10,978 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 18:03:10] "GET / HTTP/1.1" 200 -
+2025-03-05 18:03:11,113 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 18:03:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 18:03:11,115 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 18:03:11] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-05 18:03:16,912 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 18:03:16] "GET /register HTTP/1.1" 200 -
+2025-03-05 18:03:28,816 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 18:03:28] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-03-05 18:03:28,830 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 18:03:28] "GET /login HTTP/1.1" 200 -
+2025-03-05 18:03:28,860 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 18:03:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 18:03:28,861 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 18:03:28] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -

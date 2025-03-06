@@ -1,12 +1,13 @@
 # =============
 # Importaciones
 # =============
-from flask_sqlalchemy import SQLAlchemy
 from flask import Flask, render_template, request, jsonify, redirect, url_for, flash
-import mH2 as moverHorarios02  # Importa el script que define la función para mover horarios.
-from datetime import datetime  # Importado para manejar fechas.
-import os  # Importado para acceder a variables de entorno.
 from flask_login import LoginManager, UserMixin, login_required, login_user, logout_user, current_user
+from flask_sqlalchemy import SQLAlchemy
+from werkzeug.security import generate_password_hash, check_password_hash
+import os  # Importado para acceder a variables de entorno.
+from datetime import datetime  # Importado para manejar fechas.
+import mH2 as moverHorarios02  # Importa el script que define la función para mover horarios.
 
 # =====================
 # Creación de app Flask
@@ -58,7 +59,7 @@ def login():
         
         user = User.query.filter_by(username=username).first() # Busca usuario por username en la base de datos
 
-        if user and password == user.password: # ¡PELIGRO: Comparación de contraseñas en texto plano, solo para ejemplo!
+        if user and check_password_hash(user.password, password): # ¡VERIFICACIÓN CON HASHING!
             login_user(user) # Iniciar sesión del usuario
             flash('Login exitoso.', 'success') # Mensaje flash (opcional)
             next_page = request.args.get('next') # Obtener parámetro 'next' para redirección después de login
@@ -89,7 +90,8 @@ def register():
             flash('El nombre de usuario ya está registrado. Por favor, elige otro.', 'danger')
             return render_template('register.html')
 
-        new_user = User(username=username, password=password) # ¡RECUERDA: Contraseña en texto plano solo para ejemplo inicial!
+        hashed_password = generate_password_hash(password) # Hashea la contraseña
+        new_user = User(username=username, password=hashed_password) # ¡RECUERDA: Contraseña en texto plano solo para ejemplo inicial!
         db.session.add(new_user)
         db.session.commit()
 
@@ -162,8 +164,10 @@ if __name__ == '__main__':
         if User.query.count() == 0: # Si no hay usuarios en la base de datos...
             print("No se encontraron usuarios en la base de datos. Creando usuarios de ejemplo...")
             # Crear usuarios de ejemplo y añadirlos a la base de datos
-            user_admin = User(username='admin', password='password123') # ¡RECUERDA: Contraseña en texto plano solo para ejemplo inicial!
-            user_usuario = User(username='usuario', password='password456') # ¡RECUERDA: Contraseña en texto plano solo para ejemplo inicial!
+            hashed_password_admin = generate_password_hash('password123') # Hashea la contraseña de admin
+            hashed_password_usuario = generate_password_hash('password456') # Hashea la contraseña de usuario
+            user_admin = User(username='admin', password=hashed_password_admin) # Guarda el hash de admin
+            user_usuario = User(username='usuario', password=hashed_password_usuario) # Guarda el hash de usuario
             db.session.add(user_admin) # Añade el objeto usuario a la sesión de base de datos
             db.session.add(user_usuario) # Añade el objeto usuario a la sesión de base de datos
             db.session.commit() # ¡Guarda los cambios en la base de datos!
