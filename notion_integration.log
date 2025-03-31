@@ -1018,3 +1018,577 @@
 2025-03-31 12:08:13,732 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
 2025-03-31 12:08:15,457 - werkzeug - WARNING -  * Debugger is active!
 2025-03-31 12:08:15,463 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 12:22:30,872 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\nuevosRegistros.py', reloading
+2025-03-31 12:22:30,874 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\nuevosRegistros.py', reloading
+2025-03-31 12:22:30,874 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\nuevosRegistros.py', reloading
+2025-03-31 12:22:31,921 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 12:22:33,853 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:22:33,859 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 12:24:31,075 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\nuevosRegistros.py', reloading
+2025-03-31 12:24:31,387 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 12:24:33,268 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:24:33,277 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 12:24:49,588 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-03-31 12:24:49,589 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:24:49,603 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 12:24:51,505 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:24:51,511 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 12:24:58,350 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:24:58] "GET / HTTP/1.1" 200 -
+2025-03-31 12:24:58,467 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:24:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 12:24:58,478 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:24:58] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 12:24:58,708 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:24:58] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 12:24:59,186 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:24:59] "GET / HTTP/1.1" 200 -
+2025-03-31 12:24:59,220 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:24:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 12:24:59,221 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:24:59] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 12:24:59,437 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:24:59] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 12:25:00,452 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:25:00] "GET / HTTP/1.1" 200 -
+2025-03-31 12:25:00,485 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:25:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 12:25:00,486 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:25:00] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 12:25:01,843 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:25:01] "GET / HTTP/1.1" 200 -
+2025-03-31 12:25:01,874 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:25:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 12:25:01,879 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:25:01] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 12:25:03,410 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:25:03] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 12:25:03,452 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:25:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 12:25:03,454 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:25:03] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 12:25:10,416 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2025-03-31 12:25:10,420 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:25:10] "[35m[1mPOST /create_project HTTP/1.1[0m" 500 -
+2025-03-31 12:36:24,836 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-03-31 12:36:24,837 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:36:24,851 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 12:36:26,652 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:36:26,658 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 12:36:32,736 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:36:32] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 12:36:32,882 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:36:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 12:36:32,891 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:36:32] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 12:36:40,046 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:36:40,601 - httpx - INFO - HTTP Request: GET https://api.notion.com/v1/pages/1c723882-4ec5-81d6-97cd-e0b5fadf1e15 "HTTP/1.1 200 OK"
+2025-03-31 12:36:41,050 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:36:41,578 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:36:41,996 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:36:42,435 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:36:42,875 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:36:43,467 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:36:43,471 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:36:43] "POST /create_project HTTP/1.1" 200 -
+2025-03-31 12:38:16,853 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:38:17,062 - httpx - INFO - HTTP Request: GET https://api.notion.com/v1/pages/1c723882-4ec5-811b-96d6-d79620846107 "HTTP/1.1 200 OK"
+2025-03-31 12:38:17,414 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:38:17,804 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:38:18,187 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:38:18,581 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:38:19,336 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:38:23,171 - httpx - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-31 12:38:23,173 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:38:23] "POST /create_project HTTP/1.1" 200 -
+2025-03-31 12:38:47,374 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:38:47] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 12:38:47,400 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:38:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 12:38:47,403 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:38:47] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 12:38:48,532 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:38:48] "[31m[1mGET /run_script HTTP/1.1[0m" 405 -
+2025-03-31 12:38:51,916 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:38:51] "GET / HTTP/1.1" 200 -
+2025-03-31 12:38:51,949 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:38:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 12:38:51,961 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:38:51] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 13:22:04,828 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\mH.py', reloading
+2025-03-31 13:22:04,830 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\mH2.py', reloading
+2025-03-31 13:22:05,536 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 13:22:07,404 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 13:22:07,417 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 13:55:07,012 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\mH.py', reloading
+2025-03-31 13:55:07,442 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-03-31 13:55:07,443 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\__init__.py', reloading
+2025-03-31 13:55:07,444 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_sqlalchemy\\__init__.py', reloading
+2025-03-31 13:55:07,446 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dotenv\\__init__.py', reloading
+2025-03-31 13:55:07,451 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\env.py', reloading
+2025-03-31 13:55:07,452 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\1552ed75e081_initial_migration.py', reloading
+2025-03-31 13:55:07,453 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\app.py', reloading
+2025-03-31 13:55:07,455 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-03-31 13:55:07,457 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\security.py', reloading
+2025-03-31 13:55:07,458 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-03-31 13:55:07,459 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-03-31 13:55:07,460 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-03-31 13:55:07,462 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-03-31 13:55:07,462 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\login_manager.py', reloading
+2025-03-31 13:55:07,464 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\mixins.py', reloading
+2025-03-31 13:55:07,470 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\notion_client\\__init__.py', reloading
+2025-03-31 13:55:07,478 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_sqlalchemy\\extension.py', reloading
+2025-03-31 13:55:07,480 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\__init__.py', reloading
+2025-03-31 13:55:07,481 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\event\\__init__.py', reloading
+2025-03-31 13:55:07,482 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\orm\\__init__.py', reloading
+2025-03-31 13:55:07,483 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_sqlalchemy\\query.py', reloading
+2025-03-31 13:55:07,485 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-03-31 13:55:07,487 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-03-31 13:55:07,489 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dotenv\\main.py', reloading
+2025-03-31 13:55:07,495 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\util\\__init__.py', reloading
+2025-03-31 13:55:07,496 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\inspection.py', reloading
+2025-03-31 13:55:07,497 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\schema.py', reloading
+2025-03-31 13:55:07,498 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\__init__.py', reloading
+2025-03-31 13:55:07,499 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\base.py', reloading
+2025-03-31 13:55:07,500 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\schema.py', reloading
+2025-03-31 13:55:07,502 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\visitors.py', reloading
+2025-03-31 13:55:07,505 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\selectable.py', reloading
+2025-03-31 13:55:07,507 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\util\\typing.py', reloading
+2025-03-31 13:55:07,508 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\event\\registry.py', reloading
+2025-03-31 13:55:07,509 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\util\\_collections.py', reloading
+2025-03-31 13:55:07,510 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\util\\_py_collections.py', reloading
+2025-03-31 13:55:07,511 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\orm\\query.py', reloading
+2025-03-31 13:55:07,512 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\notion_client\\client.py', reloading
+2025-03-31 13:55:07,513 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\__init__.py', reloading
+2025-03-31 13:55:07,514 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\notion_client\\api_endpoints.py', reloading
+2025-03-31 13:55:07,515 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\notion_client\\logging.py', reloading
+2025-03-31 13:55:07,516 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-03-31 13:55:07,517 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\notion_client\\typing.py', reloading
+2025-03-31 13:55:07,518 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_api.py', reloading
+2025-03-31 13:55:07,519 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_auth.py', reloading
+2025-03-31 13:55:07,521 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\config.py', reloading
+2025-03-31 13:55:07,522 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\ctx.py', reloading
+2025-03-31 13:55:07,523 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-03-31 13:55:07,525 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\signals.py', reloading
+2025-03-31 13:55:07,526 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_client.py', reloading
+2025-03-31 13:55:07,528 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-03-31 13:55:07,529 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_config.py', reloading
+2025-03-31 13:55:07,530 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_content.py', reloading
+2025-03-31 13:55:07,531 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_exceptions.py', reloading
+2025-03-31 13:55:07,532 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_models.py', reloading
+2025-03-31 13:55:07,533 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_status_codes.py', reloading
+2025-03-31 13:55:07,535 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_transports\\__init__.py', reloading
+2025-03-31 13:55:07,537 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_transports\\asgi.py', reloading
+2025-03-31 13:55:07,539 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_transports\\base.py', reloading
+2025-03-31 13:55:07,540 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_transports\\default.py', reloading
+2025-03-31 13:55:07,542 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_transports\\mock.py', reloading
+2025-03-31 13:55:07,543 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_transports\\wsgi.py', reloading
+2025-03-31 13:55:07,545 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_types.py', reloading
+2025-03-31 13:55:07,546 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\httpx\\_urls.py', reloading
+2025-03-31 13:55:07,547 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-03-31 13:55:07,548 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-03-31 13:55:07,549 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sessions.py', reloading
+2025-03-31 13:55:07,550 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-03-31 13:55:07,551 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2025-03-31 13:55:07,552 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-03-31 13:55:07,555 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-03-31 13:55:07,556 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\local.py', reloading
+2025-03-31 13:55:07,557 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-03-31 13:55:07,558 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+2025-03-31 13:55:07,563 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\datetime.py', reloading
+2025-03-31 13:55:07,580 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pydatetime.py', reloading
+2025-03-31 13:55:07,587 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\roles.py', reloading
+2025-03-31 13:55:07,589 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\elements.py', reloading
+2025-03-31 13:55:07,592 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\cache_key.py', reloading
+2025-03-31 13:55:07,593 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\traversals.py', reloading
+2025-03-31 13:55:07,594 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\util\\deprecations.py', reloading
+2025-03-31 13:55:07,595 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\util\\langhelpers.py', reloading
+2025-03-31 13:55:07,595 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\annotation.py', reloading
+2025-03-31 13:55:07,596 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-03-31 13:55:07,597 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+2025-03-31 13:55:07,598 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2025-03-31 13:55:07,599 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\blinker\\__init__.py', reloading
+2025-03-31 13:55:07,600 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\blinker\\base.py', reloading
+2025-03-31 13:55:07,614 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\signals.py', reloading
+2025-03-31 13:55:07,615 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\utils.py', reloading
+2025-03-31 13:55:07,616 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_sqlalchemy\\model.py', reloading
+2025-03-31 13:55:07,617 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_sqlalchemy\\session.py', reloading
+2025-03-31 13:55:07,618 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_sqlalchemy\\table.py', reloading
+2025-03-31 13:55:07,619 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\orm\\mapper.py', reloading
+2025-03-31 13:55:07,621 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\orm\\base.py', reloading
+2025-03-31 13:55:07,623 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\orm\\decl_api.py', reloading
+2025-03-31 13:55:07,624 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\orm\\interfaces.py', reloading
+2025-03-31 13:55:07,627 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\orm\\relationships.py', reloading
+2025-03-31 13:55:07,627 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\orm\\scoping.py', reloading
+2025-03-31 13:55:07,628 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\orm\\session.py', reloading
+2025-03-31 13:55:07,629 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\orm\\state.py', reloading
+2025-03-31 13:55:07,630 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\orm\\_typing.py', reloading
+2025-03-31 13:55:07,630 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\log.py', reloading
+2025-03-31 13:55:07,631 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\traceback.py', reloading
+2025-03-31 13:55:08,056 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 13:55:09,995 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 13:55:10,000 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:07:36,803 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-03-31 14:07:36,803 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 14:07:36,815 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:07:38,295 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:07:38,300 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:08:21,915 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\routing\\map.py', reloading
+2025-03-31 14:08:21,917 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\routing\\map.py', reloading
+2025-03-31 14:08:21,926 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:08:21] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-31 14:08:22,031 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:08:22] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-31 14:08:22,054 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:08:22] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-31 14:08:22,142 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:08:22] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=VePJ9XeLjmqk42TMGdtl HTTP/1.1" 200 -
+2025-03-31 14:08:22,303 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:08:22,616 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:08:23,959 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:08:23,964 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:08:24,027 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:08:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-31 14:08:24,072 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:08:24] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-31 14:08:24,154 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:08:24] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-31 14:08:24,154 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:08:24] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-31 14:08:24,208 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:08:24] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=HNaonhUzcXpn6jadGul8 HTTP/1.1" 200 -
+2025-03-31 14:08:24,241 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:08:24] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-31 14:08:24,324 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:08:24,329 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:15:55,999 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:15:55,999 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:15:56,000 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:15:56,000 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:15:56,451 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:15:56,696 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:15:58,599 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:15:58,608 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:15:58,653 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:15:58,657 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:16:04,648 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:16:04,648 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:16:04,834 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:16:05,834 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:16:06,646 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:16:06,653 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:16:07,489 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:16:07,494 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:18:30,335 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:18:30,335 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:18:30,336 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:18:30,336 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:18:30,337 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:18:31,072 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:18:31,257 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:18:32,975 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:18:32,983 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:18:33,054 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:18:33,059 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:18:40,022 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:18:40,022 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 14:18:40,242 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:18:41,156 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:18:41,800 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:18:41,805 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:18:42,772 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:18:42,777 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:20:06,903 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-03-31 14:20:06,903 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 14:20:06,916 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:20:08,736 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:20:08,741 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:20:20,333 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:20] "GET / HTTP/1.1" 200 -
+2025-03-31 14:20:20,458 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:20,467 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:20] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:20,559 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:20] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 14:20:27,284 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:27] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:20:27,307 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:27,318 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:27] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:28,891 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:28] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 14:20:28,922 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:28,932 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:28] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:30,462 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:30] "[32mGET /run_script HTTP/1.1[0m" 302 -
+2025-03-31 14:20:30,471 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:30] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:20:30,503 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:30,508 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:30] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:31,489 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:31] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 14:20:31,525 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:31,530 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:31] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:33,397 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:33] "[32mGET /run_script HTTP/1.1[0m" 302 -
+2025-03-31 14:20:33,407 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:33] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:20:33,433 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:33,434 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:33] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:36,735 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:36] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 14:20:36,765 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:36,776 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:36] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:38,324 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:38] "[32mGET /run_script HTTP/1.1[0m" 302 -
+2025-03-31 14:20:38,334 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:38] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:20:38,357 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:38,367 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:38] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:40,994 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:40] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 14:20:41,026 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:41,036 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:41] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:42,274 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:42] "[32mGET /run_script HTTP/1.1[0m" 302 -
+2025-03-31 14:20:42,283 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:42] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:20:42,307 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:42,319 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:42] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:45,094 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:45] "GET / HTTP/1.1" 200 -
+2025-03-31 14:20:45,126 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:45,137 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:45] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:46,240 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:46] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:20:46,273 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:46,277 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:46] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:47,598 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:47] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 14:20:47,628 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:47,638 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:47] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:49,164 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:49] "[32mGET /run_script HTTP/1.1[0m" 302 -
+2025-03-31 14:20:49,173 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:49] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:20:49,200 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:49,201 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:49] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:51,092 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:51] "GET / HTTP/1.1" 200 -
+2025-03-31 14:20:51,147 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:51,150 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:51] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:54,353 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:54] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:20:54,379 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:54,380 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:54] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:55,244 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:55] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 14:20:55,275 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:55,284 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:55] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:20:56,985 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:56] "GET / HTTP/1.1" 200 -
+2025-03-31 14:20:57,014 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:20:57,015 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:20:57] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:21:02,285 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:21:02] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:21:02,318 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:21:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:21:02,330 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:21:02] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:23:20,993 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\mH2.py', reloading
+2025-03-31 14:23:20,993 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\mH2.py', reloading
+2025-03-31 14:23:21,424 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:23:21,790 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:23:23,743 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:23:23,749 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:23:23,872 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:23:23,879 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:25:33,017 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-03-31 14:25:34,058 - notion_integration - INFO - Obtenidas 8 páginas con filtros. Total acumulado: 8
+2025-03-31 14:25:34,059 - notion_integration - INFO - Iniciando ajuste de fechas: 2 horas a partir de 2025-03-10T00:00:00
+2025-03-31 14:25:34,060 - notion_integration - INFO - Filtros aplicados: ninguno
+2025-03-31 14:25:34,060 - notion_integration - INFO - Total de páginas a procesar: 8
+2025-03-31 14:25:34,611 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-03-31 14:25:36,658 - notion_integration - INFO - Página 1a123882-4ec5-801e-98ad-f83e9385ffa6 actualizada correctamente
+2025-03-31 14:25:36,659 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:25:36,660 - notion_integration - INFO - Página 1a123882-4ec5-8028-a9c6-dc6ef4a99457 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:25:36,660 - notion_integration - INFO - Página 1a123882-4ec5-80af-94bd-c6453c81c0e9 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:25:36,661 - notion_integration - INFO - Página 1a123882-4ec5-809c-992c-db2589aaa2f7 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:25:36,661 - notion_integration - INFO - Página 1a123882-4ec5-80fc-b895-fcd3f429048c con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:25:36,661 - notion_integration - INFO - Página 1a123882-4ec5-8098-b508-eccd0d9370d6 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:25:36,662 - notion_integration - INFO - Proceso completado: 2 páginas actualizadas, 0 fallidas, 6 omitidas
+2025-03-31 14:25:36,682 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:25:36] "POST /run_script HTTP/1.1" 200 -
+2025-03-31 14:25:59,049 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-03-31 14:25:59,442 - notion_integration - INFO - Obtenidas 8 páginas con filtros. Total acumulado: 8
+2025-03-31 14:25:59,444 - notion_integration - INFO - Iniciando ajuste de fechas: 2 horas a partir de 2025-03-10T00:00:00
+2025-03-31 14:25:59,444 - notion_integration - INFO - Filtros aplicados: ninguno
+2025-03-31 14:25:59,445 - notion_integration - INFO - Total de páginas a procesar: 8
+2025-03-31 14:25:59,935 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-03-31 14:26:00,705 - notion_integration - INFO - Página 1a123882-4ec5-801e-98ad-f83e9385ffa6 actualizada correctamente
+2025-03-31 14:26:00,706 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:26:00,706 - notion_integration - INFO - Página 1a123882-4ec5-8028-a9c6-dc6ef4a99457 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:26:00,707 - notion_integration - INFO - Página 1a123882-4ec5-80af-94bd-c6453c81c0e9 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:26:00,708 - notion_integration - INFO - Página 1a123882-4ec5-809c-992c-db2589aaa2f7 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:26:00,708 - notion_integration - INFO - Página 1a123882-4ec5-80fc-b895-fcd3f429048c con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:26:00,709 - notion_integration - INFO - Página 1a123882-4ec5-8098-b508-eccd0d9370d6 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:26:00,709 - notion_integration - INFO - Proceso completado: 2 páginas actualizadas, 0 fallidas, 6 omitidas
+2025-03-31 14:26:00,728 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:26:00] "POST /run_script HTTP/1.1" 200 -
+2025-03-31 14:26:35,081 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-03-31 14:26:35,769 - notion_integration - INFO - Obtenidas 8 páginas con filtros. Total acumulado: 8
+2025-03-31 14:26:35,770 - notion_integration - INFO - Iniciando ajuste de fechas: 2 horas a partir de 2025-03-10T00:00:00
+2025-03-31 14:26:35,770 - notion_integration - INFO - Filtros aplicados: ninguno
+2025-03-31 14:26:35,770 - notion_integration - INFO - Total de páginas a procesar: 8
+2025-03-31 14:26:36,297 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-03-31 14:26:38,218 - notion_integration - INFO - Página 1a123882-4ec5-801e-98ad-f83e9385ffa6 actualizada correctamente
+2025-03-31 14:26:38,219 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:26:38,220 - notion_integration - INFO - Página 1a123882-4ec5-8028-a9c6-dc6ef4a99457 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:26:38,221 - notion_integration - INFO - Página 1a123882-4ec5-80af-94bd-c6453c81c0e9 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:26:38,222 - notion_integration - INFO - Página 1a123882-4ec5-809c-992c-db2589aaa2f7 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:26:38,223 - notion_integration - INFO - Página 1a123882-4ec5-80fc-b895-fcd3f429048c con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:26:38,224 - notion_integration - INFO - Página 1a123882-4ec5-8098-b508-eccd0d9370d6 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 14:26:38,225 - notion_integration - INFO - Proceso completado: 2 páginas actualizadas, 0 fallidas, 6 omitidas
+2025-03-31 14:26:38,251 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:26:38] "POST /run_script HTTP/1.1" 200 -
+2025-03-31 14:48:50,195 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:50] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:48:50,318 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:50] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:48:50,323 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:50] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-31 14:48:50,410 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:50] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 14:48:55,029 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:55] "GET / HTTP/1.1" 200 -
+2025-03-31 14:48:55,054 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:48:55,054 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:55] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:48:56,039 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:56] "GET / HTTP/1.1" 200 -
+2025-03-31 14:48:56,062 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:48:56,071 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:56] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:48:56,390 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:56] "GET / HTTP/1.1" 200 -
+2025-03-31 14:48:56,414 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:48:56,421 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:56] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:48:57,188 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:57] "GET / HTTP/1.1" 200 -
+2025-03-31 14:48:57,213 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:48:57,220 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:57] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:48:58,479 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:58] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:48:58,509 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:48:58,517 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:58] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:48:59,781 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:59] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 14:48:59,807 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:48:59,807 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:48:59] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:49:01,389 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:01] "GET / HTTP/1.1" 200 -
+2025-03-31 14:49:01,419 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:49:01,421 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:01] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:49:13,412 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:13] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:49:13,439 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:49:13,442 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:13] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:49:14,275 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:14] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 14:49:14,305 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:49:14,314 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:14] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:49:16,126 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:16] "GET / HTTP/1.1" 200 -
+2025-03-31 14:49:16,152 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:49:16,160 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:16] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:49:18,047 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:18] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:49:18,080 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:49:18,080 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:49:18] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:51:55,949 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-03-31 14:51:55,950 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 14:51:55,962 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 14:51:57,762 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 14:51:57,769 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 14:52:03,933 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:03] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:52:03,977 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:03] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-31 14:52:03,983 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:03] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:52:04,022 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:04] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 14:52:06,557 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:06] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:52:06,578 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:52:06,585 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:06] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:52:06,619 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:06] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 14:52:08,076 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:08] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:52:08,100 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:52:08,101 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:08] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:52:08,138 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:08] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 14:52:24,031 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:24] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:52:24,058 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:52:24,058 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:24] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:52:25,365 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:25] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:52:25,392 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:52:25,394 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:25] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:52:25,880 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:25] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 14:52:25,906 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:52:25,914 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:25] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:52:27,244 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:27] "GET / HTTP/1.1" 200 -
+2025-03-31 14:52:27,277 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:52:27,278 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:27] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:52:28,015 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:28] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:52:28,042 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:52:28,049 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:28] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:52:28,696 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:28] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 14:52:28,733 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:52:28,735 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:28] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:52:29,794 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:29] "GET / HTTP/1.1" 200 -
+2025-03-31 14:52:29,826 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:52:29,827 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:29] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:52:38,502 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:38] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:52:38,533 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:38] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:52:38,534 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:52:39,322 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:39] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 14:52:39,346 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:52:39,357 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:39] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 14:52:40,573 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:40] "[32mGET /run_script HTTP/1.1[0m" 302 -
+2025-03-31 14:52:40,582 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:40] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 14:52:40,612 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 14:52:40,623 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 14:52:40] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:15:07,042 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:07] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 15:15:07,068 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:07] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-31 15:15:07,080 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:07] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:15:07,120 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:07] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 15:15:12,269 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:12] "GET / HTTP/1.1" 200 -
+2025-03-31 15:15:12,295 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:15:12,295 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:12] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:15:22,010 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:22] "GET / HTTP/1.1" 200 -
+2025-03-31 15:15:22,035 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:15:22,040 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:22] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:15:22,771 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:22] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 15:15:22,813 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:15:22,813 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:22] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:15:24,421 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:24] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 15:15:24,448 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:15:24,456 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:24] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:15:25,409 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:25] "GET / HTTP/1.1" 200 -
+2025-03-31 15:15:25,440 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:15:25,449 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:25] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:15:26,850 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:26] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 15:15:26,877 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:15:26,879 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:26] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:15:29,405 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:29] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 15:15:29,437 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:15:29,446 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:29] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:15:30,883 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:30] "GET / HTTP/1.1" 200 -
+2025-03-31 15:15:30,910 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:15:30,920 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:30] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:15:37,480 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:37] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 15:15:37,512 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:15:37,523 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:37] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:15:38,786 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:38] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 15:15:38,812 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:15:38,812 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:38] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:15:41,071 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:41] "GET / HTTP/1.1" 200 -
+2025-03-31 15:15:41,104 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:15:41,109 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:15:41] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:17:48,219 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:17:48] "GET / HTTP/1.1" 200 -
+2025-03-31 15:17:48,239 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:17:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:17:48,247 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:17:48] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:17:48,281 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:17:48] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 15:18:32,692 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-03-31 15:18:32,693 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 15:18:32,708 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 15:18:34,679 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 15:18:34,685 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 15:18:54,659 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:54] "GET / HTTP/1.1" 200 -
+2025-03-31 15:18:54,684 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:18:54,694 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:54] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:18:54,727 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:54] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 15:18:57,191 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:57] "GET / HTTP/1.1" 200 -
+2025-03-31 15:18:57,218 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:18:57,226 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:57] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:18:57,254 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:57] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 15:18:58,097 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:58] "GET / HTTP/1.1" 200 -
+2025-03-31 15:18:58,122 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:58] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:18:58,122 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:18:58,155 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:58] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 15:18:59,280 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:59] "GET / HTTP/1.1" 200 -
+2025-03-31 15:18:59,301 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:18:59,309 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:59] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:18:59,334 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:18:59] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-03-31 15:19:00,448 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:00] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 15:19:00,474 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:19:00,483 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:00] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:19:02,429 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:02] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 15:19:02,461 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:19:02,463 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:02] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:19:03,659 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:03] "GET / HTTP/1.1" 200 -
+2025-03-31 15:19:03,686 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:19:03,695 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:03] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:19:14,349 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:14] "GET /create_project HTTP/1.1" 200 -
+2025-03-31 15:19:14,380 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:19:14,383 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:14] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:19:16,269 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:16] "GET / HTTP/1.1" 200 -
+2025-03-31 15:19:16,299 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:19:16,301 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:16] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:19:17,370 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:17] "GET /adjust_dates HTTP/1.1" 200 -
+2025-03-31 15:19:17,399 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-31 15:19:17,412 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:19:17] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-03-31 15:19:32,061 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-03-31 15:19:56,806 - notion_integration - INFO - Conexión a la API de Notion validada correctamente
+2025-03-31 15:19:57,703 - notion_integration - INFO - Obtenidas 8 páginas con filtros. Total acumulado: 8
+2025-03-31 15:19:57,704 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-03-10T00:00:00
+2025-03-31 15:19:57,704 - notion_integration - INFO - Filtros aplicados: ninguno
+2025-03-31 15:19:57,704 - notion_integration - INFO - Total de páginas a procesar: 8
+2025-03-31 15:19:58,259 - notion_integration - INFO - Página 1a123882-4ec5-8006-9a0b-e8efe7ac18b8 actualizada correctamente
+2025-03-31 15:20:02,142 - notion_integration - ERROR - Error al obtener páginas de Notion con filtros: HTTPSConnectionPool(host='api.notion.com', port=443): Read timed out. (read timeout=30)
+2025-03-31 15:20:02,144 - notion_integration - INFO - Iniciando ajuste de fechas: 1 horas a partir de 2025-03-10T00:00:00
+2025-03-31 15:20:02,145 - notion_integration - INFO - Filtros aplicados: ninguno
+2025-03-31 15:20:02,146 - notion_integration - INFO - Total de páginas a procesar: 0
+2025-03-31 15:20:02,147 - notion_integration - INFO - Proceso completado: 0 páginas actualizadas, 0 fallidas, 0 omitidas
+2025-03-31 15:20:02,175 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:20:02] "POST /run_script HTTP/1.1" 200 -
+2025-03-31 15:20:28,341 - notion_integration - ERROR - Error al actualizar página 1a123882-4ec5-801e-98ad-f83e9385ffa6: HTTPSConnectionPool(host='api.notion.com', port=443): Read timed out. (read timeout=30)
+2025-03-31 15:20:28,343 - notion_integration - INFO - Página 1a123882-4ec5-80cf-8cb6-d28398e325e3 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 15:20:28,344 - notion_integration - INFO - Página 1a123882-4ec5-8028-a9c6-dc6ef4a99457 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 15:20:28,346 - notion_integration - INFO - Página 1a123882-4ec5-80af-94bd-c6453c81c0e9 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 15:20:28,347 - notion_integration - INFO - Página 1a123882-4ec5-809c-992c-db2589aaa2f7 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 15:20:28,348 - notion_integration - INFO - Página 1a123882-4ec5-80fc-b895-fcd3f429048c con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 15:20:28,349 - notion_integration - INFO - Página 1a123882-4ec5-8098-b508-eccd0d9370d6 con fecha anterior a 2025-03-10T00:00:00, omitiendo
+2025-03-31 15:20:28,350 - notion_integration - INFO - Proceso completado: 1 páginas actualizadas, 1 fallidas, 6 omitidas
+2025-03-31 15:20:28,369 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 15:20:28] "POST /run_script HTTP/1.1" 200 -
+2025-03-31 15:22:04,870 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 15:22:04,870 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-03-31 15:22:05,349 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 15:22:05,824 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-31 15:22:07,085 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 15:22:07,092 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-03-31 15:22:07,509 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 15:22:07,514 - werkzeug - INFO -  * Debugger PIN: 810-284-793

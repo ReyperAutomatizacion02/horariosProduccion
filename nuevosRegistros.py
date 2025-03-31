@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 1. Inicializar el cliente de Notion
-notion_api = os.environ.get("NOTION_API_HOR")
+notion_api = os.environ.get("NOTION_API_KEY")
 if not notion_api:
-    print("Error: No se encontró la variable de entorno 'NOTION_API_HOR'. Asegúrate de haber configurado el archivo .env")
+    print("Error: No se encontró la variable de entorno 'NOTION_API_KEY'. Asegúrate de haber configurado el archivo .env")
     exit()
 
 notion = Client(auth=notion_api)

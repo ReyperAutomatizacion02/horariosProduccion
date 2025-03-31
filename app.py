@@ -149,11 +149,18 @@ def create_project():
             return jsonify({'error': 'Error al crear el proyecto.'}), 500
     return render_template('create_project.html')
 
+@app.route('/adjust_dates', methods=['GET'])
+@login_required
+def adjust_dates():
+    return render_template('adjust_dates.html')
+
 # ======================================================================
-@app.route('/run_script', methods=['POST'])
+@app.route('/run_script', methods=['GET', 'POST'])
 @login_required
 
 def run_script():
+    if request.method == 'GET':
+        return redirect(url_for('adjust_dates'))
     print("DEBUG: Inicio de la función run_script()")
     try:
         print("DEBUG: Dentro del bloque try")
