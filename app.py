@@ -9,6 +9,10 @@ import os  # Importado para acceder a variables de entorno.
 from datetime import datetime  # Importado para manejar fechas.
 import mH2 as moverHorarios02  # Importa el script que define la función para mover horarios.
 from flask_migrate import Migrate  # Import Flask-Migrate
+from dotenv import load_dotenv
+
+# Cargar variables de entorno
+load_dotenv()
 
 # =====================
 # Creación de app Flask
@@ -120,11 +124,30 @@ def register():
 
 # Ruta para el logout
 @app.route('/logout')
-@login_required # Requiere que el usuario esté logueado para acceder
+@login_required
 def logout():
-    logout_user() # Cerrar sesión del usuario
-    flash('Logout exitoso.', 'info') # Mensaje flash (opcional)
-    return redirect(url_for('index')) # Redirigir a la página principal (o login, etc.)
+    logout_user()
+    flash('Logout exitoso.', 'info')
+    return redirect(url_for('index'))
+
+@app.route('/create_project', methods=['GET', 'POST'])
+@login_required
+def create_project():
+    if request.method == 'POST':
+        from nuevosRegistros import crear_proyecto, crear_partidas  # Importa las funciones aquí para evitar problemas de dependencia circular
+        nombre_proyecto = request.form['nombre_proyecto']
+        num_partidas = int(request.form['num_partidas'])
+
+        proyecto_page_id = crear_proyecto(nombre_proyecto)
+        if proyecto_page_id:
+            partidas_ids = crear_partidas(num_partidas, proyecto_page_id)
+            if partidas_ids:
+                return jsonify({'message': f'Proyecto "{nombre_proyecto}" creado con éxito con {len(partidas_ids)} partidas.'})
+            else:
+                return jsonify({'error': 'Error al crear las partidas.'}), 500
+        else:
+            return jsonify({'error': 'Error al crear el proyecto.'}), 500
+    return render_template('create_project.html')
 
 # ======================================================================
 @app.route('/run_script', methods=['POST'])

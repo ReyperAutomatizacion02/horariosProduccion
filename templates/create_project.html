@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Proyecto</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <img class="logo" src="{{ url_for('static', filename='img/LOGO REYPER.png' ) }}">
+    <h1 class="titulo">Crear Nuevo Proyecto</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav">
+            <a class="nav-link" href="{{ url_for('index') }}">Inicio</a>
+            <a class="nav-link" href="{{ url_for('run_script') }}">Notion Date Adjustment</a>
+            <a class="nav-link" href="{{ url_for('create_project') }}">Create Project</a>
+            <!-- Add links to other tools here -->
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+            {% if current_user.is_authenticated %}
+                <li class="nav-item">
+                    <span class="navbar-text">Usuario: {{ current_user.username }}</span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('logout') }}">Cerrar sesión</a>
+                </li>
+            {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('login') }}">Acceder</a>
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
+
+    <form id="createProjectForm" method="POST" action="{{ url_for('create_project') }}">
+        <div class="form-group">
+            <label for="nombre_proyecto">Nombre del Proyecto:</label>
+            <input type="text" class="form-control" id="nombre_proyecto" name="nombre_proyecto" required>
+        </div>
+        <div class="form-group">
+            <label for="num_partidas">Número de Partidas:</label>
+            <input type="number" class="form-control" id="num_partidas" name="num_partidas" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Crear Proyecto y Partidas</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('createProjectForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+
+            fetch('/create_project', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultDiv = document.getElementById('result');
+                if (data.message) {
+                    resultDiv.innerHTML = '<p>Mensaje: ' + data.message + '</p>';
+                } else if (data.error) {
+                    resultDiv.innerHTML = '<p style="color: red;">Error: ' + data.error + '</p>';
+                }
+            });
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -14,7 +14,12 @@
     <h1 class="titulo">📅 Ajuste - Fechas de Producción 🦾</h1>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">inicio</a>
+        <ul class="navbar-nav">
+            <a class="nav-link" href="{{ url_for('index') }}">Inicio</a>
+            <a class="nav-link" href="{{ url_for('run_script') }}">Notion Date Adjustment</a>
+            <a class="nav-link" href="{{ url_for('create_project') }}">Create Project</a>
+            <!-- Add links to other tools here -->
+        </ul>
 
         <ul class="navbar-nav ml-auto">
             {% if current_user.is_authenticated %}
@@ -23,10 +28,14 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url_for('logout') }}">Cerrar sesión</a>
+                    <a class="nav-link" href="{{ url_for('register') }}">Registrate</a>
                 </li>
             {% else %}
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url_for('login') }}">Accesar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('register') }}">Registrate</a>
                 </li>
             {% endif %}
         </ul>
@@ -44,7 +53,7 @@
             </label>
         </div>
         <div class="bloqueFecha">
-            <label for="start_date">Fecha de inicio (YYYY-MM-DD):</label>
+            <label for="start_date">Fecha de inicio:</label>
             <input type="date" id="start_date" name="start_date" required>
         </div>
 

@@ -7,56 +7,76 @@
     <link rel="preload" href="{{ url_for('static', filename='css/styles.css') }}" as="style">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <style>
+        body { padding-top: 20px; } /* Añade un poco de padding superior al body */
+        .logo { display: block; margin: 0 auto 20px; max-width: 200px; height: auto; } /* Centra y limita el logo */
+        .titulo { text-align: center; margin-bottom: 30px; } /* Centra el título y añade margen inferior */
+        .navbar { margin-bottom: 20px; } /* Margen inferior para la barra de navegación */
+        .flash-messages { margin-bottom: 20px; } /* Margen inferior para los mensajes flash */
+        .flash-messages .alert { margin-bottom: 5px; } /* Margen entre mensajes flash individuales */
+
+        :root {
+            --custom-btn-bg: #F13234; /* Violeta */
+        }
+        .btn-custom {
+            background-color: var(--custom-btn-bg);
+            color: white;
+            border: none;
+        }
+        .btn-custom:hover {
+            background-color: #992224; /* Un tono más oscuro al pasar el mouse */
+        }
+    </style>
 </head>
 <body>
-    <img class="logo" src="{{ url_for('static', filename='img/LOGO REYPER.png' ) }}">
-    <h1 class="titulo">📅 Ajuste - Fechas de Producción 🦾</h1>
-
     <div class="container">
+        <img class="logo" src="{{ url_for('static', filename='img/LOGO REYPER.png') }}" alt="Logo Reyper">
+        <h1 class="titulo">📅 Ajuste - Fechas de Producción 🦾</h1>
+
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <h2>Acceso</h2>
-                {% with messages = get_flashed_messages(with_categories=true) %}
-                    {% if messages %}
-                        {% for category, message in messages %}
-                            <div class="alert alert-{{ category }}">
-                                {{ message }}
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="text-center mb-4">Acceso</h2>
+                        {% with messages = get_flashed_messages(with_categories=true) %}
+                            {% if messages %}
+                            <div class="flash-messages">
+                                {% for category, message in messages %}
+                                <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                                    {{ message }}
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                {% endfor %}
                             </div>
-                        {% endfor %}
-                    {% endif %}
-                {% endwith %}
-                <form method="POST" action="/login">
-                    <div class="form-group">
-                        <label for="username">Usuario:</label>
-                        <input type="text" class="form-control" id="username" name="username" required>
+                            {% endif %}
+                        {% endwith %}
+                        <form method="POST" action="/login">
+                            <div class="form-group">
+                                <label for="username">Usuario</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Contraseña</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <div class="text-center borde-bot">
+                                <button type="submit" class="bt-primario-cuestionario">Accesar</button>
+                            </div>
+                            <div class="text-center">
+                                <a href="{{ url_for('index') }}" class="bt-secundario-cuestionario">Volver</a>
+                                <a href="{{ url_for('logout') }}" class="bt-secundario2-cuestionario">Cerrar sesión</a>
+                            </div>
+                        </form>
                     </div>
-                    <div class="form-group">
-                        <label for="password">Contraseña:</label>
-                        <input type="password" class="form-control" id="password" name="password" required>
-                    </div>
-                    <button type="submit" class="btn btn-info">Accesar</button>
-                    <a href="{{ url_for('index') }}" class="btn btn-secondary">Volver</a>
-                    <a href="{{ url_for('logout') }}" class="btn btn-custom">Cerrar sesión</a>
-                </form>
+                </div>
             </div>
         </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
-<style>
-    :root {
-      --custom-btn-bg: #F13234; /* Violeta */
-    }
-    .btn-custom {
-      background-color: var(--custom-btn-bg);
-      color: white;
-      border: none;
-    }
-    .btn-custom:hover {
-      background-color: #992224; /* Un tono más oscuro al pasar el mouse */
-    }
-  </style>
 </html>
