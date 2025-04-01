@@ -6,44 +6,62 @@
     <title>Ajuste de Fechas Notion</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <link rel="preload" href="{{ url_for('static', filename='css/styles.css') }}" as="style">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
 </head>
 <body>
-    <img class="logo" src="{{ url_for('static', filename='img/LOGO REYPER.png' ) }}">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header>
+        <img class="logo" src="{{ url_for('static', filename='img/LOGO.png') }}" alt="Logo">
+        <nav class="navbar">
         <ul class="navbar-nav">
-            <a class="nav-link" href="{{ url_for('index') }}">Inicio</a>
-            <a class="nav-link" href="{{ url_for('adjust_dates') }}">Notion Date Adjustment</a>
-            <a class="nav-link" href="{{ url_for('create_project') }}">Create Project</a>
-            <!-- Add links to other tools here -->
+            <li class="dropdown">
+                <a class="nav-link inicio-link" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                    Notion
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{{ url_for('adjust_dates') }}">Ajuste de horarios PRO</a>
+                    <a class="dropdown-item" href="{{ url_for('create_project') }}">Nuevo Proyecto VEN</a>
+                </div>
+            </li>
         </ul>
 
-        <ul class="navbar-nav ml-auto">
-            {% if current_user.is_authenticated %}
-                <li class="nav-item">
-                    <span class="navbar-text">Usuario: {{ current_user.username }}</span>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('logout') }}">Cerrar sesión</a>
-                    <a class="nav-link" href="{{ url_for('register') }}">Registrate</a>
-                </li>
-            {% else %}
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('login') }}">Accesar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('register') }}">Registrate</a>
-                </li>
-            {% endif %}
+        <ul class="navbar-nav">
+            <li>
+                <a class="nav-link dropdown-toggle" href="{{ url_for('index') }}">Inicio</a>
+            </li>
         </ul>
-    </nav>
 
-    <h1 style="text-align: center;">Welcome to the Central Hub!</h1>
+        </ul>
+        </nav>
+        <div class="auth-links">
+            <ul class="navbar-nav">
+                {% if current_user.is_authenticated %}
+                    <li>
+                        <span>Usuario: {{ current_user.username }}</span>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="{{ url_for('logout') }}">Cerrar sesión</a>
+                    </li>
+                {% else %}
+                    <li>
+                        <a class="nav-link" href="{{ url_for('login') }}">Accesar</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="{{ url_for('register') }}">Registrate</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </header>
+    <div class="primary-box">
+        <h1 class="titulo">AutoIntelli!</h1>
+        <p class="description">Esta plataforma reúne herramientas diseñadas para optimizar y automatizar procesos en la empresa, haciendo que áreas como producción, recursos humanos, diseño, ventas, compras y contabilidad trabajen de manera más ágil y eficiente.
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+El objetivo es simple: reducir tiempos, minimizar errores y facilitar la gestión de tareas con tecnología inteligente.</p>
+    </div>
+    <div class="image-box"></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,164 +1,179 @@
+:root{
+    --primario: #D42D2E;
+    --secundario: #000000;
+    --negro: #000000;
+    --blanco: #FFFFFF;
+}
 html {
     font-size: 62.5%;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-family: "Major Mono Display", monospace;
+    font-size: 14px;
     margin: 0;
     padding: 2rem;
-    background-color: #f9f9f9; /* Light background color */
-    color: #333; /* Dark text color */
+    background-color: var(--blanco); /* Light background color */
+    color: var(--negro); /* Dark text color */
 }
 
-.borde-bot {
-    margin-bottom: 1rem;
-}
-
-.titulo {
-    text-align: center;
-    color: #333; /* Dark text color */
-    font-size: 4rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
+/* LOGO */
 .logo {
-    height: 8rem;
-    width: auto;
+    height: 40px; /* Match navbar height */
     position: absolute;
-    top: 1rem;
-    left: 1rem;
 }
 
-.bloqueHoras{
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
 
-.bloqueFecha {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.filtros {
-    text-align: center;
-    color: #333; /* Dark text color */
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-.bloqueFiltro1 {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.subFiltro {
-    text-align: center;
-    color: #333; /* Dark text color */
-    margin-bottom: 0.5rem;
-}
-
-.bloqueFiltro2 {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.boton {
-    text-align: center;
-    font-size: 1rem;
-    margin-top: 2rem;
-}
-
-.bloqueMovimiento {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
+/* BARRA DE NAVEGACIÓN */
 .navbar {
-    background-color: #f9f9f9; /* Light background color */
-    border-bottom: 1px solid #ddd;
+    background-color: var(--negro); /* Black background color */
+    border-bottom: var(--blanco);
+    height: 40px; /* Make the navbar smaller */
+    border-radius: 20px; /* Add rounded corners */
+    margin-left: 9rem; /* Move the navbar to the right */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.centered-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-nav {
-    margin: 0 auto;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.navbar-nav .nav-item {
-    margin: 0 1rem;
-}
-
-.navbar-nav .nav-link {
-    color: #333; /* Dark text color */
+.inicio-link {
+    color: #ffffff; /* White text color */
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
+    margin-left: 1rem;
 }
 
-.navbar-nav .nav-link:hover {
-    background-color: #eee;
+.auth-links a {
+    color: var(--negro); /* White text color */
+    text-decoration: none;
+    padding: 1rem 0.6rem;
+    border-radius: 0.25rem;
 }
 
-.bt-primario-cuestionario {
+/* LISTA DESPLEGABLE */
+.dropdown {
+    position: relative;
     display: inline-block;
-    font-weight: 400;
-    color:#ffffff;
-    text-align: center;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color:#992224;
-    border: 1px solid transparent;
-    padding: .5rem 8rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.bt-secundario-cuestionario {
-    display: inline-block;
-    font-weight: 400;
-    color:#ffffff;
-    text-align: center;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color:#605e5e;
-    border: 1px solid transparent;
-    padding: .5rem 3.4rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+.dropdown-toggle {
+    background-color: var(--primario);
+    color: var(--blanco);
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    margin-right: 1rem;
 }
 
-.bt-secundario2-cuestionario {
-    display: inline-block;
-    font-weight: 400;
-    color:#ffffff;
-    text-align: center;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color:#511314;
-    border: 1px solid transparent;
-    padding: .5rem 1.9rem;
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
     font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #16181b;
+    background-color: #f8f9fa;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.auth-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-right: 1rem;
+}
+
+.auth-links .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.primary-box {
+    background-color: var(--primario);
+    height: 100vh; /* 50% of the viewport height */
+    width: 49.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    margin-top: 0.3rem;
+}
+
+.description {
+    color: var(--blanco);
+    font-size: 2rem;
+    padding: 2rem;
+    text-align:justify;
+}
+
+.titulo {
+    color: var(--blanco);
+    font-family: "Major Mono Display", monospace;
+    font-size: 5rem;
+}
+
+.image-box {
+    background-image: linear-gradient(to top, rgba(137, 33, 33, 0.83), rgba(0, 0, 0, 0.204)), url("../img/MACHINE.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 2rem;
+    height: 100vh; /* 100% of the viewport height */
+    width: 49.5%;
+    position: absolute;
+    top: 8rem;
+    right: 0;
 }

@@ -9,35 +9,35 @@
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
 </head>
 <body>
-    <img class="logo" src="{{ url_for('static', filename='img/LOGO REYPER.png' ) }}">
-    <h1 class="titulo">📅 Ajuste - Fechas de Producción 🦾</h1>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header>
+    <img class="logo" src="{{ url_for('static', filename='img/LOGO.png' ) }}" alt= "Logo">
+    <nav class="navbar">
         <ul class="navbar-nav">
-            <a class="nav-link" href="{{ url_for('index') }}">Inicio</a>
-            <a class="nav-link" href="{{ url_for('adjust_dates') }}">Notion Date Adjustment</a>
-            <a class="nav-link" href="{{ url_for('create_project') }}">Create Project</a>
+            <li><a class="nav-link" href="{{ url_for('index') }}">Inicio</a></li>
+            <li><a class="nav-link" href="{{ url_for('adjust_dates') }}">Notion Date Adjustment</a></li>
+            <li><a class="nav-link" href="{{ url_for('create_project') }}">Create Project</a></li>
             <!-- Add links to other tools here -->
         </ul>
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav">
             {% if current_user.is_authenticated %}
-                <li class="nav-item">
-                    <span class="navbar-text">Usuario: {{ current_user.username }}</span>
+                <li>
+                    <span>Usuario: {{ current_user.username }}</span>
                 </li>
-                <li class="nav-item">
+                <li>
                     <a class="nav-link" href="{{ url_for('logout') }}">Cerrar sesión</a>
                     <a class="nav-link" href="{{ url_for('register') }}">Registrate</a>
                 </li>
             {% else %}
-                <li class="nav-item">
+                <li>
                     <a class="nav-link" href="{{ url_for('login') }}">Acceder</a>
                 </li>
-                <li class="nav-item">
+                <li>
                     <a class="nav-link" href="{{ url_for('register') }}">Registrate</a>
                 </li>
             {% endif %}
         </ul>
     </nav>
+    </header>
 
     <form id="adjustForm">
         <div class="bloqueHoras">
