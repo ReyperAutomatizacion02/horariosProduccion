@@ -8,6 +8,7 @@
     --gris:#313131;
     --gris-t:#31313189;
 }
+
 html {
     font-size: 62.5%;
     height: 100%;
@@ -17,18 +18,12 @@ body {
     font-family: "Major Mono Display", monospace;
     font-size: 14px;
     margin: 0; /* Reset margin */
-    padding: 2rem;
     background-color: var(--gris-oscuro);
+    padding: 2rem;
     color: var(--negro);
-    min-height: 100vh;
     display: flex;
     flex-direction: column; /* Por defecto apilamos verticalmente */
-    align-items: center; /* Centramos horizontalmente en pantallas pequeñas */
-}
-
-/* LOGO */
-.logo {
-    height: 40px;
+    align-items: stretch; /* Centramos horizontalmente en pantallas pequeñas */
 }
 
 .header {
@@ -37,9 +32,16 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-bottom: -1.5rem;
+    margin-left: 0.5rem;
 }
 
-/* BARRA DE NAVEGACIÓN */
+.logo {
+    margin: 0.5rem;
+    height: 40px;
+    margin-bottom: 1.5rem; /* Añadimos un margen inferior para separarlo de la navegación */
+}
+
 .navbar {
     background-color: var(--gris);
     border-bottom: var(--blanco);
@@ -48,23 +50,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 100%;
     margin-top: 1rem; /* Añade un margen superior a la barra de navegación */
-}
-
-.centered-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 2rem; /* Añadimos un margen inferior para separarla del contenido principal */
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .navbar-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
 .inicio-link {
@@ -75,6 +76,22 @@ body {
     margin-left: 1rem;
 }
 
+
+
+
+
+
+
+
+.centered-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 .auth-links a {
     color: var(--gris-claro);
     text-decoration: none;
@@ -82,11 +99,6 @@ body {
     border-radius: 0.25rem;
 }
 
-/* LISTA DESPLEGABLE */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
 
 .dropdown-toggle {
     background-color: var(--primario);
@@ -214,30 +226,6 @@ span.usuario {
 }
 
 @media (min-width: 769px) {
-    body {
-        flex-direction: column; /* Volvemos a apilar verticalmente para controlar el header */
-        align-items: stretch; /* Estiramos los elementos para que ocupen el ancho */
-    }
-
-    .header {
-        margin-bottom: -2rem;
-        justify-content: normal;
-        margin-left: 1rem;
-    }
-
-    .logo {
-        position: relative; /* El logo ahora fluye */
-        left: auto; /* Reseteamos la posición izquierda */
-        margin-bottom: 1.2rem; /* Añadimos un margen inferior para separarlo de la navegación */
-    }
-
-    .navbar {
-        width: 100%; /* La barra de navegación ocupa todo el ancho */
-        margin-bottom: 2rem; /* Añadimos un margen inferior para separarla del contenido principal */
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
-
     .lottie-icon {
         width: 200px;
         height: 200px;
@@ -269,12 +257,12 @@ span.usuario {
 }
 
 @media (max-width: 768px) {
-    html {
-        font-size: 50%;
-    }
-
     body {
         padding: 1rem;
+    }
+
+    .header {
+        margin-bottom: -0.5rem;
     }
 
     .logo {
@@ -282,8 +270,6 @@ span.usuario {
     }
 
     .navbar {
-        margin-top: 1rem;
-        width: 100%;
         margin-bottom: 1rem;
     }
 
@@ -317,16 +303,9 @@ span.usuario {
     }
 }
 
-
-
 @media (max-width: 480px) {
-    html {
-        font-size: 40%;
-    }
-
-    body {
-        padding: 1rem;
-        min-height: auto;
+    .logo {
+        margin-bottom: 0.5rem;
     }
 
     .primary-box {
