@@ -2,33 +2,36 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale: 1.0">
-    <title>Ajuste de Fechas Notion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoIntelli</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" href="{{ url_for('static', filename='css/styles.css') }}" as="style">
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
 </head>
 <body>
     <header>
-        <img class="logo" src="{{ url_for('static', filename='img/LOGO.png') }}" alt="Logo">
-        <nav class="navbar">
-        <ul class="navbar-nav">
-            <li class="dropdown">
-                <a class="inicio-link" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
-                    Notion
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{ url_for('adjust_dates') }}">Ajuste de horarios PRO</a>
-                    <a class="dropdown-item" href="{{ url_for('create_project') }}">Nuevo Proyecto VEN</a>
-                </div>
-            </li>
-        </ul>
+        <div class="header">
+            <img class="logo" src="{{ url_for('static', filename='img/LOGO.png') }}" alt="Logo">
+            <nav class="navbar">
+            <ul class="navbar-nav">
+                <li class="dropdown">
+                    <a class="inicio-link" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                        Notion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="{{ url_for('adjust_dates') }}">Ajuste de horarios PRO</a>
+                        <a class="dropdown-item" href="{{ url_for('create_project') }}">Nuevo Proyecto VEN</a>
+                    </div>
+                </li>
+            </ul>
 
-        <ul class="navbar-nav">
-            <li>
-                <a class="dropdown-toggle" href="{{ url_for('index') }}">Inicio</a>
-            </li>
-        </ul>
+            <ul class="navbar-nav">
+                <li>
+                    <a class="dropdown-toggle" href="{{ url_for('index') }}">Inicio</a>
+                </li>
+            </ul>
+        </div>
 
         </ul>
         </nav>
@@ -52,16 +55,18 @@
             </ul>
         </div>
     </header>
-    <div class="primary-box">
-        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-        <dotlottie-player src="https://lottie.host/914ef2d8-2730-414f-b1fe-6bc5f536e169/5tUk3vpnjm.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
-        <h1 class="titulo">AutoIntelli!</h1>
-        <p class="description">Esta plataforma reúne herramientas diseñadas para optimizar y automatizar procesos en la empresa, haciendo que áreas como producción,
-            recursos humanos, diseño, ventas, compras y contabilidad trabajen de manera más ágil y eficiente.</p>
+    <div class="primary-box-container">
+        <div class="primary-box">
+            <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+            <dotlottie-player class="lottie-icon" src="https://lottie.host/914ef2d8-2730-414f-b1fe-6bc5f536e169/5tUk3vpnjm.lottie" background="transparent" speed="1" loop autoplay></dotlottie-player>
+            <h1 class="titulo">AutoIntelli!</h1>
+            <p class="description">Esta plataforma reúne herramientas diseñadas para optimizar y automatizar procesos en la empresa, haciendo que áreas como producción,
+                recursos humanos, diseño, ventas, compras y contabilidad trabajen de manera más ágil y eficiente.</p>
 
-        <p class="description"> El objetivo es simple: reducir tiempos, minimizar errores y facilitar la gestión de tareas con tecnología inteligente.</p>
+            <p class="description"> El objetivo es simple: reducir tiempos, minimizar errores y facilitar la gestión de tareas con tecnología inteligente.</p>
+        </div>
+        <div class="image-box"></div>
     </div>
-    <div class="image-box"></div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>

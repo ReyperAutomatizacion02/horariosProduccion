@@ -3,38 +3,53 @@
     --secundario: #000000;
     --negro: #000000;
     --blanco: #FFFFFF;
-    --gris-oscuro: #797878;
+    --gris-oscuro: #181A1B;
+    --gris-claro: #858585;
+    --gris:#313131;
+    --gris-t:#31313189;
 }
 html {
     font-size: 62.5%;
+    height: 100%;
 }
 
 body {
     font-family: "Major Mono Display", monospace;
     font-size: 14px;
-    margin: 0;
+    margin: 0; /* Reset margin */
     padding: 2rem;
-    background-color: var(--blanco); /* Light background color */
-    color: var(--negro); /* Dark text color */
+    background-color: var(--gris-oscuro);
+    color: var(--negro);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* Por defecto apilamos verticalmente */
+    align-items: center; /* Centramos horizontalmente en pantallas pequeñas */
 }
 
 /* LOGO */
 .logo {
-    height: 40px; /* Match navbar height */
-    position: absolute;
+    height: 40px;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 
 /* BARRA DE NAVEGACIÓN */
 .navbar {
-    background-color: var(--negro); /* Black background color */
+    background-color: var(--gris);
     border-bottom: var(--blanco);
-    height: 40px; /* Make the navbar smaller */
-    border-radius: 20px; /* Add rounded corners */
-    margin-left: 9rem; /* Move the navbar to the right */
+    height: 40px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 95%;
+    margin-top: 1rem; /* Añade un margen superior a la barra de navegación */
 }
 
 .centered-nav {
@@ -53,7 +68,7 @@ body {
 }
 
 .inicio-link {
-    color: #ffffff; /* White text color */
+    color: var(--blanco);
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
@@ -61,7 +76,7 @@ body {
 }
 
 .auth-links a {
-    color: var(--negro); /* White text color */
+    color: var(--gris-claro);
     text-decoration: none;
     padding: 1rem 0.6rem;
     border-radius: 0.25rem;
@@ -87,23 +102,22 @@ body {
 }
 
 .dropdown-menu {
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
     z-index: 1000;
-    display: none;
     float: left;
-    min-width: 10rem;
-    padding: 0.5rem 0;
+    min-width: 18rem;
+    padding: 0.5rem;
     margin: 0.125rem 0 0;
-    font-size: 1rem;
-    color: #212529;
+    font-size: 1.2rem;
     text-align: left;
     list-style: none;
-    background-color: #fff;
+    background-color: var(--gris-t);
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 0.25rem;
+    border-radius: 1rem;
 }
 
 .dropdown-item {
@@ -112,7 +126,7 @@ body {
     padding: 0.25rem 1.5rem;
     clear: both;
     font-weight: 400;
-    color: #212529;
+    color: var(--blanco);
     text-align: inherit;
     text-decoration: none;
     white-space: nowrap;
@@ -122,8 +136,10 @@ body {
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-    color: #16181b;
-    background-color: #f8f9fa;
+    color: var(--blanco);
+    background-color: var(--primario);
+    width: 14rem;
+    border-radius: 0.5rem;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -134,7 +150,7 @@ body {
     display: flex;
     justify-content: flex-end;
     margin-top: 0;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 .auth-links .navbar-nav {
@@ -149,14 +165,14 @@ body {
 
 .primary-box {
     background-color: var(--primario);
-    height: 100vh; /* 50% of the viewport height */
-    width: 49%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 2rem;
-    margin-top: 0.3rem;
-    flex-direction: column; /* Stack items vertically */
+    margin-top: 2rem; /* Reducido el margen superior */
+    flex-direction: column;
+    padding: 2rem;
 }
 
 .description {
@@ -179,18 +195,168 @@ body {
 }
 
 .image-box {
-    background-image: linear-gradient(to top, rgba(137, 33, 33, 0.83), rgba(0, 0, 0, 0.204)), url("../img/MACHINE.jpg");
+    background-image: linear-gradient(to top, rgba(137, 33, 33, 0.83), rgba(0, 0, 0, 0.581)), url("../img/MACHINE.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 2rem;
-    height: 100vh; /* 100% of the viewport height */
-    width: 49%;
-    position: absolute;
-    top: 8rem;
-    right: 0;
-    margin-right: 2rem;
+    width: 90%;
+    margin-top: 2rem;
+    height: 400px;
 }
 
 span.usuario {
     color: var(--primario);
+}
+
+.lottie-icon {
+    width: 300px;
+    height: 300px;
+}
+
+@media (min-width: 769px) {
+    body {
+        flex-direction: column; /* Volvemos a apilar verticalmente para controlar el header */
+        align-items: stretch; /* Estiramos los elementos para que ocupen el ancho */
+    }
+
+    .header {
+        margin-bottom: -2rem;
+        justify-content: normal;
+        margin-left: 1rem;
+    }
+
+    .logo {
+        position: relative; /* El logo ahora fluye */
+        left: auto; /* Reseteamos la posición izquierda */
+        margin-bottom: 1.2rem; /* Añadimos un margen inferior para separarlo de la navegación */
+    }
+
+    .navbar {
+        width: 100%; /* La barra de navegación ocupa todo el ancho */
+        margin-bottom: 2rem; /* Añadimos un margen inferior para separarla del contenido principal */
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .lottie-icon {
+        width: 200px;
+        height: 200px;
+    }
+
+    .titulo {
+        margin-bottom: 6rem;
+    }
+
+    .primary-box-container { /* Nuevo contenedor para el primary-box y el image-box */
+        display: flex; /* Colocamos los elementos en fila */
+        flex-direction: row;
+        justify-content: space-between; /* Espacio entre los cuadros */
+        align-items: flex-start; /* Alineamos en la parte superior */
+        width: 100%; /* Ocupa todo el ancho disponible */
+    }
+
+    .primary-box {
+        width: 48%; /* Ancho del cuadro principal */
+        height: 100vh; /* Ajustamos la altura restando la altura del header y márgenes */
+        margin-top: 0;
+    }
+
+    .image-box {
+        width: 48%; /* Ancho del cuadro de la imagen */
+        height: 105vh; /* Ajustamos la altura restando la altura del header y márgenes */
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    body {
+        padding: 1rem;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+    }
+
+    .navbar {
+        margin-top: 1rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .lottie-icon {
+        width: 200px;
+        height: 200px;
+    }
+
+    .primary-box {
+        width: 95%;
+        height: auto;
+        padding: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .image-box {
+        width: 99%;
+        height: 300px;
+        margin-top: 0;
+    }
+
+    .description {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .titulo {
+        font-size: 3rem;
+        margin-bottom: 5rem;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+
+    body {
+        padding: 1rem;
+        min-height: auto;
+    }
+
+    .primary-box {
+        padding: 1rem;
+        margin-bottom: 1rem;
+        width: 95%;
+        height: auto;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+
+    .titulo {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .lottie-icon {
+        width: 150px;
+        height: 150px;
+    }
+
+    .image-box {
+        width: 97%;
+        height: 200px;
+    }
+
+    .dropdown-menu {
+        font-size: 1.5rem;
+    }
 }
