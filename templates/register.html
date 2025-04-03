@@ -7,26 +7,6 @@
     <link rel="preload" href="{{ url_for('static', filename='css/styles.css') }}" as="style">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
-    <style>
-        body { padding-top: 20px; } /* Añade un poco de padding superior al body para separar del borde */
-        .logo { display: block; margin: 0 auto 20px; max-width: 200px; height: auto; } /* Centra y limita el logo */
-        .titulo { text-align: center; margin-bottom: 30px; } /* Centra el título y añade margen inferior */
-        .navbar { margin-bottom: 20px; } /* Margen inferior para la barra de navegación */
-        .flash-messages { margin-bottom: 20px; } /* Margen inferior para los mensajes flash */
-        .flash-messages .alert { margin-bottom: 5px; } /* Margen entre mensajes flash individuales */
-
-        :root {
-            --custom-btn-bg: #F13234; /* Violeta */
-        }
-        .btn-custom {
-            background-color: var(--custom-btn-bg);
-            color: white;
-            border: none;
-        }
-        .btn-custom:hover {
-            background-color: #992224; /* Un tono más oscuro al pasar el mouse */
-        }
-    </style>
 </head>
 <body>
     <div class="container">

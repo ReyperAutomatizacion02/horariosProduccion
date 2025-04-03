@@ -26,6 +26,9 @@ body {
     align-items: stretch; /* Centramos horizontalmente en pantallas pequeñas */
 }
 
+/* ------ */
+/* HEADER */
+/* ------ */
 .header {
     display: flex;
     flex-direction: row;
@@ -75,30 +78,6 @@ body {
     border-radius: 0.25rem;
     margin-left: 1rem;
 }
-
-
-
-
-
-
-
-
-.centered-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-.auth-links a {
-    color: var(--gris-claro);
-    text-decoration: none;
-    padding: 1rem 0.6rem;
-    border-radius: 0.25rem;
-}
-
 
 .dropdown-toggle {
     background-color: var(--primario);
@@ -158,33 +137,43 @@ body {
     display: block;
 }
 
-.auth-links {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 0;
-    margin-right: 2rem;
-}
-
-.auth-links .navbar-nav {
-    display: flex;
+/* ----------- */
+/* PRIMARY BOX */
+/* ----------- */
+.primary-box-container { /* Nuevo contenedor para el primary-box y el image-box */
+    display: flex; /* Colocamos los elementos en fila */
     flex-direction: row;
-    align-items: flex-end;
-}
-
-.auth-links .usuario{
-    margin-right: 2rem;
+    justify-content: space-between; /* Espacio entre los cuadros */
+    align-items: flex-start; /* Alineamos en la parte superior */
+    width: 100%; /* Ocupa todo el ancho disponible */
 }
 
 .primary-box {
     background-color: var(--primario);
-    width: 90%;
+    width: 48%;
+    min-height: 87rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 2rem;
-    margin-top: 2rem; /* Reducido el margen superior */
+    margin-top: 0.5rem; /* Reducido el margen superior */
     flex-direction: column;
     padding: 2rem;
+}
+
+.lottie-icon {
+    width: auto; /* El ancho se ajustará según la proporción */
+    height: auto; /* La altura se ajustará según la proporción */
+    max-width: 40%; /* El icono no ocupará más del 70% del ancho del primary-box */
+    max-height: 40%;
+}
+
+.titulo {
+    color: var(--blanco);
+    font-family: "Major Mono Display", monospace;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 6rem;
 }
 
 .description {
@@ -198,62 +187,42 @@ body {
     letter-spacing: 0.15rem;
 }
 
-.titulo {
-    color: var(--blanco);
-    font-family: "Major Mono Display", monospace;
-    font-size: 5rem;
-    text-align: center;
-    margin-bottom: 15rem;
-}
-
 .image-box {
     background-image: linear-gradient(to top, rgba(137, 33, 33, 0.83), rgba(0, 0, 0, 0.581)), url("../img/MACHINE.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 2rem;
-    width: 90%;
-    margin-top: 2rem;
-    height: 400px;
+    width: 48%;
+    margin-top: 0.5rem;
+    min-height: 91rem;
+}
+
+.auth-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-right: 2rem;
+}
+
+.auth-links a {
+    color: var(--gris-claro);
+    text-decoration: none;
+    padding: 1rem 0.6rem;
+    border-radius: 0.25rem;
+}
+
+.auth-links .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.auth-links .usuario{
+    margin-right: 2rem;
 }
 
 span.usuario {
     color: var(--primario);
-}
-
-.lottie-icon {
-    width: 300px;
-    height: 300px;
-}
-
-@media (min-width: 769px) {
-    .lottie-icon {
-        width: 200px;
-        height: 200px;
-    }
-
-    .titulo {
-        margin-bottom: 6rem;
-    }
-
-    .primary-box-container { /* Nuevo contenedor para el primary-box y el image-box */
-        display: flex; /* Colocamos los elementos en fila */
-        flex-direction: row;
-        justify-content: space-between; /* Espacio entre los cuadros */
-        align-items: flex-start; /* Alineamos en la parte superior */
-        width: 100%; /* Ocupa todo el ancho disponible */
-    }
-
-    .primary-box {
-        width: 48%; /* Ancho del cuadro principal */
-        height: 100vh; /* Ajustamos la altura restando la altura del header y márgenes */
-        margin-top: 0;
-    }
-
-    .image-box {
-        width: 48%; /* Ancho del cuadro de la imagen */
-        height: 105vh; /* Ajustamos la altura restando la altura del header y márgenes */
-        margin-top: 0;
-    }
 }
 
 @media (max-width: 768px) {
@@ -273,33 +242,35 @@ span.usuario {
         margin-bottom: 1rem;
     }
 
+    .primary-box-container {
+        display: block; /* Colocamos los elementos en fila */
+    }
+
+    .primary-box {
+        width: 96%;
+        height: auto;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
     .lottie-icon {
         width: 200px;
         height: 200px;
     }
 
-    .primary-box {
-        width: 95%;
-        height: auto;
-        padding: 1.5rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .image-box {
-        width: 99%;
-        height: 300px;
-        margin-top: 0;
+    .titulo {
+        font-size: 4rem;
+        margin-bottom: 4rem;
     }
 
     .description {
         font-size: 1.5rem;
-        padding: 1rem;
     }
 
-    .titulo {
-        font-size: 3rem;
-        margin-bottom: 5rem;
+    .image-box {
+        width: 100%;
+        height: 300px;
+        margin-top: 0;
     }
 }
 
@@ -308,21 +279,13 @@ span.usuario {
         margin-bottom: 0.5rem;
     }
 
+    .dropdown-menu {
+        font-size: 1.5rem;
+    }
+
     .primary-box {
+        width: 93%;
         padding: 1rem;
-        margin-bottom: 1rem;
-        width: 95%;
-        height: auto;
-    }
-
-    .description {
-        font-size: 1.2rem;
-        padding: 0.5rem;
-    }
-
-    .titulo {
-        font-size: 2rem;
-        margin-bottom: 3rem;
     }
 
     .lottie-icon {
@@ -330,12 +293,17 @@ span.usuario {
         height: 150px;
     }
 
-    .image-box {
-        width: 97%;
-        height: 200px;
+    .titulo {
+        font-size: 2rem;
+        margin-bottom: 3rem;
     }
 
-    .dropdown-menu {
-        font-size: 1.5rem;
+    .description {
+        font-size: 1.2rem;
+    }
+
+    .image-box {
+        width: 99%;
+        height: 200px;
     }
 }

@@ -1,0 +1,143 @@
+:root{
+    --primario: #D42D2E;
+    --secundario: #000000;
+    --negro: #000000;
+    --blanco: #FFFFFF;
+    --gris-oscuro: #181A1B;
+    --gris-claro: #858585;
+    --gris:#313131;
+    --gris-t:#31313189;
+    --primario-acc: #FF2037;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    font-family: "Major Mono Display", monospace;
+    font-size: 14px;
+    margin: 0; /* Reset margin */
+    background-color: var(--gris-oscuro);
+    padding: 2rem;
+    color: var(--negro);
+    display: flex;
+    flex-direction: column; /* Por defecto apilamos verticalmente */
+    align-items: stretch; /* Centramos horizontalmente en pantallas pequeñas */
+}
+
+div {
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.aling_items {
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+    height: 4rem;
+}
+
+h2 {
+    color: var(--blanco);
+    text-align: center;
+    border-radius: 0.5rem;
+    width: 10rem;
+}
+
+button[type="submit"] {
+    background-color: var(--primario);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.logo {
+    margin: 0.5rem;
+    width: 30rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.titulo {
+    color: var(--primario-acc);
+    font-family: "Major Mono Display", monospace;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 6rem;
+    filter: drop-shadow(2px 4px 6px red);
+}
+
+.aling_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lottie-icon {
+    width: auto; /* El ancho se ajustará según la proporción */
+    height: auto; /* La altura se ajustará según la proporción */
+    max-width: 4rem; /* El icono no ocupará más del 70% del ancho del primary-box */
+    max-height: 4rem;
+    filter: hue-rotate(10deg);
+    filter: drop-shadow(2px 4px 6px red);
+    margin-bottom: 2rem;
+}
+
+.campo_user {
+    margin-top: -2rem;
+}
+
+.campo_cont {
+    margin-top: -4rem;
+}
+
+.campo_acc {
+    margin-top: -4rem;
+}
+
+
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--gris-claro);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+button[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
