@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Acceso - ReyperHorarios</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
     <link rel="preload" href="{{ url_for('static', filename='css/login.css') }}" as="style">
@@ -55,9 +56,10 @@
                 <div class="campo_acc">
                     <button type="submit">Accesar</button>
                 </div>
-                <div>
-                    <a href="{{ url_for('index') }}" class="bt-secundario-cuestionario">Volver</a>
-                    <a href="{{ url_for('logout') }}" class="bt-secundario2-cuestionario">Cerrar sesión</a>
+                <div class="aling_links">
+                    <a href="{{ url_for('index') }}">Volver</a>
+                    <label for="space">|</label>
+                    <a href="{{ url_for('logout') }}">Cerrar sesión</a>
                 </div>
             </form>
         </div>

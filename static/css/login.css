@@ -8,6 +8,8 @@
     --gris:#313131;
     --gris-t:#31313189;
     --primario-acc: #FF2037;
+    --primario-acc-trans: #ff203683;
+    --azul-marino-trans:#257787ca;
 }
 
 html {
@@ -40,8 +42,22 @@ div {
 div.aling_items {
     display: flex;
     flex-direction: row;
-    width: 40rem;
+    width: 50rem;
     height: 4rem;
+}
+
+div.aling_links {
+    display: flex;
+    flex-direction: row;
+    width: 23rem;
+}
+
+div.aling_links label {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 3rem;
+    color: var(--azul-marino-trans)
+    
 }
 
 h2 {
@@ -66,12 +82,13 @@ button[type="submit"] {
     width: 30rem;
     margin-bottom: 1.5rem;
     align-items: center;
+    margin-left: 1rem;
 }
 
 .titulo {
     color: var(--primario-acc);
     font-family: "Major Mono Display", monospace;
-    font-size: 5rem;
+    font-size: 7rem;
     text-align: center;
     margin-bottom: 6rem;
     filter: drop-shadow(2px 4px 6px red);
@@ -86,11 +103,11 @@ button[type="submit"] {
 .lottie-icon {
     width: auto; /* El ancho se ajustará según la proporción */
     height: auto; /* La altura se ajustará según la proporción */
-    max-width: 4rem; /* El icono no ocupará más del 70% del ancho del primary-box */
-    max-height: 4rem;
+    max-width: 5rem; /* El icono no ocupará más del 70% del ancho del primary-box */
+    max-height: 5rem;
     filter: hue-rotate(10deg);
     filter: drop-shadow(2px 4px 6px red);
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 .campo_user {
@@ -117,7 +134,7 @@ label {
 
 input[type="text"],
 input[type="password"] {
-    width: 100%;
+    width: 30rem;
     padding: 8px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -134,10 +151,87 @@ button[type="submit"]:hover {
 a {
     display: inline-block;
     margin-top: 10px;
-    color: #337ab7;
+    color: var(--azul-marino-trans);
     text-decoration: none;
+    padding: 2rem;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 5rem;
+    }
+
+    div.aling_items {
+        display: flex;
+        flex-direction: row;
+        width: 40rem;
+        height: 4rem;
+    }
+
+    .lottie-icon {
+        max-width: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 20rem;
+    }
+    
+    div.aling_links {
+        font-size: 1.5rem;
+        width: 24rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    div.aling_items {
+        width: 30rem;
+    }
+
+    button[type="submit"] {
+        font-size: 1rem;
+        width: 6rem;
+        padding: 10px 10px;
+    }
+
+    .logo {
+        width: 20rem;
+    }
+
+    .titulo {
+        font-size: 4rem;
+    }
+
+    .lottie-icon {
+        max-width: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    div.aling_links {
+        font-size: 1rem;
+    }
+    
+    div.aling_links label {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 3rem;
+        color: var(--azul-marino-trans)
+    }
+
+    div.aling_links {
+        width: 21rem;
+    }
 }
