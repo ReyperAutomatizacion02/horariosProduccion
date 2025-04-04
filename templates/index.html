@@ -25,16 +25,16 @@
                     </div>
                 </li>
             </ul>
+            
 
             <ul class="navbar-nav">
                 <li>
                     <a class="dropdown-toggle" href="{{ url_for('index') }}">Inicio</a>
                 </li>
             </ul>
+            </nav>
         </div>
 
-        </ul>
-        </nav>
         <div class="auth-links">
             <ul class="navbar-nav">
                 {% if current_user.is_authenticated %}

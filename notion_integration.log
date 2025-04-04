@@ -7735,3 +7735,222 @@
 2025-04-04 14:50:42,775 - werkzeug - INFO -  * Debugger PIN: 810-284-793
 2025-04-04 14:50:48,826 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
 2025-04-04 14:50:50,026 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 14:51:01,983 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-04-04 14:51:01,990 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 14:51:02,061 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 14:51:07,147 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 14:51:07,160 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 14:51:41,255 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:41] "GET / HTTP/1.1" 200 -
+2025-04-04 14:51:41,463 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:51:41,579 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:41] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 14:51:41,590 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:41] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:51:42,955 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:42] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-04 14:51:43,354 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:43] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:51:43,384 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:43] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:51:43,410 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:43] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:51:45,674 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:45] "GET /recover_password HTTP/1.1" 200 -
+2025-04-04 14:51:45,709 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:51:48,997 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:48] "GET /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BFnQ.8vDl2kuk_nXxG5b3w_F5EKY_jxs HTTP/1.1" 200 -
+2025-04-04 14:51:49,026 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:51:55,862 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:55] "[32mPOST /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BFnQ.8vDl2kuk_nXxG5b3w_F5EKY_jxs HTTP/1.1[0m" 302 -
+2025-04-04 14:51:55,872 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:55] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:51:55,915 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:55] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:51:55,917 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:51:55] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:52:00,662 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:00] "[32mGET /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BFnQ.8vDl2kuk_nXxG5b3w_F5EKY_jxs HTTP/1.1[0m" 302 -
+2025-04-04 14:52:00,669 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:00] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:52:00,711 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:00] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:52:00,714 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:00] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:52:18,554 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-04 14:52:18,891 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:18] "GET / HTTP/1.1" 200 -
+2025-04-04 14:52:19,214 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:52:19,219 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:19] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 14:52:19,245 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:19] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:52:23,948 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:23] "[32mGET /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BFnQ.8vDl2kuk_nXxG5b3w_F5EKY_jxs HTTP/1.1[0m" 302 -
+2025-04-04 14:52:24,298 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:24] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:52:24,415 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:24] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:52:24,461 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:24] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:52:35,946 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:35] "[32mGET /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BFnQ.8vDl2kuk_nXxG5b3w_F5EKY_jxs HTTP/1.1[0m" 302 -
+2025-04-04 14:52:36,276 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:36] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:52:36,411 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:36] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:52:36,419 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:36] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:52:42,785 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-04 14:52:42,791 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:42] "GET / HTTP/1.1" 200 -
+2025-04-04 14:52:42,833 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:52:42,838 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:42] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 14:52:42,882 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:42] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:52:44,504 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:44] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:52:44,541 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:44] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:52:44,554 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:44] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:52:46,329 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:46] "GET /recover_password HTTP/1.1" 200 -
+2025-04-04 14:52:46,371 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:52:53,715 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:53] "[32mPOST /recover_password HTTP/1.1[0m" 302 -
+2025-04-04 14:52:53,721 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:53] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:52:53,768 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:53] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:52:53,769 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:52:53] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:53:09,543 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:09] "GET /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BGow.C665EFetAGoiK8Lnz9zv7ONRVK4 HTTP/1.1" 200 -
+2025-04-04 14:53:09,572 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:53:20,782 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:20] "[32mPOST /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BGow.C665EFetAGoiK8Lnz9zv7ONRVK4 HTTP/1.1[0m" 302 -
+2025-04-04 14:53:20,789 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:20] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:53:20,829 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:20] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:53:20,835 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:20] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:53:24,346 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:24] "[32mGET /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BGow.C665EFetAGoiK8Lnz9zv7ONRVK4 HTTP/1.1[0m" 302 -
+2025-04-04 14:53:24,355 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:24] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:53:24,387 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:24] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:53:24,388 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:24] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:53:33,334 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-04 14:53:33,653 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:33] "GET / HTTP/1.1" 200 -
+2025-04-04 14:53:33,695 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:53:33,696 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:33] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 14:53:33,719 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:53:33] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:54:15,909 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-04 14:54:15,916 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:15] "GET / HTTP/1.1" 200 -
+2025-04-04 14:54:15,965 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:15] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 14:54:15,967 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:54:17,651 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:17] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:54:17,693 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:17] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:54:17,708 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:17] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:54:20,049 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:20] "GET /recover_password HTTP/1.1" 200 -
+2025-04-04 14:54:20,096 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:54:27,256 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:27] "[32mPOST /recover_password HTTP/1.1[0m" 302 -
+2025-04-04 14:54:27,264 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:27] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:54:27,306 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:27] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:54:27,309 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:27] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:54:31,497 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:31] "GET /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BHAA.m_UY2fEBzLgyW_XPbetw9SW93gU HTTP/1.1" 200 -
+2025-04-04 14:54:31,519 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:54:36,350 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:36] "GET /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BHAA.m_UY2fEBzLgyW_XPbetw9SW93gU HTTP/1.1" 200 -
+2025-04-04 14:54:36,372 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:54:53,602 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:53] "[32mPOST /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BHAA.m_UY2fEBzLgyW_XPbetw9SW93gU HTTP/1.1[0m" 302 -
+2025-04-04 14:54:53,608 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:53] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:54:53,649 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:53] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:54:53,652 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:53] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:54:57,318 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:57] "[32mGET /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BHAA.m_UY2fEBzLgyW_XPbetw9SW93gU HTTP/1.1[0m" 302 -
+2025-04-04 14:54:57,324 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:57] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:54:57,351 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:57] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:54:57,353 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:57] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 14:55:03,782 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:55:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-04 14:55:04,102 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:55:04] "GET / HTTP/1.1" 200 -
+2025-04-04 14:55:04,265 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:55:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:55:04,277 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:55:04] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 14:55:04,417 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:55:04] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:55:08,238 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:55:08] "GET / HTTP/1.1" 200 -
+2025-04-04 14:55:08,270 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:55:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 14:55:08,272 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:55:08] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 14:55:08,302 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 14:55:08] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 15:03:59,015 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:03:59] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-04 15:03:59,023 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:03:59] "GET / HTTP/1.1" 200 -
+2025-04-04 15:03:59,058 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:03:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:03:59,072 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:03:59] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 15:03:59,115 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:03:59] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 15:04:02,123 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:02] "GET /login HTTP/1.1" 200 -
+2025-04-04 15:04:02,166 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:02] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 15:04:02,186 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:02] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 15:04:08,977 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:08] "GET /recover_password HTTP/1.1" 200 -
+2025-04-04 15:04:09,009 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:04:24,083 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:24] "[32mPOST /recover_password HTTP/1.1[0m" 302 -
+2025-04-04 15:04:24,089 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:24] "GET /login HTTP/1.1" 200 -
+2025-04-04 15:04:24,133 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:24] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 15:04:24,138 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:24] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 15:04:37,023 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:37] "GET /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BJVQ.QOaWlI3fuFD80uZqCV4LyDm9Zuo HTTP/1.1" 200 -
+2025-04-04 15:04:37,043 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:04:50,203 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:50] "[32mPOST /reset_password/InJleXBlci5hdXRvbWF0aXphY2lvbi4yQGdtYWlsLmNvbSI.Z_BJVQ.QOaWlI3fuFD80uZqCV4LyDm9Zuo HTTP/1.1[0m" 302 -
+2025-04-04 15:04:50,209 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:50] "GET /login HTTP/1.1" 200 -
+2025-04-04 15:04:50,248 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:50] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 15:04:50,252 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:04:50] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 15:05:05,184 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:05] "POST /login HTTP/1.1" 200 -
+2025-04-04 15:05:05,211 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:05] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 15:05:05,224 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:05] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 15:05:11,136 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-04 15:05:11,462 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:11] "GET / HTTP/1.1" 200 -
+2025-04-04 15:05:11,502 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:05:11,511 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:11] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 15:05:11,521 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:11] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 15:05:20,350 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:20] "GET / HTTP/1.1" 200 -
+2025-04-04 15:05:20,379 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:05:20,393 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:20] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 15:05:20,414 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:20] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 15:05:21,298 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:21] "GET / HTTP/1.1" 200 -
+2025-04-04 15:05:21,331 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:05:21,333 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:05:21] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 15:07:12,282 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:07:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:12:10,796 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:12:10] "GET / HTTP/1.1" 200 -
+2025-04-04 15:12:10,829 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:12:10] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-04-04 15:12:10,835 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:12:10] "GET /static/img/LOGO.png HTTP/1.1" 200 -
+2025-04-04 15:12:10,892 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:12:10] "GET /static/img/MACHINE.jpg HTTP/1.1" 200 -
+2025-04-04 15:12:11,328 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:12:11] "GET /static/favicon.ico HTTP/1.1" 200 -
+2025-04-04 15:39:29,581 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:39:29] "GET / HTTP/1.1" 200 -
+2025-04-04 15:39:29,618 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:39:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:39:29,638 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:39:29] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 15:39:29,683 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:39:29] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 15:39:34,180 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:39:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-04 15:39:34,186 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:39:34] "GET / HTTP/1.1" 200 -
+2025-04-04 15:39:34,221 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:39:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:39:34,221 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:39:34] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 15:39:39,314 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:39:39] "GET /login HTTP/1.1" 200 -
+2025-04-04 15:39:39,347 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:39:39] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-04-04 15:39:39,349 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:39:39] "GET /static/img/LOGO%20REYPER.png HTTP/1.1" 200 -
+2025-04-04 15:39:41,732 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:39:41] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 15:44:41,907 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:44:41] "GET / HTTP/1.1" 200 -
+2025-04-04 15:44:41,958 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:44:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:44:41,973 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:44:41] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 15:44:42,064 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:44:42] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 15:44:53,204 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:44:53] "GET / HTTP/1.1" 200 -
+2025-04-04 15:48:39,296 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:48:39] "GET / HTTP/1.1" 200 -
+2025-04-04 15:48:39,331 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:48:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:48:39,337 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:48:39] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 15:48:39,364 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:48:39] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 15:48:39,438 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:48:39] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-04 15:49:16,047 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:49:16] "GET / HTTP/1.1" 200 -
+2025-04-04 15:49:16,075 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:49:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:49:16,079 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:49:16] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 15:49:16,121 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:49:16] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 15:49:16,527 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:49:16] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-04 15:49:33,890 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:49:33] "GET / HTTP/1.1" 200 -
+2025-04-04 15:49:33,917 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:49:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:49:33,920 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:49:33] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 15:49:33,945 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:49:33] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 15:49:33,997 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:49:33] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-04 15:49:41,823 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:49:41] "GET / HTTP/1.1" 200 -
+2025-04-04 15:50:19,822 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:50:19] "GET / HTTP/1.1" 200 -
+2025-04-04 15:50:19,847 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:50:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:50:19,860 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:50:19] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 15:50:19,883 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:50:19] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 15:50:20,247 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:50:20] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-04 15:50:34,812 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:50:34] "GET / HTTP/1.1" 200 -
+2025-04-04 15:50:51,438 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:50:51] "GET / HTTP/1.1" 200 -
+2025-04-04 15:50:51,464 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:50:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 15:50:51,475 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:50:51] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 15:50:51,496 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:50:51] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 15:50:51,834 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:50:51] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-04 15:50:54,639 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:50:54] "GET / HTTP/1.1" 200 -
+2025-04-04 15:51:12,222 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:51:12] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-04-04 16:00:39,145 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-04 16:00:39,150 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-04 16:00:39,234 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-04-04 16:00:39,290 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-04-04 16:00:39,316 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-04-04 16:00:39,327 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-04-04 16:00:39,331 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-04-04 16:00:39,420 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-04 16:00:39,425 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-04 16:00:39,451 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-04-04 16:00:39,453 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-04-04 16:00:39,505 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-04-04 16:00:39,546 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-04-04 16:00:39,551 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-04-04 16:00:39,594 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-04-04 16:00:39,619 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-04-04 16:00:39,641 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\__init__.py', reloading
+2025-04-04 16:00:39,646 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\login_manager.py', reloading
+2025-04-04 16:00:39,658 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\mixins.py', reloading
+2025-04-04 16:00:39,660 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\utils.py', reloading
+2025-04-04 16:00:39,670 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\local.py', reloading
+2025-04-04 16:00:39,698 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\ctx.py', reloading
+2025-04-04 16:00:39,717 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_sqlalchemy\\__init__.py', reloading
+2025-04-04 16:00:39,719 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_sqlalchemy\\extension.py', reloading
+2025-04-04 16:00:39,958 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 16:00:44,977 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 16:00:44,984 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 16:09:52,360 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:09:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
