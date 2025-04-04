@@ -6779,3 +6779,114 @@
 2025-04-03 15:19:13,846 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:19:13] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
 2025-04-03 15:19:14,019 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:19:14] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
 2025-04-03 15:19:33,715 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:19:33] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 08:17:06,623 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-04-04 08:17:06,624 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 08:17:06,639 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 08:17:08,216 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 08:17:08,224 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 08:17:18,156 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 08:17:18] "GET / HTTP/1.1" 200 -
+2025-04-04 08:17:18,317 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 08:17:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 08:17:18,329 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 08:17:18] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 08:17:18,355 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 08:17:18] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 08:17:23,888 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 08:17:23] "GET /login HTTP/1.1" 200 -
+2025-04-04 08:17:23,933 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 08:17:23] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 08:17:23,937 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 08:17:23] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 08:17:28,789 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 08:17:28] "GET / HTTP/1.1" 200 -
+2025-04-04 08:17:28,817 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 08:17:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 08:17:28,820 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 08:17:28] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 09:00:06,059 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-04-04 09:00:06,060 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 09:00:06,077 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 09:00:08,605 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 09:00:08,613 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 09:00:11,326 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:00:11] "GET / HTTP/1.1" 200 -
+2025-04-04 09:00:11,566 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:00:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 09:00:11,588 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:00:11] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 09:00:11,622 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:00:11] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 09:00:56,823 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:00:56] "GET /register HTTP/1.1" 200 -
+2025-04-04 09:00:56,863 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:00:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 09:00:56,892 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:00:56] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 09:01:08,686 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:01:08] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-04 09:01:08,701 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:01:08] "GET /login HTTP/1.1" 200 -
+2025-04-04 09:01:08,751 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:01:08] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 09:01:08,754 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:01:08] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 09:02:40,707 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:02:40] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 09:05:02,582 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\_local.py', reloading
+2025-04-04 09:05:02,603 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\_abc.py', reloading
+2025-04-04 09:05:03,484 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 09:05:05,609 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 09:05:05,618 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 09:05:47,155 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\logging\\config.py', reloading
+2025-04-04 09:05:47,281 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\alembic\\__init__.py', reloading
+2025-04-04 09:05:47,344 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\alembic\\config.py', reloading
+2025-04-04 09:05:47,392 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\alembic\\util\\__init__.py', reloading
+2025-04-04 09:05:47,422 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\alembic\\util\\langhelpers.py', reloading
+2025-04-04 09:05:47,557 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\engine\\interfaces.py', reloading
+2025-04-04 09:05:47,653 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\engine\\reflection.py', reloading
+2025-04-04 09:05:47,754 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\engine\\url.py', reloading
+2025-04-04 09:05:48,279 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 09:05:50,504 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 09:05:50,511 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 09:06:30,876 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\typing.py', reloading
+2025-04-04 09:06:31,815 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 09:06:34,161 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 09:06:34,168 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 09:17:23,261 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-04-04 09:17:23,262 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 09:17:23,282 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 09:17:25,519 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 09:17:25,527 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 09:17:58,039 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:17:58] "GET / HTTP/1.1" 200 -
+2025-04-04 09:17:58,281 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:17:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 09:17:58,301 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:17:58] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 09:17:58,359 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:17:58] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 09:17:59,768 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:17:59] "GET /register HTTP/1.1" 200 -
+2025-04-04 09:17:59,818 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:17:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 09:17:59,827 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:17:59] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 09:18:18,933 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-04 09:18:18,934 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-04 09:18:18,944 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-04 09:18:19,031 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-04-04 09:18:19,079 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-04-04 09:18:19,081 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-04-04 09:18:19,114 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-04-04 09:18:19,115 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-04-04 09:18:19,125 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-04-04 09:18:19,126 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-04-04 09:18:19,130 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-04-04 09:18:19,130 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-04-04 09:18:19,211 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-04 09:18:19,232 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-04 09:18:19,232 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-04 09:18:19,250 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-04-04 09:18:19,251 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-04-04 09:18:19,253 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-04-04 09:18:19,259 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-04-04 09:18:19,317 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-04-04 09:18:19,376 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-04-04 09:18:19,408 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-04-04 09:18:19,449 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-04-04 09:18:19,491 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-04-04 09:18:19,526 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\__init__.py', reloading
+2025-04-04 09:18:19,532 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\login_manager.py', reloading
+2025-04-04 09:18:19,548 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\mixins.py', reloading
+2025-04-04 09:18:19,557 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_login\\utils.py', reloading
+2025-04-04 09:18:19,578 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\local.py', reloading
+2025-04-04 09:18:19,624 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\ctx.py', reloading
+2025-04-04 09:18:19,642 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_sqlalchemy\\__init__.py', reloading
+2025-04-04 09:18:19,645 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask_sqlalchemy\\extension.py', reloading
+2025-04-04 09:18:19,757 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 09:18:20,224 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 09:18:25,353 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 09:18:25,360 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 09:18:25,388 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 09:18:25,396 - werkzeug - INFO -  * Debugger PIN: 810-284-793

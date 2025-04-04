@@ -12,6 +12,9 @@ from datetime import datetime  # Importado para manejar fechas.
 import mH2 as moverHorarios02  # Importa el script que define la función para mover horarios.
 from flask_migrate import Migrate  # Import Flask-Migrate
 from dotenv import load_dotenv
+from itsdangerous import URLSafeTimedSerializer # Para generar tokens seguros
+from flask_mail import Mail, Message # Importa Flask-Mail
+from email_validator import validate_email, EmailNotValidError # Importa la librería para validar el email
 
 # Cargar variables de entorno
 load_dotenv()
@@ -45,10 +48,12 @@ class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True) # Clave primaria, autoincremental
     username = db.Column(db.String(100), unique=True, nullable=False) # Nombre de usuario, único, no puede ser nulo
     password = db.Column(db.String(200), nullable=False) # Contraseña (¡Recuerda que luego usaremos HASHING, esto es solo un ejemplo inicial!)
+    email = db.Column(db.String(120), unique=True, nullable=False)  # Agrega el campo de correo electrónico
 
-    def __init__(self, username, password): # Constructor para crear objetos User
+    def __init__(self, username, password, email):  # Constructor para crear objetos User
         self.username = username
         self.password = password
+        self.email = email
 
 class AuditLog(db.Model):
     id = db.Column(db.Integer, primary_key=True) # ID único del registro de auditoría
@@ -100,22 +105,36 @@ def register():
         username = request.form['username']
         password = request.form['password']
         confirm_password = request.form['confirm_password']
+        email = request.form['email'] # Obtiene el correo electrónico del formulario
 
-        if not username or not password or not confirm_password:
+        if not username or not password or not confirm_password or not email:
             flash('Todos los campos son obligatorios.', 'danger')
             return render_template('register.html')
 
         if password != confirm_password:
             flash('Las contraseñas no coinciden.', 'danger')
             return render_template('register.html')
+        
+        try:
+            # Valida el formato del correo electrónico
+            emailinfo = validate_email(email, check_deliverability=False)
+            email = emailinfo.normalized
+        except EmailNotValidError as e:
+            flash(str(e), 'danger')
+            return render_template('register.html')
 
         existing_user = User.query.filter_by(username=username).first()
         if existing_user:
             flash('El nombre de usuario ya está registrado. Por favor, elige otro.', 'danger')
             return render_template('register.html')
+        
+        existing_email = User.query.filter_by(email=email).first()
+        if existing_email:
+            flash('El correo electrónico ya está registrado. Por favor, utiliza otro.', 'danger')
+            return render_template('register.html')
 
         hashed_password = generate_password_hash(password) # Hashea la contraseña
-        new_user = User(username=username, password=hashed_password) # ¡RECUERDA: Contraseña en texto plano solo para ejemplo inicial!
+        new_user = User(username=username, password=hashed_password, email=email) # ¡RECUERDA: Contraseña en texto plano solo para ejemplo inicial!
         db.session.add(new_user)
         db.session.commit()
 
@@ -264,8 +283,8 @@ if __name__ == '__main__':
             # Crear usuarios de ejemplo y añadirlos a la base de datos
             hashed_password_admin = generate_password_hash('password123') # Hashea la contraseña de admin
             hashed_password_usuario = generate_password_hash('password456') # Hashea la contraseña de usuario
-            user_admin = User(username='admin', password=hashed_password_admin) # Guarda el hash de admin
-            user_usuario = User(username='usuario', password=hashed_password_usuario) # Guarda el hash de usuario
+            user_admin = User(username='admin', password=hashed_password_admin, email='admin@example.com') # Guarda el hash de admin
+            user_usuario = User(username='usuario', password=hashed_password_usuario, email='usuario@example.com') # Guarda el hash de usuario
             db.session.add(user_admin) # Añade el objeto usuario a la sesión de base de datos
             db.session.add(user_usuario) # Añade el objeto usuario a la sesión de base de datos
             db.session.commit() # ¡Guarda los cambios en la base de datos!
