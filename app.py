@@ -27,7 +27,7 @@ app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY') # Reemplaza 'una_clave..
 
 # Configuración de la base de datos (SQLite en este caso)
 basedir = os.path.abspath(os.path.dirname(__file__)) # Obtiene el directorio base de la app
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL') # Usar la External Database URL de Render directamente
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://gerry:HQUeIYyrdII7mPAMfL9cRtWNvIVtaoXE@dpg-cv4tnkfnoe9s73dv8fb0-a.oregon-postgres.render.com/dbhorariosproduccion' # Usar la External Database URL de Render directamente
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False # Desactiva el tracking de modificaciones de SQLAlchemy (opcional, pero recomendado para evitar warnings)
 
 db = SQLAlchemy(app) # Inicializa Flask-SQLAlchemy
