@@ -15,6 +15,8 @@ from dotenv import load_dotenv
 from itsdangerous import URLSafeTimedSerializer # Para generar tokens seguros
 from flask_mail import Mail, Message # Importa Flask-Mail
 from email_validator import validate_email, EmailNotValidError # Importa la librería para validar el email
+from itsdangerous import URLSafeTimedSerializer # Para generar tokens seguros
+from flask_mail import Mail, Message # Importa Flask-Mail
 
 # Cargar variables de entorno
 load_dotenv()
@@ -24,6 +26,19 @@ load_dotenv()
 # =====================
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY') # Reemplaza 'una_clave...' por una clave real y segura.
+
+# Configuración de Flask-Mail
+app.config['MAIL_SERVER'] = 'smtp.gmail.com'
+app.config['MAIL_PORT'] = 465
+app.config['MAIL_USE_TLS'] = False
+app.config['MAIL_USE_SSL'] = True
+app.config['MAIL_USERNAME'] = 'reyper.automatizacion.2@gmail.com'
+app.config['MAIL_PASSWORD'] = 'rcvw vkkw yecp qivn'
+app.config['MAIL_DEFAULT_SENDER'] = 'reyper.automatizacion.2@gmail.com'
+
+mail = Mail(app) # Inicializa Flask-Mail
+
+s = URLSafeTimedSerializer(app.config['SECRET_KEY']) # Inicializa el serializador
 
 # Configuración de la base de datos (SQLite en este caso)
 basedir = os.path.abspath(os.path.dirname(__file__)) # Obtiene el directorio base de la app
@@ -150,6 +165,80 @@ def logout():
     logout_user()
     flash('Logout exitoso.', 'info')
     return redirect(url_for('index'))
+
+@app.route('/recover_password', methods=['GET', 'POST'])
+def recover_password():
+    if request.method == 'POST':
+        username = request.form['username']
+        email = request.form['email']
+
+        user = User.query.filter_by(username=username, email=email).first()
+
+        if user:
+            token = s.dumps(user.email, salt='recover-key')
+            link = url_for('reset_password', token=token, _external=True)
+            print(f"Reset password link: {link}") # Log the reset password link
+
+            # Store the token in the database
+            audit_log = AuditLog(
+                user_id=user.id,
+                action='Solicitud de restablecimiento de contraseña',
+                details=f'Token de restablecimiento de contraseña: {token}'
+            )
+            db.session.add(audit_log)
+            db.session.commit()
+
+            msg = Message('Restablecer Contraseña', sender=app.config['MAIL_DEFAULT_SENDER'], recipients=[user.email])
+            msg.body = f"Para restablecer tu contraseña, haz clic en el siguiente enlace: {link}"
+            mail.send(msg)
+
+            flash('Se ha enviado un correo electrónico con un enlace para restablecer la contraseña.', 'success')
+            return redirect(url_for('login'))
+        else:
+            flash('Usuario o correo electrónico incorrectos.', 'danger')
+            return render_template('recover_password.html')
+
+    return render_template('recover_password.html')
+
+@app.route('/reset_password/<token>', methods=['GET', 'POST'])
+def reset_password(token):
+    try:
+        email = s.loads(token, salt='recover-key', max_age=3600)
+    except:
+        flash('El enlace para restablecer la contraseña es inválido o ha expirado.', 'danger')
+        return redirect(url_for('login'))
+
+    # Verify that the token has not been used before
+    audit_log = AuditLog.query.filter_by(details=f'Token de restablecimiento de contraseña: {token}').first()
+    if not audit_log:
+        flash('El enlace para restablecer la contraseña es inválido o ha expirado.', 'danger')
+        return redirect(url_for('login'))
+
+    if request.method == 'POST':
+        password = request.form['password']
+        confirm_password = request.form['confirm_password']
+
+        if password != confirm_password:
+            flash('Las contraseñas no coinciden.', 'danger')
+            return render_template('reset_password.html', token=token)
+
+        user = User.query.filter_by(email=email).first()
+
+        if user:
+            hashed_password = generate_password_hash(password)
+            user.password = hashed_password
+
+            # Delete the token from the database
+            db.session.delete(audit_log)
+            db.session.commit()
+
+            flash('La contraseña se ha restablecido correctamente.', 'success')
+            return redirect(url_for('login'))
+        else:
+            flash('El enlace para restablecer la contraseña es inválido.', 'danger')
+            return redirect(url_for('login'))
+
+    return render_template('reset_password.html', token=token)
 
 @app.route('/create_project', methods=['GET', 'POST'])
 @login_required

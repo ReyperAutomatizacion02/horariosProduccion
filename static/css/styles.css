@@ -20,7 +20,7 @@ body {
     margin: 0; /* Reset margin */
     background-color: var(--gris-oscuro);
     padding: 2rem;
-    color: var(--negro);
+    color: var(--gris-claro);
     display: flex;
     flex-direction: column; /* Por defecto apilamos verticalmente */
     align-items: stretch; /* Centramos horizontalmente en pantallas pequeñas */

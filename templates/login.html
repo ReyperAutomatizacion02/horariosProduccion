@@ -32,7 +32,7 @@
             <h2>Acceso</h2>
             {% with messages = get_flashed_messages(with_categories=true) %}
                 {% if messages %}
-                <div>
+                <div class="message">
                     {% for category, message in messages %}
                     <div role="alert">
                         {{ message }}
@@ -59,7 +59,11 @@
                 <div class="aling_links">
                     <a href="{{ url_for('index') }}">Volver</a>
                     <label for="space">|</label>
+                    <a href="{{ url_for('register') }}">Registrate</a>
+                </div>
+                <div class="aling_links">
                     <a href="{{ url_for('logout') }}">Cerrar sesión</a>
+                    <a href="{{ url_for('recover_password') }}">¿Olvidaste tu contraseña?</a>
                 </div>
             </form>
         </div>

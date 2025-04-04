@@ -67,6 +67,10 @@ h2 {
     width: 10rem;
 }
 
+h2 div {
+    color: #ccc;
+}
+
 button[type="submit"] {
     background-color: var(--primario);
     color: white;
@@ -75,6 +79,38 @@ button[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     width: 10rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--gris-claro);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 30rem;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--gris);
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--azul-marino-trans);
+    text-decoration: none;
+    padding: 2rem;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .logo {
@@ -122,43 +158,10 @@ button[type="submit"] {
     margin-top: -4rem;
 }
 
-
-
-
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: var(--gris-claro);
+.message {
+    color: var(--gris-claro)
 }
 
-input[type="text"],
-input[type="password"] {
-    width: 30rem;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-
-
-button[type="submit"]:hover {
-    background-color: var(--gris);
-}
-
-a {
-    display: inline-block;
-    margin-top: 10px;
-    color: var(--azul-marino-trans);
-    text-decoration: none;
-    padding: 2rem;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 @media (max-width: 768px) {
     .titulo {
