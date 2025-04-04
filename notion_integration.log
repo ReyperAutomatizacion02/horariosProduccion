@@ -6898,3 +6898,171 @@
 2025-04-04 09:23:05,747 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:23:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
 2025-04-04 09:23:05,763 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:23:05] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
 2025-04-04 09:23:11,892 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:23:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 11:53:56,389 - flask_migrate - ERROR - Error: Directory migrations already exists and is not empty
+2025-04-04 11:57:16,320 - flask_migrate - ERROR - Error: Directory migrations already exists and is not empty
+2025-04-04 12:03:01,931 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-04-04 12:03:01,932 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 12:03:01,948 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:03:06,303 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:03:06,312 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:03:12,868 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:12] "GET / HTTP/1.1" 200 -
+2025-04-04 12:03:13,021 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 12:03:13,024 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:13] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 12:03:13,048 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:13] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 12:03:14,874 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:14] "GET /register HTTP/1.1" 200 -
+2025-04-04 12:03:14,904 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 12:03:14,924 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:14] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 12:03:17,468 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:17] "GET / HTTP/1.1" 200 -
+2025-04-04 12:03:17,500 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 12:03:17,501 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:17] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 12:03:18,629 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:18] "GET /login HTTP/1.1" 200 -
+2025-04-04 12:03:18,672 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:18] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 12:03:18,676 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:18] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 12:03:20,679 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:20] "GET / HTTP/1.1" 200 -
+2025-04-04 12:03:20,710 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 12:03:20,719 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:20] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 12:03:22,028 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:22] "GET /register HTTP/1.1" 200 -
+2025-04-04 12:03:22,061 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 12:03:22,074 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:22] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 12:03:30,850 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:30] "POST /register HTTP/1.1" 200 -
+2025-04-04 12:03:30,877 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 12:03:30,878 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:30] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 12:03:54,764 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:54] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-04 12:03:54,769 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:54] "GET /login HTTP/1.1" 200 -
+2025-04-04 12:03:54,799 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:54] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-04 12:03:54,813 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:03:54] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-04 12:04:04,826 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:04:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-04 12:04:05,156 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:04:05] "GET / HTTP/1.1" 200 -
+2025-04-04 12:04:05,189 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:04:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 12:04:05,198 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:04:05] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 12:07:22,096 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-04-04 12:07:22,097 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-04-04 12:07:23,031 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:07:27,278 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:07:27,284 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:12:06,700 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-04-04 12:12:06,701 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-04-04 12:12:07,151 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:12:11,808 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:12:11,814 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:12:14,848 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-04-04 12:12:16,009 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:12:20,389 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:12:20,396 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:12:28,224 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-04-04 12:12:28,226 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 12:12:28,348 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:12:32,873 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:12:32,882 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:12:40,025 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:12:40] "GET / HTTP/1.1" 200 -
+2025-04-04 12:12:40,193 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:12:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 12:12:40,207 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:12:40] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 12:12:40,263 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:12:40] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 12:12:40,710 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:12:40] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-04 12:13:59,365 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-04-04 12:13:59,366 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-04-04 12:14:00,295 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:14:04,612 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:14:04,623 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:14:06,657 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-04-04 12:14:07,828 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:14:12,212 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:14:12,222 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:14:18,166 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:14:18] "GET / HTTP/1.1" 200 -
+2025-04-04 12:14:18,325 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:14:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 12:14:18,356 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:14:18] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 12:14:18,414 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:14:18] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 12:14:18,912 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:14:18] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-04 12:14:36,251 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-04-04 12:14:36,252 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 12:14:36,336 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:14:41,203 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:14:41,219 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:15:47,887 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-04-04 12:15:47,889 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-04-04 12:15:48,668 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:15:52,942 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:15:52,949 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:15:55,982 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\app.py', reloading
+2025-04-04 12:15:57,135 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:16:01,510 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:16:01,520 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:16:10,250 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-04-04 12:16:10,290 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 12:16:10,319 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:16:14,717 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:16:14,727 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:16:15,152 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:16:15] "GET / HTTP/1.1" 200 -
+2025-04-04 12:16:15,308 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:16:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 12:16:15,313 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:16:15] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 12:16:15,342 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:16:15] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 12:16:15,377 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:16:15] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-04 12:16:19,190 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:16:19] "GET / HTTP/1.1" 200 -
+2025-04-04 12:16:19,220 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:16:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 12:16:19,222 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:16:19] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 12:16:19,306 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:16:19] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-04 12:17:53,782 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\6288aee08b84_add_email_to_existing_users.py', reloading
+2025-04-04 12:17:53,783 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\6288aee08b84_add_email_to_existing_users.py', reloading
+2025-04-04 12:17:53,966 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\6288aee08b84_add_email_to_existing_users.py', reloading
+2025-04-04 12:17:54,165 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:17:59,263 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:17:59,269 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:18:05,541 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\6288aee08b84_add_email_to_existing_users.py', reloading
+2025-04-04 12:18:06,483 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:18:10,669 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:18:10,676 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:18:19,220 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\engine\\__init__.py', reloading
+2025-04-04 12:18:19,331 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\compiler.py', reloading
+2025-04-04 12:18:19,459 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\engine\\cursor.py', reloading
+2025-04-04 12:18:19,504 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\engine\\result.py', reloading
+2025-04-04 12:18:19,560 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\engine\\row.py', reloading
+2025-04-04 12:18:19,586 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\engine\\_py_row.py', reloading
+2025-04-04 12:18:19,664 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\expression.py', reloading
+2025-04-04 12:18:19,709 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\_elements_constructors.py', reloading
+2025-04-04 12:18:19,745 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sqlalchemy\\sql\\coercions.py', reloading
+2025-04-04 12:18:19,983 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:18:24,333 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:18:24,342 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:18:30,065 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\6288aee08b84_add_email_to_existing_users.py', reloading
+2025-04-04 12:18:30,066 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\6288aee08b84_add_email_to_existing_users.py', reloading
+2025-04-04 12:18:30,618 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:18:34,851 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:18:34,858 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:18:48,598 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\6288aee08b84_add_email_to_existing_users.py', reloading
+2025-04-04 12:18:49,078 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:18:53,534 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:18:53,544 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:19:14,501 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-04-04 12:19:14,503 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 12:19:14,518 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:19:18,770 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:19:18,777 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:19:25,248 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:19:25] "GET / HTTP/1.1" 200 -
+2025-04-04 12:19:25,412 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:19:25] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 12:19:25,419 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:19:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 12:19:25,432 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:19:25] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 12:19:25,534 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:19:25] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-04 12:20:42,248 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\40f8ac14d703_make_email_not_nullable.py', reloading
+2025-04-04 12:20:42,249 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\40f8ac14d703_make_email_not_nullable.py', reloading
+2025-04-04 12:20:43,202 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:20:47,981 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:20:47,988 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 12:21:05,370 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\40f8ac14d703_make_email_not_nullable.py', reloading
+2025-04-04 12:21:06,262 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 12:21:10,570 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 12:21:10,579 - werkzeug - INFO -  * Debugger PIN: 810-284-793

@@ -295,3 +295,10 @@ if __name__ == '__main__':
         
     port = int(os.environ.get('PORT', 5000)) # Lee la variable PORT de entorno, si no existe usa 5000 por defecto (local)
     app.run(host='0.0.0.0', port=port, debug=True)
+
+    with app.app_context():
+        users = User.query.all()
+        for user in users:
+            if not user.email:
+                user.email = f'{user.username}@example.com'
+        db.session.commit()
