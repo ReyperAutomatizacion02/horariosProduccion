@@ -8031,3 +8031,258 @@
 2025-04-04 17:12:25,655 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:12:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
 2025-04-04 17:12:25,657 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:12:25] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
 2025-04-04 17:12:25,721 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:12:25] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-07 12:37:38,982 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-04-07 12:37:38,983 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 12:37:39,000 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-07 12:37:43,067 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 12:37:43,074 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-07 12:38:20,712 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\routing\\map.py', reloading
+2025-04-07 12:38:20,722 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:38:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:38:20,907 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:38:20] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-07 12:38:20,915 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:38:20] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-07 12:38:20,995 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:38:20] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=KpC9ljilbjpylGx3V5pA HTTP/1.1" 200 -
+2025-04-07 12:38:21,025 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:38:21] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-07 12:38:21,411 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-07 12:38:26,085 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 12:38:26,099 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-07 12:38:41,136 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\os.py', reloading
+2025-04-07 12:38:41,366 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-07 12:38:45,487 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 12:38:45,495 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-07 12:39:50,080 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:39:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:39:50,221 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:39:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:39:50,232 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:39:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:39:50,259 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:39:50] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1" 200 -
+2025-04-07 12:39:50,288 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:39:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:39:54,882 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:39:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:39:54,911 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:39:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:39:54,916 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:39:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:39:54,934 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:39:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:39:54,965 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:39:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:40:08,820 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:40:08,844 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:08] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:40:08,847 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:40:08,864 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:40:08,898 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:40:10,175 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:40:10,198 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:40:10,210 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:40:10,231 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:40:10,262 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:40:11,038 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:40:11,059 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:40:11,061 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:40:11,079 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:40:11,108 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:40:11,313 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:40:11,335 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:40:11,337 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:40:11,362 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:40:11,391 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:40:11,472 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:40:11,494 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:40:11,497 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:40:11,521 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:40:11,546 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:40:43,753 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:40:43,778 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:43] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:40:43,781 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:43] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:40:43,818 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:40:43,849 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,011 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:40:45,033 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,046 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,065 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,087 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,551 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:40:45,573 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,575 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,599 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,627 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,730 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:40:45,751 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,754 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,775 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,805 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,910 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:40:45,931 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,933 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,949 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:40:45,978 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:40:46,075 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:40:46,096 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:40:46,098 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:40:46,117 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:40:46,144 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:40:46,248 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:40:46,267 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:40:46,269 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:40:46,289 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:40:46,322 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:40:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:45:05,166 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:45:05,210 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:45:05,216 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:45:05,312 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:45:05,327 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:45:05,933 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:45:05,954 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:45:05,957 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:45:05,973 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,010 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,173 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:45:06,195 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,205 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,225 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,256 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,373 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:45:06,398 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,410 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,425 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,454 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,559 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:45:06,582 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,594 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,612 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,636 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,754 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:45:06,775 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,777 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,791 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:45:06,819 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:45:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:46:04,379 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:46:04,408 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:46:04,413 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:46:04,455 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:46:04,498 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:46:05,321 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:46:05,342 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:46:05,347 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:46:05,369 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:46:05,396 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:46:05,483 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:46:05,503 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:46:05,506 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:46:05,522 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MVRhPljT2mYsX22tOacg HTTP/1.1[0m" 304 -
+2025-04-07 12:46:05,551 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:46:25,168 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-04-07 12:46:25,170 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 12:46:25,193 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-07 12:46:29,753 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 12:46:29,761 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-07 12:46:32,195 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:46:32,310 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:46:32,312 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:46:32,381 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:46:32] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=PZ6vUvI8Cm3dFlXVC08X HTTP/1.1" 200 -
+2025-04-07 12:49:39,580 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:49:39,607 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:49:39,612 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:49:39,647 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=PZ6vUvI8Cm3dFlXVC08X HTTP/1.1[0m" 304 -
+2025-04-07 12:49:39,680 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:49:43,538 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:49:43,563 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:49:43,575 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:49:43,593 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=PZ6vUvI8Cm3dFlXVC08X HTTP/1.1[0m" 304 -
+2025-04-07 12:49:43,625 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:49:43,739 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:49:43,764 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:49:43,775 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:49:43,793 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=PZ6vUvI8Cm3dFlXVC08X HTTP/1.1[0m" 304 -
+2025-04-07 12:49:43,821 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:49:43,941 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:49:43,962 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:49:43,966 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:49:43,985 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=PZ6vUvI8Cm3dFlXVC08X HTTP/1.1[0m" 304 -
+2025-04-07 12:49:44,009 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:49:44,121 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:49:44,144 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:49:44,146 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:49:44,168 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=PZ6vUvI8Cm3dFlXVC08X HTTP/1.1[0m" 304 -
+2025-04-07 12:49:44,195 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:49:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:49:59,528 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+2025-04-07 12:49:59,529 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 12:49:59,544 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-07 12:50:03,680 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 12:50:03,686 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-07 12:50:03,936 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:50:04,057 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:50:04,058 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:50:04,078 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:04] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=BZ5vgj2vpfHrMFXnFHjw HTTP/1.1" 200 -
+2025-04-07 12:50:04,105 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:50:04,882 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:50:04,909 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:50:04,920 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:50:04,943 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=BZ5vgj2vpfHrMFXnFHjw HTTP/1.1[0m" 304 -
+2025-04-07 12:50:04,969 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:50:05,217 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:50:05,248 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:50:05,248 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:50:05,268 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=BZ5vgj2vpfHrMFXnFHjw HTTP/1.1[0m" 304 -
+2025-04-07 12:50:05,296 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:50:05,383 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:50:05,402 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:50:05,405 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:50:05,420 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=BZ5vgj2vpfHrMFXnFHjw HTTP/1.1[0m" 304 -
+2025-04-07 12:50:05,451 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:51:11,206 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+2025-04-07 12:51:11,220 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:51:11,247 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:51:11,261 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:51:11,303 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=BZ5vgj2vpfHrMFXnFHjw HTTP/1.1[0m" 304 -
+2025-04-07 12:51:11,340 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:51:12,038 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-07 12:51:16,070 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 12:51:16,081 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-07 12:51:27,592 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:51:27,691 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:27] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:51:27,700 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:51:27,724 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:27] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=rVbp9zodVTz2PRGyYsKC HTTP/1.1" 200 -
+2025-04-07 12:51:27,743 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:51:28,316 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:51:28,341 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:51:28,341 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:51:28,367 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=rVbp9zodVTz2PRGyYsKC HTTP/1.1[0m" 304 -
+2025-04-07 12:51:28,396 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:51:40,386 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:51:40,408 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:51:40,409 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:51:40,431 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=rVbp9zodVTz2PRGyYsKC HTTP/1.1[0m" 304 -
+2025-04-07 12:51:40,463 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:51:45,580 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:51:45,623 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:51:45,664 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:51:45,710 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=rVbp9zodVTz2PRGyYsKC HTTP/1.1[0m" 304 -
+2025-04-07 12:51:45,740 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:51:48,435 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-07 12:51:48,456 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:51:48,459 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 12:51:48,475 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=rVbp9zodVTz2PRGyYsKC HTTP/1.1[0m" 304 -
+2025-04-07 12:51:48,508 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 12:52:47,146 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:47] "GET / HTTP/1.1" 200 -
+2025-04-07 12:52:47,172 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:47] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-04-07 12:52:47,181 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:47] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-07 12:52:47,338 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:47] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-07 12:52:47,935 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:47] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-07 12:53:41,117 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:53:41] "GET /login HTTP/1.1" 200 -
+2025-04-07 12:53:41,149 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:53:41] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-07 12:53:41,163 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:53:41] "GET /static/img/LOGO%20REYPER.png HTTP/1.1" 200 -
+2025-04-07 12:53:51,565 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:53:51] "POST /login HTTP/1.1" 200 -
+2025-04-07 12:53:51,611 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:53:51] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-07 12:53:51,613 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:53:51] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-07 12:54:05,597 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:54:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-07 12:54:05,930 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:54:05] "GET / HTTP/1.1" 200 -
+2025-04-07 12:54:05,967 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:54:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-07 12:54:05,974 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:54:05] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-07 12:54:05,987 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:54:05] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-07 12:54:27,873 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:54:27] "GET /create_project HTTP/1.1" 200 -
+2025-04-07 12:54:27,934 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:54:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-07 12:54:27,939 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:54:27] "[36mGET /static/img/LOGO%20REYPER.png HTTP/1.1[0m" 304 -
+2025-04-07 12:54:28,208 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:54:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

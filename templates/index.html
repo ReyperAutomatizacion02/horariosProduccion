@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoIntelli</title>
-    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css'}}}" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}" />
     <link rel="preload" href="{{url_for('static', filename='css/styles.css')}}" as="style">
     <link rel="icon" href="{{url_for('static', filename='favicon.ico')}}" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,15 +24,13 @@
                             Notion
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{url_for('templates', filename='adjust_dates.html')}}">Ajuste de horarios PRO</a>
-                            <a class="dropdown-item" href="adjust_dates.html">Ajuste de horarios PRO</a>
-                            <a class="dropdown-item" href="{{url_for('templates', filename='create_project.html')}}">Nuevo Proyecto VEN</a>
+                            <a class="dropdown-item" href="{{url_for('create_project')}}">Nuevo Proyecto VEN</a>
                         </div>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li>
-                        <a class="nav-link" href="{{url_for('templates', filename='index.html')}}">Inicio</a>
+                        <a class="nav-link" href="{{url_for('index')}}">Inicio</a>
                     </li>
                 </ul>
             </nav>
@@ -44,14 +42,14 @@
                         <span class="usuario"><!--{{ current_user.username }}--></span>
                     </li>
                     <li>
-                        <a href="{{url_for('templates', filename='logout.html')}}">Cerrar sesión</a>
+                        <a href="{{url_for('logout')}}">Cerrar sesión</a>
                     </li>
                 <!--{% else %}-->
                     <li>
-                        <a href="{{url_for('templates', filename='login.html')}}">Accesar</a>
+                        <a href="{{url_for('login')}}">Accesar</a>
                     </li>
                     <li>
-                        <a href="{{url_for('templates', filename='register.html')}}">Registrate</a>
+                        <a href="{{url_for('register')}}">Registrate</a>
                     </li>
                 <!--{% endif %}-->
             </ul>
