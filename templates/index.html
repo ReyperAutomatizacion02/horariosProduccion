@@ -37,21 +37,21 @@
         </div>
         <div class="auth-links">
             <ul class="navbar-nav">
-                <!--{% if current_user.is_authenticated %}-->
+                {% if current_user.is_authenticated %}
                     <li>
                         <span class="usuario"><!--{{ current_user.username }}--></span>
                     </li>
                     <li>
                         <a href="{{url_for('logout')}}">Cerrar sesión</a>
                     </li>
-                <!--{% else %}-->
+                {% else %}
                     <li>
                         <a href="{{url_for('login')}}">Accesar</a>
                     </li>
                     <li>
                         <a href="{{url_for('register')}}">Registrate</a>
                     </li>
-                <!--{% endif %}-->
+                {% endif %}
             </ul>
         </div>
     </header>
