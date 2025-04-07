@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoIntelli</title>
-    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css'}}}" />
-    <link rel="preload" href="{{url_for('static', filename='css/styles.css')}}" as="style">
-    <link rel="icon" href="{{url_for('static', filename='favicon.ico')}}" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="preload" href="static/css/styles.css" as="style">
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Major+Mono+Display&family=Onest:wght@100..900&family=Orbitron:wght@400..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="header">
-            <img class="logo" src="{{url_for('static', filename='img/LOGO.png')}}" alt="Logo">
+            <img class="logo" src="static/img/LOGO.png" alt="Logo">
             <nav class="navbar">
                 <ul class="navbar-nav">
                     <li class="dropdown">
@@ -24,15 +24,14 @@
                             Notion
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{url_for('templates', filename='adjust_dates.html')}}">Ajuste de horarios PRO</a>
                             <a class="dropdown-item" href="adjust_dates.html">Ajuste de horarios PRO</a>
-                            <a class="dropdown-item" href="{{url_for('templates', filename='create_project.html')}}">Nuevo Proyecto VEN</a>
+                            <a class="dropdown-item" href="create_project.html">Nuevo Proyecto VEN</a>
                         </div>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li>
-                        <a class="nav-link" href="{{url_for('templates', filename='index.html')}}">Inicio</a>
+                        <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                 </ul>
             </nav>
@@ -44,14 +43,14 @@
                         <span class="usuario"><!--{{ current_user.username }}--></span>
                     </li>
                     <li>
-                        <a href="{{url_for('templates', filename='logout.html')}}">Cerrar sesión</a>
+                        <a href="logout.html">Cerrar sesión</a>
                     </li>
                 <!--{% else %}-->
                     <li>
-                        <a href="{{url_for('templates', filename='login.html')}}">Accesar</a>
+                        <a href="login.html">Accesar</a>
                     </li>
                     <li>
-                        <a href="{{url_for('templates', filename='register.html')}}">Registrate</a>
+                        <a href="register.html">Registrate</a>
                     </li>
                 <!--{% endif %}-->
             </ul>

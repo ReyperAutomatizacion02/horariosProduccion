@@ -7954,3 +7954,80 @@
 2025-04-04 16:00:44,977 - werkzeug - WARNING -  * Debugger is active!
 2025-04-04 16:00:44,984 - werkzeug - INFO -  * Debugger PIN: 810-284-793
 2025-04-04 16:09:52,360 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:09:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 16:21:14,491 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:21:14] "GET / HTTP/1.1" 200 -
+2025-04-04 16:26:08,024 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:26:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 16:26:36,924 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:26:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 16:35:11,325 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:35:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 16:35:11,839 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:35:11] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:38:20,336 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:38:20] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:38:20,835 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:38:20] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:38:24,336 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:38:24] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:38:25,835 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:38:25] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:38:30,335 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:38:30] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:38:54,337 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:38:54] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:38:54,835 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:38:54] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:38:55,834 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:38:55] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:38:56,835 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:38:56] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:38:57,335 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:38:57] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:39:08,834 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:39:08] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:39:16,333 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:39:16] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:39:18,834 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:39:18] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:39:20,333 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:39:20] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:39:21,834 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:39:21] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:39:24,378 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:39:24] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:39:26,334 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:39:26] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:39:28,334 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:39:28] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:39:29,334 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:39:29] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:39:33,334 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:39:33] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:39:33,834 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:39:33] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:40:01,833 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:40:01] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:40:03,333 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:40:03] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:40:04,333 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:40:04] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:40:07,333 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:40:07] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:40:14,834 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:40:14] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:42:15,256 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:42:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 16:42:15,359 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:42:15] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:43:24,620 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:43:24] "GET / HTTP/1.1" 200 -
+2025-04-04 16:43:24,667 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:43:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 16:43:24,673 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:43:24] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 16:43:24,748 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:43:24] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 16:43:57,232 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:43:57] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:43:58,231 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:43:58] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:43:59,231 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:43:59] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:44:01,231 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:44:01] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:44:02,231 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:44:02] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:44:04,348 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:44:04] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:44:04,731 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:44:04] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:44:05,232 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:44:05] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 16:44:10,730 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:44:10] "[33mGET /img/MACHINE.jpg HTTP/1.1[0m" 404 -
+2025-04-04 17:00:47,602 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\mH2.py', reloading
+2025-04-04 17:00:47,651 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\nuevosRegistros.py', reloading
+2025-04-04 17:00:47,662 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\env.py', reloading
+2025-04-04 17:00:47,697 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\1552ed75e081_initial_migration.py', reloading
+2025-04-04 17:00:47,720 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\40f8ac14d703_make_email_not_nullable.py', reloading
+2025-04-04 17:00:47,724 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\6288aee08b84_add_email_to_existing_users.py', reloading
+2025-04-04 17:00:47,728 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\Documents\\Scripts Python\\movHorarios\\migrations\\versions\\c93de4b2fde9_add_email_column_to_user_table.py', reloading
+2025-04-04 17:00:48,062 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-04 17:00:48,076 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-04 17:00:48,170 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-04-04 17:00:48,195 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-04-04 17:00:48,259 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-04-04 17:00:48,274 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-04-04 17:00:48,279 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-04-04 17:00:48,378 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-04 17:00:48,393 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-04 17:00:48,405 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-04-04 17:00:48,409 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User2\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-04-04 17:00:48,841 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 17:00:55,482 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 17:00:55,489 - werkzeug - INFO -  * Debugger PIN: 810-284-793
+2025-04-04 17:11:50,672 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:11:50] "[33mGET /templates/index.html HTTP/1.1[0m" 404 -
+2025-04-04 17:12:04,994 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:12:04] "GET / HTTP/1.1" 200 -
+2025-04-04 17:12:05,165 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:12:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 17:12:05,175 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:12:05] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -
+2025-04-04 17:12:05,198 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:12:05] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 17:12:05,624 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:12:05] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-04-04 17:12:25,614 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:12:25] "GET / HTTP/1.1" 200 -
+2025-04-04 17:12:25,655 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:12:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-04 17:12:25,657 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:12:25] "[36mGET /static/img/LOGO.png HTTP/1.1[0m" 304 -
+2025-04-04 17:12:25,721 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 17:12:25] "[36mGET /static/img/MACHINE.jpg HTTP/1.1[0m" 304 -

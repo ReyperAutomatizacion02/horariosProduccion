@@ -7,6 +7,11 @@
     --gris-claro: #858585;
     --gris:#313131;
     --gris-t:#31313189;
+    --Onest: "Onest", sans-serif;
+    --Major: "Major Mono Display", monospace;
+    --Orbitron: "Orbitron", sans-serif;
+    --Ubuntu: "Ubuntu Sans Mono", monospace;
+    --Alumni: "Alumni Sans Pinstripe", sans-serif;
 }
 
 html {
@@ -15,9 +20,9 @@ html {
 }
 
 body {
-    font-family: "Major Mono Display", monospace;
-    font-size: 14px;
-    margin: 0; /* Reset margin */
+    font-family: var(--Onest);
+    font-size: 1.4rem;
+    margin: 0rem; /* Reset margin */
     background-color: var(--gris-oscuro);
     padding: 2rem;
     color: var(--gris-claro);
@@ -25,6 +30,8 @@ body {
     flex-direction: column; /* Por defecto apilamos verticalmente */
     align-items: stretch; /* Centramos horizontalmente en pantallas pequeñas */
 }
+
+/* https://fonts.google.com/share?selection.family=Alumni+Sans+Pinstripe:ital@0;1|Major+Mono+Display|Onest:wght@100..900|Orbitron:wght@400..900|Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700 */
 
 /* ------ */
 /* HEADER */
@@ -41,29 +48,27 @@ body {
 
 .logo {
     margin: 0.5rem;
-    height: 40px;
+    height: 4rem;
     margin-bottom: 1.5rem; /* Añadimos un margen inferior para separarlo de la navegación */
 }
 
 .navbar {
     background-color: var(--gris);
     border-bottom: var(--blanco);
-    height: 40px;
-    border-radius: 20px;
+    height: 4rem;
+    border-radius: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: 1rem; /* Añade un margen superior a la barra de navegación */
-    margin-bottom: 2rem; /* Añadimos un margen inferior para separarla del contenido principal */
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin: 1rem 1rem 2rem 1rem;
+
 }
 
 .navbar-nav {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 0rem;
+    margin: 0rem;
 }
 
 .dropdown {
@@ -71,7 +76,7 @@ body {
     display: inline-block;
 }
 
-.inicio-link {
+.dropdown-trigger {
     color: var(--blanco);
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -79,7 +84,7 @@ body {
     margin-left: 1rem;
 }
 
-.dropdown-toggle {
+.nav-link {
     background-color: var(--primario);
     color: var(--blanco);
     padding: 0.5rem 1.5rem;
@@ -88,7 +93,7 @@ body {
     margin-right: 1rem;
 }
 
-.dropdown-toggle::after {
+.nav-link::after {
     display: none;
 }
 
@@ -96,7 +101,7 @@ body {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 0rem;
     z-index: 1000;
     float: left;
     min-width: 18rem;
@@ -143,15 +148,14 @@ body {
 .primary-box-container { /* Nuevo contenedor para el primary-box y el image-box */
     display: flex; /* Colocamos los elementos en fila */
     flex-direction: row;
-    justify-content: space-between; /* Espacio entre los cuadros */
     align-items: flex-start; /* Alineamos en la parte superior */
     width: 100%; /* Ocupa todo el ancho disponible */
+    gap: 2rem;
 }
 
 .primary-box {
     background-color: var(--primario);
-    width: 48%;
-    min-height: 87rem;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,6 +163,7 @@ body {
     margin-top: 0.5rem; /* Reducido el margen superior */
     flex-direction: column;
     padding: 2rem;
+    flex: 1;
 }
 
 .lottie-icon {
@@ -170,7 +175,7 @@ body {
 
 .titulo {
     color: var(--blanco);
-    font-family: "Major Mono Display", monospace;
+    font-family: var(--Orbitron);
     font-size: 5rem;
     text-align: center;
     margin-bottom: 6rem;
@@ -178,13 +183,14 @@ body {
 
 .description {
     color: var(--blanco);
-    font-family: "Major Mono Display", monospace;
+    font-family: var(--Ubuntu);
     font-size: 2rem;
     padding: 3rem;
     padding-top: 0rem;
     padding-bottom: 0rem;
     text-align: justify;
     letter-spacing: 0.15rem;
+
 }
 
 .image-box {
@@ -192,15 +198,15 @@ body {
     background-size: cover;
     background-position: center;
     border-radius: 2rem;
-    width: 48%;
     margin-top: 0.5rem;
-    min-height: 91rem;
+    flex: 1;
+    min-height: calc(100vh + 4rem);
 }
 
 .auth-links {
     display: flex;
     justify-content: flex-end;
-    margin-top: 0;
+    margin-top: 0rem;
     margin-right: 2rem;
 }
 
@@ -247,15 +253,15 @@ span.usuario {
     }
 
     .primary-box {
-        width: 96%;
-        height: auto;
+        width: 95%;
+        min-height: calc(100vh - 10rem);
         padding: 1.5rem;
         margin-bottom: 2rem;
     }
 
     .lottie-icon {
-        width: 200px;
-        height: 200px;
+        width: 20rem;
+        height: 20rem;
     }
 
     .titulo {
@@ -269,8 +275,10 @@ span.usuario {
 
     .image-box {
         width: 100%;
-        height: 300px;
-        margin-top: 0;
+        height: 100%;
+        margin-top: 0rem;
+        min-height: calc(100vh - 20rem)
+
     }
 }
 
@@ -284,13 +292,14 @@ span.usuario {
     }
 
     .primary-box {
-        width: 93%;
+        width: 95%;
         padding: 1rem;
+        min-height: calc(100vh - 15rem);
     }
 
     .lottie-icon {
-        width: 150px;
-        height: 150px;
+        width: 15rem;
+        height: 15rem;
     }
 
     .titulo {
@@ -303,7 +312,8 @@ span.usuario {
     }
 
     .image-box {
-        width: 99%;
-        height: 200px;
+        width: 100%;
+        height: 100%;
+        min-height: calc(100vh - 25rem)
     }
 }
