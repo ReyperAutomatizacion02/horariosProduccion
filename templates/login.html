@@ -7,22 +7,20 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
     <link rel="preload" href="{{ url_for('static', filename='css/login.css') }}" as="style">
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Major+Mono+Display&family=Onest:wght@100..900&family=Orbitron:wght@400..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
+    <main class="login-container">
         <img class="logo" src="{{ url_for('static', filename='img/LOGO REYPER.png') }}" alt="Logo Reyper">
-        <div class="aling_items">
+        <div class="login-header">
             <h1 class="titulo">AutoIntelli</h1>
-            <script
-            src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
-            type="module"
-            ></script>
 
             <dotlottie-player class="lottie-icon"
             src="https://lottie.host/94254579-f9c6-481c-8e0e-295e37f5319b/xR9EBMkfAQ.lottie"
             background="transparent"
             speed="1"
-            style="width: 300px; height: 300px"
             loop
             autoplay
             ></dotlottie-player>
@@ -34,41 +32,68 @@
                 {% if messages %}
                 <div class="message">
                     {% for category, message in messages %}
-                    <div role="alert">
+                    <div role="alert" class="flash-message">
                         {{ message }}
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span>&times;</span>
-                        </button>
                     </div>
                     {% endfor %}
                 </div>
                 {% endif %}
             {% endwith %}
             <form method="POST" action="/login">
-                <div class="campo_user">
+                <div class="form-group">
                     <label for="username">Usuario</label>
                     <input type="text" id="username" name="username" required>
                 </div>
-                <div class="campo_cont">
+                <div class="form-group">
                     <label for="password">Contraseña</label>
                     <input type="password" id="password" name="password" required>
                 </div>
-                <div class="campo_acc">
+                <div class="form-group">
                     <button type="submit">Accesar</button>
                 </div>
-                <div class="aling_links">
+                <div class="form-links">
                     <a href="{{ url_for('index') }}">Volver</a>
-                    <label for="space">|</label>
-                    <a href="{{ url_for('register') }}">Registrate</a>
+                        <a href="{{ url_for('register') }}">Registrate</a>
                 </div>
-                <div class="aling_links">
-                    <a href="{{ url_for('logout') }}">Cerrar sesión</a>
+                <div class="form-links">
                     <a href="{{ url_for('recover_password') }}">¿Olvidaste tu contraseña?</a>
                 </div>
             </form>
         </div>
            
-    </div>
+    </main>
 
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Selecciona todos los mensajes flash individuales
+            const flashMessages = document.querySelectorAll('.flash-message');
+
+            // Tiempo en milisegundos antes de que el mensaje empiece a desaparecer (ej. 5 segundos)
+            const autoCloseDelay = 5000;
+            // Tiempo en milisegundos para la animación de desvanecimiento (ej. 0.5 segundos)
+            const fadeOutDuration = 500;
+
+            flashMessages.forEach(message => {
+                // Establece un temporizador para iniciar el desvanecimiento
+                setTimeout(() => {
+                    // Añade una clase para iniciar la transición CSS
+                    message.classList.add('fade-out');
+
+                    // Establece otro temporizador para eliminar el elemento del DOM
+                    // después de que la animación de desvanecimiento haya terminado.
+                    // Esto evita que ocupe espacio invisible.
+                    setTimeout(() => {
+                        if (message.parentNode) { // Comprueba si todavía existe
+                           // message.parentNode.removeChild(message); // Opción: Eliminar completamente
+                           message.style.display = 'none'; // Opción: Simplemente ocultar
+                        }
+                    }, fadeOutDuration);
+
+                }, autoCloseDelay);
+            });
+        });
+    </script>
 </body>
 </html>

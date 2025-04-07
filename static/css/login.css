@@ -10,6 +10,11 @@
     --primario-acc: #FF2037;
     --primario-acc-trans: #ff203683;
     --azul-marino-trans:#257787ca;
+    --Onest: "Onest", sans-serif;
+    --Major: "Major Mono Display", monospace;
+    --Orbitron: "Orbitron", sans-serif;
+    --Ubuntu: "Ubuntu Sans Mono", monospace;
+    --Alumni: "Alumni Sans Pinstripe", sans-serif;
 }
 
 html {
@@ -18,9 +23,9 @@ html {
 }
 
 body {
-    font-family: "Major Mono Display", monospace;
-    font-size: 14px;
-    margin: 0; /* Reset margin */
+    font-family: var(--Onest);
+    font-size: 1.4rem;
+    margin: 0rem; /* Reset margin */
     background-color: var(--gris-oscuro);
     padding: 2rem;
     color: var(--negro);
@@ -29,71 +34,69 @@ body {
     align-items: stretch; /* Centramos horizontalmente en pantallas pequeñas */
 }
 
-div {
-    margin: 0 auto;
-    background-color: transparent;
-    padding: 20px;
-    border-radius: 5px;
+/* APLICAR ESTILOS AL CONTENEDOR PRINCIPAL */
+.login-container { /* O el selector para tu <main> o div principal */
+    max-width: 70rem; /* O el ancho deseado para la caja de login */
+    width: 80%;
+    margin: 2rem auto; /* Centrar horizontalmente, añadir margen vertical */
+    padding: 2rem; /* O 2rem */
+    border-radius: 2rem; /* O 0.5rem */
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--gris-t); /* Quizás darle un fondo sutil? O dejar transparente */
+    position: relative;
 }
 
-div.aling_items {
+div.login-header {
     display: flex;
     flex-direction: row;
-    width: 50rem;
-    height: 4rem;
+    max-width: 60rem;
+    width: 100%;    
 }
 
-div.aling_links {
+div.form-links {
     display: flex;
     flex-direction: row;
-    width: 23rem;
+    width: 100%;
+    justify-content: center;
 }
 
-div.aling_links label {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 3rem;
-    color: var(--azul-marino-trans)
-    
+div.form-group {
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
     color: var(--blanco);
     text-align: center;
     border-radius: 0.5rem;
-    width: 10rem;
-}
-
-h2 div {
-    color: #ccc;
+    margin-top: 4rem;
 }
 
 button[type="submit"] {
     background-color: var(--primario);
-    color: white;
-    padding: 10px 15px;
+    color: var(--blanco);
+    padding: 1rem 1.5rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.5rem;
     cursor: pointer;
-    width: 10rem;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
     color: var(--gris-claro);
 }
 
 input[type="text"],
 input[type="password"] {
-    width: 30rem;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    width: 100%;
+    max-width: 30rem;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border: .1rem solid var(--gris-claro);
+    border-radius: 0.4rem;
     box-sizing: border-box;
 }
 
@@ -103,10 +106,10 @@ button[type="submit"]:hover {
 
 a {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 1rem;
     color: var(--azul-marino-trans);
     text-decoration: none;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 a:hover {
@@ -117,20 +120,19 @@ a:hover {
     margin: 0.5rem;
     width: 30rem;
     margin-bottom: 1.5rem;
-    align-items: center;
     margin-left: 1rem;
 }
 
 .titulo {
     color: var(--primario-acc);
-    font-family: "Major Mono Display", monospace;
+    font-family: var(--Orbitron);
     font-size: 7rem;
     text-align: center;
-    margin-bottom: 6rem;
-    filter: drop-shadow(2px 4px 6px red);
+    margin-bottom: 7rem;
+    filter: drop-shadow(0.2rem 0.4rem 0.6rem red);
 }
 
-.aling_items {
+.login-header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,27 +141,44 @@ a:hover {
 .lottie-icon {
     width: auto; /* El ancho se ajustará según la proporción */
     height: auto; /* La altura se ajustará según la proporción */
-    max-width: 5rem; /* El icono no ocupará más del 70% del ancho del primary-box */
-    max-height: 5rem;
-    filter: hue-rotate(10deg);
-    filter: drop-shadow(2px 4px 6px red);
-    margin-bottom: 0;
+    max-width: 4.5rem; /* El icono no ocupará más del 70% del ancho del primary-box */
+    max-height: 4.5rem;
+    filter: drop-shadow(0.3rem 0.5rem 0.7rem red);
 }
 
-.campo_user {
-    margin-top: -2rem;
+/* Estilo base para cada mensaje flash individual */
+.flash-message {
+    /* --- Tus estilos existentes para la alerta --- */
+    padding: 1rem;
+    margin-bottom: 1rem; /* Espacio entre mensajes si hay varios */
+    border: .1rem solid transparent;
+    border-radius: 0.5rem;
+    color: var(--blanco); /* Ajusta según el tipo de mensaje si quieres */
+    background-color: var(--primario-acc-trans); /* Fondo de ejemplo */
+    /* --- Fin estilos existentes --- */
+
+    /* --- Añadidos para la transición --- */
+    margin-bottom: 0.5rem;
+    opacity: 1; /* Asegura que empieza visible */
+    transition: opacity 0.5s ease-out; /* Duración coincide con fadeOutDuration en JS */
 }
 
-.campo_cont {
-    margin-top: -4rem;
+/* Clase añadida por JS para iniciar el desvanecimiento */
+.flash-message.fade-out {
+    opacity: 0;
 }
 
-.campo_acc {
-    margin-top: -4rem;
-}
-
+/* Contenedor principal de mensajes (si necesitas estilizarlo) */
 .message {
-    color: var(--gris-claro)
+    position: absolute;
+    top: 40rem;
+    left: 50%; /* Centrar si el contenedor padre es flex/grid o tiene text-align center */
+    transform: translateX(-50%);
+    width: auto; /* Ocupa el ancho disponible en su contenedor */
+    max-width: calc(100% - 4rem); /* O un ancho máximo que prefieras */
+    color: var(--gris-claro);
+    z-index: 10;
+    /* Asegúrate de que no interfiera con otros estilos de centrado */
 }
 
 
@@ -168,27 +187,11 @@ a:hover {
         font-size: 5rem;
     }
 
-    div.aling_items {
-        display: flex;
-        flex-direction: row;
-        width: 40rem;
-        height: 4rem;
-    }
-
     .lottie-icon {
         max-width: 3rem;
         margin-bottom: 1rem;
     }
-
-    input[type="text"],
-    input[type="password"] {
-        width: 20rem;
-    }
     
-    div.aling_links {
-        font-size: 1.5rem;
-        width: 24rem;
-    }
 }
 
 @media (max-width: 480px) {
@@ -198,16 +201,6 @@ a:hover {
 
     h2 {
         font-size: 2rem;
-    }
-
-    div.aling_items {
-        width: 30rem;
-    }
-
-    button[type="submit"] {
-        font-size: 1rem;
-        width: 6rem;
-        padding: 10px 10px;
     }
 
     .logo {
@@ -221,20 +214,5 @@ a:hover {
     .lottie-icon {
         max-width: 2.5rem;
         margin-bottom: 2rem;
-    }
-
-    div.aling_links {
-        font-size: 1rem;
-    }
-    
-    div.aling_links label {
-        padding-left: 2rem;
-        padding-right: 2rem;
-        font-size: 3rem;
-        color: var(--azul-marino-trans)
-    }
-
-    div.aling_links {
-        width: 21rem;
     }
 }
